@@ -16,8 +16,8 @@
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
-     opacity: 0.2;
+     background: url("../images/gym.jpg");
+     opacity: 0.4;
      top: 0;
      left: 0;
      bottom: 0;
@@ -30,6 +30,8 @@
      color: #6e6e6e;
 }
 
-.project a {
+.posts a{
      text-align: center;
+     color: magenta;
+     font-size: 100px;
 }

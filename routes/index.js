@@ -3,9 +3,31 @@
  * GET home page.
  */
 
+ //Arrays of strings of [name, image, id]
+ //var array = [[]];
+
 exports.view = function(req, res){
   res.render('index', {
-    'projects': [
+    'posts':
+    [
+      {
+        'name': 'Alex Garza',
+        'level': 'Expert',
+        'image': 'gym.jpg',
+        'id': 'post1'
+      },
+      {
+        'name': 'Antonio',
+        'level': 'Novice',
+        'image': 'gym.jpg',
+        'id': 'post2'
+      }
+    ]
+  });
+
+  /*res.render('index', {
+    'projects': 
+    [
       { 'name': 'Waiting in Line',
         'image': 'lorempixel.people.1.jpeg',
         'id': 'project1'
@@ -39,5 +61,5 @@ exports.view = function(req, res){
         'id': 'project8'
       }
     ]  
-  });
+  });*/
 };

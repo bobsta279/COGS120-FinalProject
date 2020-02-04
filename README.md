@@ -1,4 +1,4 @@
-lab4
+COGS 120 Final Project
 ====
 
-Lab 4: Programming with Javascript
+Liftr

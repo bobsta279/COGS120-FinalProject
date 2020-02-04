@@ -32,6 +32,6 @@
 
 .posts a{
      text-align: center;
-     color: magenta;
+     /*color: magenta;*/
      font-size: 100px;
 }

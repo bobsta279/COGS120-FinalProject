@@ -2,8 +2,9 @@
 
 <html>
 <head>
-	<title>Liftr</title>	
+	<title>LIFTR</title>	
 	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -23,8 +24,7 @@
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
 		<div class="jumbotron">
-			<h1>Liftr</h1>
-			<p>Connecting n00bz with Pros</p>
+			<h1 class="title">LIFTR</h1>
 		</div>
 
 		<!--
@@ -34,23 +34,23 @@
     	{{/each}}
     	</ol>
 		-->
-		
-		<a href="routes/addPost">Add Post :)</a>
-		
-
-
 		<h4>Posts</h4>
-		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
-		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
-		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-	{{#each posts}}
-      <div class="posts" id="{{id}}">
-        <a href="posts/{{name}}" class="thumbnail">
-          <p>{{level}} {{name}}</p>
-		  <img src="images/{{image}}" ... />
-        </a>
-      </div>
-    {{/each}}
+
+		{{#each posts}}
+    	  <div class="posts" id="{{id}}">
+        	<a href="posts/{{name}}" class="thumbnail">
+          	<h2>{{name}}</h2>
+			<h3>{{level}}</h3>
+			<h3>Gym: {{gym}}</h3>
+			<h3>Goals: {{goals}}</h3>
+		  	<h3>Wants to: {{wantsTo}}</h3>
+        	</a>
+      	</div>
+    	{{/each}}
+	</div>
+
+	<div class="toolbar">
+		<p>test</p>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>

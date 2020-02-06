@@ -13,15 +13,30 @@ exports.view = function(req, res){
       {
         'name': 'Alex Garza',
         'level': 'Expert',
-        'image': 'gym.jpg',
-        'id': 'post1'
+        'gym': 'RIMAC',
+        'goals': "Build muscle, lose fat, be big.",
+        'wantsTo': 'bench press and squat'
       },
       {
         'name': 'Antonio',
         'level': 'Novice',
         'image': 'gym.jpg',
         'id': 'post2'
-      }
+      }, 
+      {
+        'name': 'Alex Garza',
+        'level': 'Expert',
+        'gym': 'RIMAC',
+        'goals': "Build muscle, lose fat, be big.",
+        'wantsTo': 'bench press and squat'
+      },
+      {
+        'name': 'Alex Garza',
+        'level': 'Expert',
+        'gym': 'RIMAC',
+        'goals': "Build muscle, lose fat, be big.",
+        'wantsTo': 'bench press and squat'
+      },
     ]
   });
 

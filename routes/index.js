@@ -14,12 +14,14 @@ exports.view = function(req, res){
         'name': 'Alex Garza',
         'level': 'Expert',
         'gym': 'RIMAC',
+        'image': 'gym.jpg',
         'goals': "Build muscle, lose fat, be big.",
-        'wantsTo': 'bench press and squat'
+        'wantsToLearn': 'bench press and squat'
       },
       {
         'name': 'Antonio',
         'level': 'Novice',
+        'gym': 'Main Gym',
         'image': 'gym.jpg',
         'id': 'post2'
       }, 
@@ -27,15 +29,17 @@ exports.view = function(req, res){
         'name': 'Alex Garza',
         'level': 'Expert',
         'gym': 'RIMAC',
+        'image': 'gym.jpg',
         'goals': "Build muscle, lose fat, be big.",
-        'wantsTo': 'bench press and squat'
+        'wantsToLearn': 'bench press and squat'
       },
       {
         'name': 'Alex Garza',
         'level': 'Expert',
-        'gym': 'RIMAC',
+        'gym': '24 Hour Fitness',
+        'image': 'gym.jpg',
         'goals': "Build muscle, lose fat, be big.",
-        'wantsTo': 'bench press and squat'
+        'wantsToLearn': 'bench press and squat'
       },
     ]
   });

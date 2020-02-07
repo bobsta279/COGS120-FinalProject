@@ -1,7 +1,7 @@
 exports.viewPost = function(req, res) {
-    var name = req.params.name; 
+    var name = req.params.name;
     console.log("The post name is: " + name);
-    res.render('post', {
+    res.render('posts', {
         'postName': name
       });
   };

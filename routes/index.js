@@ -19,14 +19,14 @@ exports.view = function(req, res){
         'wantsToLearn': 'bench press and squat'
       },
       {
-        'name': 'Antonio',
+        'name': 'Antonio Simp',
         'level': 'Novice',
         'gym': 'Main Gym',
         'image': 'gym.jpg',
         'id': 'post2'
       }, 
       {
-        'name': 'Alex Garza',
+        'name': 'Emily Ferguson',
         'level': 'Expert',
         'gym': 'RIMAC',
         'image': 'gym.jpg',
@@ -34,7 +34,7 @@ exports.view = function(req, res){
         'wantsToLearn': 'bench press and squat'
       },
       {
-        'name': 'Alex Garza',
+        'name': 'Andrew Benser',
         'level': 'Expert',
         'gym': '24 Hour Fitness',
         'image': 'gym.jpg',

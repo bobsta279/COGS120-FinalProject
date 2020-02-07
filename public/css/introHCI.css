@@ -11,7 +11,7 @@
 
 .jumbotron {
 	position: relative;
-	background: none;
+     background: none;
 }
 
 .jumbotron:after {
@@ -42,10 +42,9 @@
 
 
 .title {
-     color: orange;
      font-weight: bold;
      text-align: center;
-     font-size: 150px;
+     font-size: 120px;
      text-transform: capitalize;
 }
 
@@ -59,4 +58,42 @@
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
      background: #ccc; /* some styling */
      border-bottom: 1px solid #333; /* some styling */
+}
+
+.toolbar-messages
+{
+     width: 33%;
+     height: 100%;
+     background-color: rgb(161, 240, 124);
+     font-size: 60px;
+}
+
+.toolbar-addPost
+{
+     width: 33%;
+     height: 100%;
+     background-color: rgb(101, 101, 236);
+     font-size: 60px;
+}
+
+.toolbar-profile
+{
+     width: 33%;
+     height: 100%;
+     background-color: rgb(228, 97, 97);
+     font-size: 60px;
+}
+
+.theHead
+{
+     color: red;
+     text-align: center;
+     font-size: 100px;
+}
+
+.details
+{
+     color: blue;
+     text-align: center;
+     font-size: 80px;
 }

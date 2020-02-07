@@ -62,38 +62,62 @@
 
 .toolbar-messages
 {
-     width: 33%;
+     width: 30%;
      height: 100%;
      background-color: rgb(161, 240, 124);
-     font-size: 60px;
+     font-size: 20px;
 }
 
 .toolbar-addPost
 {
-     width: 33%;
+     width: 30%;
      height: 100%;
      background-color: rgb(101, 101, 236);
-     font-size: 60px;
+     font-size: 20px;
 }
 
 .toolbar-profile
 {
-     width: 33%;
+     width: 30%;
      height: 100%;
      background-color: rgb(228, 97, 97);
-     font-size: 60px;
+     font-size: 20px;
 }
 
 .theHead
 {
-     color: red;
+     color: black;
+     font-weight: bold;
      text-align: center;
-     font-size: 100px;
+     font-size: 30px;
+}
+
+.important
+{
+     color: black;
+     text-align: center;
+     font-size: 80px;
+     
 }
 
 .details
 {
-     color: blue;
-     text-align: center;
-     font-size: 80px;
+     color: black;
+     font-size: 50px;
+     margin-left: 15px;
+}
+
+.leftImage
+{
+     margin-left: 10px;
+}
+
+.rightImage
+{
+     margin-right: 10px;
+}
+
+.rightText
+{
+     margin-right: 55px;
 }

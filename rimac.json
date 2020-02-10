@@ -1,6 +1,5 @@
 {
-  "posts":
-  [
+	"posts": [
     {
       "name": "Alex Garza",
       "level": "Intermediate",
@@ -9,13 +8,6 @@
       "goals": "Build muscle, lose fat, be big.",
       "wantsToLearn": "bench press and squat"
     },
-    {
-      "name": "Antonio Simp",
-      "level": "Novice",
-      "gym": "Main Gym",
-      "goals": "Going of treadmills and lifting weight",
-      "wantsToLearn": "Cardio, Football"
-    }, 
     {
       "name": "Emily Ferguson",
       "level": "Expert",
@@ -31,22 +23,6 @@
       "image": "gym.jpg",
       "goals": "Build muscle, and get a six pack.",
       "wantsToLearn": "A great ab routine"
-    },
-    {
-      "name": "Sophia Speredelozzi",
-      "level": "Intermediate",
-      "gym": "Main Gym",
-      "image": "gym.jpg",
-      "goals": "Run faster, squat more",
-      "wantsToLearn": "Bench press"
-    },
-    {
-      "name": "Mitchell Farrington",
-      "level": "Expert",
-      "gym": "Main Gym",
-      "image": "gym.jpg",
-      "goals": "Get a chick",
-      "wantsToLearn": "How to be smooth"
     }
-  ]
+            ]
 }

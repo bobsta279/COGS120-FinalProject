@@ -1,0 +1,13 @@
+{
+  "posts":
+  [ 
+    {
+      "name": "Emily Ferguson",
+      "level": "Expert",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "goals": "Beat up raccoons",
+      "wantsToLearn": "How to box"
+    }
+  ]
+}

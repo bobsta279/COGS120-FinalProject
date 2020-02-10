@@ -1,0 +1,20 @@
+{
+  "posts":
+  [
+    {
+      "name": "Antonio Simp",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "goals": "Going of treadmills and lifting weight",
+      "wantsToLearn": "Cardio, Football"
+    },
+    {
+      "name": "Andrew Benser",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "goals": "Build muscle, and get a six pack.",
+      "wantsToLearn": "A great ab routine"
+    }
+  ]
+}

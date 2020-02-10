@@ -1,0 +1,27 @@
+{
+	"posts": [
+    {
+      "name": "Antonio Simp",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "goals": "Going of treadmills and lifting weight",
+      "wantsToLearn": "Cardio, Football"
+    },
+    {
+      "name": "Sophia Speredelozzi",
+      "level": "Intermediate",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "goals": "Run faster, squat more",
+      "wantsToLearn": "Bench press"
+    },
+    {
+      "name": "Mitchell Farrington",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "goals": "Get a chick",
+      "wantsToLearn": "How to be smooth"
+    }
+            ]
+}

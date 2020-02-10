@@ -1,0 +1,13 @@
+{
+  "posts":
+  [
+    {
+      "name": "Alex Garza",
+      "level": "Intermediate",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "goals": "Build muscle, lose fat, be big.",
+      "wantsToLearn": "bench press and squat"
+    }
+  ]
+}

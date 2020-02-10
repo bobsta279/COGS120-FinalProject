@@ -1,0 +1,13 @@
+{
+  "posts":
+  [
+    {
+      "name": "Mitchell Farrington",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "goals": "Get a chick",
+      "wantsToLearn": "How to be smooth"
+    }
+  ]
+}

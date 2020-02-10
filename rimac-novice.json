@@ -1,0 +1,13 @@
+{
+  "posts":
+  [
+    {
+      "name": "Andrew Benser",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "goals": "Build muscle, and get a six pack.",
+      "wantsToLearn": "A great ab routine"
+    }
+  ]
+}

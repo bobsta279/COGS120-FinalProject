@@ -74,7 +74,7 @@
      width: 32%;
      height: 100%;
      background-color: rgb(161, 240, 124);
-     font-size: 20px;
+     font-size: 15px;
      text-decoration: none;
      color: black;
 }
@@ -84,7 +84,7 @@
      width: 32%;
      height: 100%;
      background-color: rgb(101, 101, 236);
-     font-size: 20px;
+     font-size: 15px;
      color: black;
      text-decoration: none;
 }
@@ -94,7 +94,7 @@
      width: 32%;
      height: 100%;
      background-color: rgb(228, 97, 97);
-     font-size: 20px;
+     font-size: 15px;
      text-decoration: none;
      color: black;
 }
@@ -135,3 +135,30 @@
 {
      margin-right: 55px;
 }
+
+#outer
+{
+     font-size: 18px;
+     widows: 100%;
+     text-align: center;
+}
+
+#outer2
+{
+     font-size: 18px;
+     widows: 100%;
+     text-align: center;
+}
+
+.RIMAC
+{
+     display: inline-block;
+     margin-inline-end: 30px;
+}
+
+.skill
+{
+     display: inline-block;
+     margin-inline-end: 5px;
+}
+

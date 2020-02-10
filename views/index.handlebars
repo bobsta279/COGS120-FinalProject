@@ -9,6 +9,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/introHCI.css" rel="stylesheet">
+
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -34,12 +35,23 @@
     	{{/each}}
     	</ol>
 		-->
-		<h4>Posts</h4>
+		<h1 align="center">Posts</h2>
+
+		<a href="rimac"><input type="checkbox" name="vehicle1" class="RIMAC" value="Bike">
+		<label for="vehicle1"> RIMAC</label><br></a>
+		<input type="checkbox" name="vehicle2" class="mainGym" value="Car">
+		<label for="vehicle2"> Main Gym</label><br>
+		<input type="checkbox" name="vehicle3" class="beg" value="Boat">
+		<label for="vehicle3"> Novice</label><br>
+		<input type="checkbox" name="vehicle3" class="inter" value="Boat">
+		<label for="vehicle3"> Intermediate</label><br>
+		<input type="checkbox" name="vehicle3" class="adv" value="Boat">
+		<label for="vehicle3"> Advanced</label><br>
 
 		{{#each posts}}
     	  <div class="posts" id="{{id}}">
         	<a href="posts" class="thumbnail">
-          	<h2> {{name}} <img border="0" align="Right" src="images/rightArrow.png"> </h2>
+          	<h2> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
 			<h3>{{level}}</h3>
 			<h3>Gym: {{gym}}</h3>
 			<h3>Goals: {{goals}}</h3>
@@ -51,7 +63,7 @@
 
 	<div class="toolbar">
 		<button class="toolbar-messages"><a href= "notDone" class="toolbar-messages">
-			Messages
+			My Messages
 		</a></button>
 		<button class="toolbar-feed"><a href= "notDone" class="toolbar-feed">
 			Add Post
@@ -61,7 +73,9 @@
 		</a></button>
 	</div>
 
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/hci-friends.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -31,20 +31,19 @@
 }
 
 .posts a{
-     /*color: magenta;*/
      font-size: 50px;
      border-spacing: 100;
 }
 
-.posts {
+.posts h3 {
      border-spacing: 100px;
+     font-size: 20px;
 }
-
 
 .title {
      font-weight: bold;
      text-align: center;
-     font-size: 120px;
+     font-size: 90px;
      text-transform: capitalize;
 }
 

@@ -17,24 +17,35 @@
 		<div class="jumbotron">
 			<h3 class="title">LIFTR</h3>
 		</div>
-		
-		<h2 style="text-align: center;">Create an Account:</h2>
-		<h5 style="text-align: center;">Please create an account so that
-			you can access Liftr and connect with fellow Liftr's!
+		<pre>
+			<h1 style="text-align: center;">Create an Account:</h2>
+		</pre>
+
+		<br>
+
+		<h4 id="loginDetails" style="text-align: center;">Please create an account to access Liftr
+			and connect with fellow Liftr's!
 		</h5>
 		
+		<br>
+
 		<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-			User Name:
-			<input type="text" name="user_name" value="" maxlength="100" />
+			User Name: &ensp;
+			<input type="text" name="user_name" value="" maxlength="50" />
 		</div>
+
+		<br>
 
 		<div  action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-			Password:
-			<input type="text" name="password" value="" maxlength="100" />
+			Password: &ensp;
+			<input type="text" name="password" value="" maxlength="50" />
 		</div>
 
+		<br>
+		<br>
+		<br>
 
-		<div style="text-align: center;">
+		<div id="loginBtn" style="text-align: center;">
 			<a href="create-profile" ><button name="saveButton">Continue!</button></a>
 		</div>
 	

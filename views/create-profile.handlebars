@@ -18,20 +18,25 @@
 			<h3 class="title">LIFTR</h3>
 		</div>
 		
+		<div id="nameInfo">
+			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+				First name:
+				<input type="text" name="first_name" value="" maxlength="50" />
+			
+			<br>
+			<br>
+
+			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+				Last name:
+				<input type="text" width="20px" name="first_name" value="" maxlength="50" />
+		</div>
 		
-		<form action="/html/tags/html_form_tag_action.cfm" method="get">
-			First name:
-			<input type="text" name="first_name" value="" maxlength="100" />
-		<br />
+		<br>
+		<br>
+		<br>
 
-		<form action="/html/tags/html_form_tag_action.cfm" method="get">
-			Last name:
-			<input type="text" name="first_name" value="" maxlength="100" />
-		<br />
-
-
-		<div class="Gym Choice">
-			<h5 style="float: left;">Gym of Choice:</h5>
+		<div class="gymChoice">
+			<h4 style="float: left;">Gym of Choice:</h4>
 			<form>
          	<select name = "dropdown">
             	<option value = "RIMAC" selected>RIMAC</option>
@@ -40,8 +45,10 @@
       		</form>
 		</div>
 
-		<div class="Skill Level">
-			<h5 style="float: left;">Skill Level:</h5>
+		<br>
+
+		<div class="skillLevel">
+			<h4 style="float: left;">Skill Level:</h4>
 			<form>
          	<select name = "dropdown">
             	<option value = "Novice" selected>Novice</option>
@@ -51,7 +58,11 @@
       		</form>
 		</div>
 
-		<a href="index"><button name="saveButton" >Save!</button></a>
+		<br>
+		<br>
+		<br>
+
+		<a href="index"><button name="saveButton" id="button" style="text-align: center;">Save!</button></a>
 	
 	</div>
 

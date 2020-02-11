@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>LIFTR</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="title">LIFTR</h3>
+		</div>
+		
+		
+		<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			First name:
+			<input type="text" name="first_name" value="" maxlength="100" />
+		<br />
+
+		<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			Last name:
+			<input type="text" name="first_name" value="" maxlength="100" />
+		<br />
+
+
+		<div class="Gym Choice">
+			<h5 style="float: left;">Gym of Choice:</h5>
+			<form>
+         	<select name = "dropdown">
+            	<option value = "RIMAC" selected>RIMAC</option>
+            	<option value = "Main Gym">Main Gym</option>
+         	</select>
+      		</form>
+		</div>
+
+		<div class="Skill Level">
+			<h5 style="float: left;">Skill Level:</h5>
+			<form>
+         	<select name = "dropdown">
+            	<option value = "Novice" selected>Novice</option>
+            	<option value = "Intermediate">Intermediate</option>
+				<option value = "Expert">Expert</option>
+         	</select>
+      		</form>
+		</div>
+
+		<a href="index"><button name="saveButton" >Save!</button></a>
+	
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

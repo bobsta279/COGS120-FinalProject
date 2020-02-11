@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>LIFTR</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="title">LIFTR</h3>
+		</div>
+		
+		<h2 style="text-align: center;">Create an Account:</h2>
+		<h5 style="text-align: center;">Please create an account so that
+			you can access Liftr and connect with fellow Liftr's!
+		</h5>
+		
+		<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+			User Name:
+			<input type="text" name="user_name" value="" maxlength="100" />
+		</div>
+
+		<div  action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+			Password:
+			<input type="text" name="password" value="" maxlength="100" />
+		</div>
+
+
+		<div style="text-align: center;">
+			<a href="create-profile" ><button name="saveButton">Continue!</button></a>
+		</div>
+	
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

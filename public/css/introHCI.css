@@ -56,13 +56,13 @@
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
      background: #ccc; /* some styling */
      border-bottom: 1px solid #333; /* some styling */
+     position: fixed;
 }
 
 .toolbar-2
 {
      width: 100%;
      height: 100px;
-     bottom: 10;
      left: 0;
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
      background: rgb(181, 226, 224); /* some styling */

@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>LIFTR</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="title">LIFTR</h3>
+		</div>
+		
+		
+		<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			First name:
+			<input type="text" name="first_name" value="" maxlength="100" />
+		<br />
+
+		<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			Last name:
+			<input type="text" name="first_name" value="" maxlength="100" />
+		<br />
+
+
+		<div class="Gym Choice">
+			<h5>Gym of Choice:</h5>
+			<form>
+         	<select name = "dropdown">
+            	<option value = "RIMAC" selected>RIMAC</option>
+            	<option value = "Main Gym">Main Gym</option>
+         	</select>
+      		</form>
+		</div>
+
+		<div class="What to Work On">
+			<h5>What do you want to work on?:</h5>
+         	<select name = "dropdown" multiple style="height: 120px;">
+            	<option value = "Legs">Legs</option>
+            	<option value = "Chest">Chest</option>
+				<option value = "Back">Back</option>
+				<option value = "Core">Core</option>
+				<option value = "Arms">Arms</option>
+				<option value = "Shoulders">Shoulders</option>
+				<option value = "Cardio">Cardio</option>
+         	</select>
+		</div>
+
+		<div class="Any specific workouts">
+			<h5>Sny Specific Workouts?:</h5>
+         	<select name = "dropdown" multiple style="height: 120px;">
+            	<option value = "Squat">Squat</option>
+            	<option value = "Chest">Chest</option>
+				<option value = "Back">Back</option>
+				<option value = "Core">Core</option>
+				<option value = "Arms">Arms</option>
+				<option value = "Shoulders">Shoulders</option>
+				<option value = "Cardio">Cardio</option>
+         	</select>
+		</div>
+
+		<a href="index"><button name="addPostButton" >Add Post!</button></a>
+	
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

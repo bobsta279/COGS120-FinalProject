@@ -9,6 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var create_profile = require('./routes/create-profile')
 var posts = require('./routes/posts');
 var maingym = require('./routes/maingym');
 var rimac = require('./routes/rimac');
@@ -21,7 +22,8 @@ var maingym_expert = require('./routes/maingym-expert');
 var rimac_novice = require('./routes/rimac-novice');
 var rimac_intermediate = require('./routes/rimac-intermediate');
 var rimac_expert = require('./routes/rimac-expert');
-
+var login = require('./routes/login');
+var add_post = require('./routes/add-post');
 
 var hello = require('./routes/hello');
 // Example route
@@ -50,7 +52,9 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', index.view);
+app.get('/', login.view);
+app.get('/add-post', add_post.view);
+app.get('/index', index.view);
 app.get('/posts', posts.viewPost);
 app.get('/maingym', maingym.view);
 app.get('/rimac', rimac.view);
@@ -64,6 +68,7 @@ app.get('/rimac-novice', rimac_novice.view);
 app.get('/rimac-intermediate', rimac_intermediate.view);
 app.get('/rimac-expert', rimac_expert.view);
 app.get('/hello/:userName', hello.view);
+app.get('/create-profile', create_profile.view)
 // Example route
 // app.get('/users', user.list);
 

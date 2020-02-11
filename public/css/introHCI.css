@@ -167,8 +167,9 @@ pre
      /*background-color: blue;*/
 }
 
-#loginBtn
+#button
 {
+     text-align: center;
      font-size: 30px;
 }
 
@@ -176,3 +177,9 @@ pre
 {
      font-size: 20px;
 }
+
+#nameInfo
+{
+     font-size: 30px;
+}
+

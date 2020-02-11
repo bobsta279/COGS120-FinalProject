@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>My Messages</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		 <a href="javascript:history.back()"> <img width="50px" align="left" class="leftImage" src="images/back_arrow.png"> </a></h4> 
+
+		<pre style="background-color: rgb(161, 240, 124);">
+			<h1 style="text-align: center; font-weight: bold">My Messages</h1>
+		</pre>
+
+		<h2 align="center">Messages</h2>
+
+		{{#each messages}}
+    	  <div class="messages" id="{{id}}">
+        	<a href="index" class="thumbnail">
+          	<h2> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
+			<h3>{{recent}}</h3>
+        	</a>
+      	</div>
+    	{{/each}}
+	</div>
+
+	<div class="toolbar">
+		<button class="toolbar-messages"><a href= "notDone" class="toolbar-messages">
+			My Messages
+		</a></button>
+		<button class="toolbar-feed"><a href= "add-post" class="toolbar-feed">
+			Add Post
+		</a></button>
+		<button class="toolbar-profile"><a href= "create-profile" class="toolbar-profile">
+			Profile
+		</a></button>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

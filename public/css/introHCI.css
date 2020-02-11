@@ -162,3 +162,17 @@
      margin-inline-end: 5px;
 }
 
+pre
+{
+     /*background-color: blue;*/
+}
+
+#loginBtn
+{
+     font-size: 30px;
+}
+
+#loginDetails
+{
+     font-size: 20px;
+}

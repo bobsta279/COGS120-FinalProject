@@ -17,24 +17,7 @@ $(document).ready(function() {
 function initializePage() {
 	console.log("Javascript connected!");
 	$(".searchButton").click(function(e) {
-    e.preventDefault();
-    if($(".RIMAC").prop("checked") == true){
-        rimac = true;
-        console.log("rimac has been check my guy");
-        
-    }
-    if($(".mainGym").prop("checked") == true){
-        mainGym = true;
-        console.log("rimac has been check my guy");
-    }
-    if($(".beg").prop("checked") == true){
-        beginner = true;
-        console.log("rimac has been check my guy");
-    }
-    if($(".inter").prop("checked") == true){
-        intermediate = true;
-        console.log("rimac has been check my guy");
-    }
+    
 
     
     

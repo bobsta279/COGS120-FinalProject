@@ -57,7 +57,7 @@
 
 
 <script>
-	var count[] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+	var count = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
 	function setColor(btn, color){
 		console.log("clicked");
 		var property = document.getElementById(btn);
@@ -71,6 +71,7 @@
 	}
 </script>
 
+	<h3 style="text-align: center; font-weight: bold;">Availability</h3> 
 
 		<table style="width:100%">
   <tr>
@@ -83,22 +84,22 @@
     <th>Sat</th>
   </tr>
   <tr>
-    <td><button id = "1" onclick="setColor('1', '#101010')">AM</button></td>
-    <td><button id = "2" onclick="setColor('2', '#101010')">AM</button></td>
-    <td><button id = "3" onclick="setColor('3', '#101010')">AM</button></td>
-    <td><button id = "4" onclick="setColor('4', '#101010')">AM</button></td>
-    <td><button id = "5" onclick="setColor('5', '#101010')">AM</button></td>
-    <td><button id = "6" onclick="setColor('6', '#101010')">AM</button></td>
-    <td><button id = "7" onclick="setColor('7', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "1" onclick="setColor('1', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "2" onclick="setColor('2', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "3" onclick="setColor('3', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "4" onclick="setColor('4', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "5" onclick="setColor('5', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "6" onclick="setColor('6', '#101010')">AM</button></td>
+    <td><button style="background-color: #F0EBE9;" id = "7" onclick="setColor('7', '#101010')">AM</button></td>
   </tr>
   <tr>
-	 <td><button id = "8" onclick="setColor('8', '#101010')">PM</button></td>
-	 <td><button id = "9" onclick="setColor('9', '#101010')">PM</button></td>
-	 <td><button id = "10" onclick="setColor('10', '#101010')">PM</button></td>
-	 <td><button id = "11" onclick="setColor('11', '#101010')">PM</button></td>
-	 <td><button id = "12" onclick="setColor('12', '#101010')">PM</button></td>
-	 <td><button id = "13" onclick="setColor('13', '#101010')">PM</button></td>
-	 <td><button id = "14" onclick="setColor('14', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "8" onclick="setColor('8', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "9" onclick="setColor('9', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "10" onclick="setColor('10', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "11" onclick="setColor('11', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "12" onclick="setColor('12', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "13" onclick="setColor('13', '#101010')">PM</button></td>
+	 <td><button style="background-color: #F0EBE9;" id = "14" onclick="setColor('14', '#101010')">PM</button></td>
   </tr>
 </table>
 

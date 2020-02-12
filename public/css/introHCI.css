@@ -173,6 +173,12 @@ pre
      font-size: 30px;
 }
 
+#saveBtn
+{
+     text-align: center;
+     font-size: 35px;
+}
+
 #loginDetails
 {
      font-size: 20px;
@@ -183,3 +189,12 @@ pre
      font-size: 30px;
 }
 
+.gymChoice
+{
+     font-size: 30px;
+}
+
+.skillLevel
+{
+     font-size: 30px;
+}

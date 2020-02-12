@@ -33,28 +33,27 @@
 		
 		<br>
 		<br>
-		<br>
 
 		<div class="gymChoice">
-			<h4 style="float: left;">Gym of Choice:</h4>
+			<h3 style="float: left;">Gym of Choice:<h3>
 			<form>
-         	<select name = "dropdown">
-            	<option value = "RIMAC" selected>RIMAC</option>
-            	<option value = "Main Gym">Main Gym</option>
-         	</select>
+				<select name = "dropdown" class="gymChoice">
+					<option value = "RIMAC" selected>RIMAC</option>
+					<option value = "Main Gym">Main Gym</option>
+				</select>
       		</form>
 		</div>
 
 		<br>
 
 		<div class="skillLevel">
-			<h4 style="float: left;">Skill Level:</h4>
+			<h3 style="float: left;">Skill Level:</h3>
 			<form>
-         	<select name = "dropdown">
-            	<option value = "Novice" selected>Novice</option>
-            	<option value = "Intermediate">Intermediate</option>
-				<option value = "Expert">Expert</option>
-         	</select>
+				<select name = "dropdown" class="skillLevel">
+					<option value = "Novice" selected>Novice</option>
+					<option value = "Intermediate">Intermediate</option>
+					<option value = "Expert">Expert</option>
+				</select>
       		</form>
 		</div>
 
@@ -62,8 +61,10 @@
 		<br>
 		<br>
 
-		<a href="index"><button name="saveButton" id="button" style="text-align: center;">Save!</button></a>
-	
+		<div id="saveBtn">
+			<a href="index" ><button name="saveButton">Save!</button></a>
+		</div>
+
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>

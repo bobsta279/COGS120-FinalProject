@@ -25,6 +25,7 @@ var rimac_expert = require('./routes/rimac-expert');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
 var view_messages = require('./routes/view-messages');
+var send_message = require('./routes/send-message');
 
 var app = express();
 
@@ -66,6 +67,8 @@ app.get('/rimac-intermediate', rimac_intermediate.view);
 app.get('/rimac-expert', rimac_expert.view);
 app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view)
+app.get('/send-message', send_message.view)
+
 // Example route
 // app.get('/users', user.list);
 

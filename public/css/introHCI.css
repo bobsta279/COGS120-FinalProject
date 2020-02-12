@@ -173,6 +173,12 @@ pre
      font-size: 30px;
 }
 
+#addPostBtn
+{
+     text-align: center;
+     font-size: 30px;
+}
+
 #saveBtn
 {
      text-align: center;
@@ -193,4 +199,9 @@ pre
      font-size: 20px;
      position: relative;
      display: inline-block;
+}
+
+.postDetails
+{
+     font-size: 18px;
 }

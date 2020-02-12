@@ -189,12 +189,8 @@ pre
      font-size: 30px;
 }
 
-.gymChoice
-{
-     font-size: 30px;
-}
-
-.skillLevel
-{
-     font-size: 30px;
+.dropdown {
+     font-size: 20px;
+     position: relative;
+     display: inline-block;
 }

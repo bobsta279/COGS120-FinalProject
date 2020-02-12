@@ -14,102 +14,32 @@
 
 <body>
 	<div class="container">
-		<div class="jumbotron">
-			<h3 class="title">LIFTR</h3>
+		 <a href="javascript:history.back()"> <img width="60px" align="left" class="leftImage" src="images/back_arrow.png"> </a> 
+
+		<pre style="background-color: rgb(161, 240, 124);">
+			<h1 style="text-align: center; font-weight: bold">Antonio Simp</h1>
+		</pre>
+
+		<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+			Message &ensp;
+			<input type="text" name="user_name" value="" maxlength="50" />
 		</div>
+		
 
-		<div class="What to Work On">
-			<h5>What do you want to work on?:</h5>
-         	<select name = "dropdown" multiple style="height: 120px;">
-            	<option value = "Legs">Legs</option>
-            	<option value = "Chest">Chest</option>
-				<option value = "Back">Back</option>
-				<option value = "Core">Core</option>
-				<option value = "Arms">Arms</option>
-				<option value = "Shoulders">Shoulders</option>
-				<option value = "Cardio">Cardio</option>
-         	</select>
-		</div>
+		<a href="view-messages"><button name="sendMessage" >Send Message!</button></a>
 
-		<action="/html/tags/html_form_tag_action.cfm" method="get">
-			Other:
-			<input type="text" name="otherWorkOn" value="" maxlength="100" />
-		<br />
-
-		<div class="Any specific workouts">
-			<h5>Any Specific Workouts?:</h5>
-         	<select name = "dropdown" multiple style="height: 120px;">
-            	<option value = "Squat">Squat</option>
-            	<option value = "Bench Press">Bench Press</option>
-				<option value = "Dead Lift">Dead Lift</option>
-				<option value = "Bicept Curls">Bicept Curls</option>
-				<option value = "Running">Runnning</option>
-				<option value = "Shoulders">Shoulders</option>
-				<option value = "Cardio">Cardio</option>
-         	</select>
-		</div>
-
-		<action="/html/tags/html_form_tag_action.cfm" method="get">
-			Other:
-			<input type="text" name="otherSpecific" value="" maxlength="100" />
-		<br />
-		<br />
-
-		<action="/html/tags/html_form_tag_action.cfm" method="get">
-			Hobbies:
-			<input type="text" name="otherSpecific" value="" maxlength="100" />
-		<br />
-
-
-
-<script>
-	var count = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-	function setColor(btn, color){
-		console.log("clicked");
-		var property = document.getElementById(btn);
-		if(count[btn-1] % 2 == 0){
-			property.style.backgroundColor = "#C9A69F"
-			count[btn-1]++;
-		} else {
-			count[btn-1]++;
-			property.style.backgroundColor = "#F0EBE9"
-		}
-	}
-</script>
-
-	<h3 style="text-align: center; font-weight: bold;">Availability</h3> 
-
-		<table style="width:100%">
-  <tr>
-    <th>Sun</th>
-    <th>Mon</th>
-    <th>Tues</th>
-    <th>Wed</th>
-    <th>Thurs</th>
-    <th>Fri</th>
-    <th>Sat</th>
-  </tr>
-  <tr>
-    <td><button style="background-color: #F0EBE9;" id = "1" onclick="setColor('1', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "2" onclick="setColor('2', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "3" onclick="setColor('3', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "4" onclick="setColor('4', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "5" onclick="setColor('5', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "6" onclick="setColor('6', '#101010')">AM</button></td>
-    <td><button style="background-color: #F0EBE9;" id = "7" onclick="setColor('7', '#101010')">AM</button></td>
-  </tr>
-  <tr>
-	 <td><button style="background-color: #F0EBE9;" id = "8" onclick="setColor('8', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "9" onclick="setColor('9', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "10" onclick="setColor('10', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "11" onclick="setColor('11', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "12" onclick="setColor('12', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "13" onclick="setColor('13', '#101010')">PM</button></td>
-	 <td><button style="background-color: #F0EBE9;" id = "14" onclick="setColor('14', '#101010')">PM</button></td>
-  </tr>
-</table>
-
-		<a href="index"><button name="addPostButton" >Add Post!</button></a>
+		<!-- the bottom of the page -->
+	<div class="toolbar">
+		<button class="toolbar-messages"><a href= "view-messages" class="toolbar-messages">
+			My Messages
+		</a></button>
+		<button class="toolbar-feed"><a href= "add-post" class="toolbar-feed">
+			Add Post
+		</a></button>
+		<button class="toolbar-profile"><a href= "create-profile" class="toolbar-profile">
+			Profile
+		</a></button>
+	</div>
 	
 	</div>
 

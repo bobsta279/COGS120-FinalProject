@@ -71,7 +71,7 @@
 
 .toolbar-messages
 {
-     width: 32%;
+     width: 24%;
      height: 100%;
      background-color: rgb(161, 240, 124);
      font-size: 15px;
@@ -81,7 +81,7 @@
 
 .toolbar-feed
 {
-     width: 32%;
+     width: 24%;
      height: 100%;
      background-color: rgb(101, 101, 236);
      font-size: 15px;
@@ -91,9 +91,19 @@
 
 .toolbar-profile
 {
-     width: 32%;
+     width: 24%;
      height: 100%;
      background-color: rgb(228, 97, 97);
+     font-size: 15px;
+     text-decoration: none;
+     color: black;
+}
+
+.toolbar-home
+{
+     width: 24%;
+     height: 100%;
+     background-color: rgb(141, 235, 238);
      font-size: 15px;
      text-decoration: none;
      color: black;

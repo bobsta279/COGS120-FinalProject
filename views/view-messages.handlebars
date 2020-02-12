@@ -24,7 +24,7 @@
 
 		{{#each messages}}
     	  <div class="messages" id="{{id}}">
-        	<a href="index" class="thumbnail">
+        	<a href="send-message" class="thumbnail">
           	<h2> {{name}} <img border="0" width="30px" align="Right" src="images/rightArrow.png"> </h2>
 			<h3>{{recent}}</h3>
         	</a>
@@ -33,11 +33,14 @@
 	</div>
 
 	<div class="toolbar">
-		<button class="toolbar-messages"><a href= "notDone" class="toolbar-messages">
-			My Messages
+		<button class="toolbar-messages"><a href= "view-messages" class="toolbar-messages">
+			Messages
 		</a></button>
 		<button class="toolbar-feed"><a href= "add-post" class="toolbar-feed">
 			Add Post
+		</a></button>
+		<button class="toolbar-home"><a href= "index" class="toolbar-home">
+			Home
 		</a></button>
 		<button class="toolbar-profile"><a href= "create-profile" class="toolbar-profile">
 			Profile

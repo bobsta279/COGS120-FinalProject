@@ -22,23 +22,22 @@
 		</div>
 
 		<div class="What to Work On">
-			<h4>When are you planning on working out?</h4>
-         	<select name = "dropdown">
-            	<option value = "now">Now</option>
-            	<option value = "Chest">in 1-2 hours</option>
-				<option value = "Back">in 2-4 hours</option>
-				<option value = "Core">in 4-8 hours</option>
-				<option value = "Legs">in 8-16 hours</option>
+			<h4>What do you want to work on?</h4>
+         	<select name = "dropdown" multiple>
+            	<option value = "Arms">Arms</option>
+            	<option value = "Chest">Chest</option>
+				<option value = "Back">Back</option>
+				<option value = "Core">Core</option>
+				<option value = "Legs">Legs</option>
+				<option value = "Shoulders">Shoulders</option>
+				<option value = "Cardio">Cardio</option>
          	</select>
 		</div>
-
-		<br>
 
 		<action="/html/tags/html_form_tag_action.cfm" method="get" class="postDetails">
 			Other:
 			<input type="text" name="otherWorkOn" size="20px" maxlength="100"/>
 		
-		<br>
 		<br>
 
 		
@@ -99,7 +98,7 @@
 		<br>
 
 		<div id="addPostBtn">
-			<a href="index" ><button name="addPostButton">Continue</button></a>
+			<a href="index" ><button name="addPostButton">Add Post!</button></a>
 		</div>
 
 	</div>

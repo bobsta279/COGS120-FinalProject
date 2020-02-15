@@ -24,6 +24,8 @@ var rimac_intermediate = require('./routes/rimac-intermediate');
 var rimac_expert = require('./routes/rimac-expert');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
+//Andrew added this
+var add_post2 = require('./routes/add-post2');
 var view_messages = require('./routes/view-messages');
 var send_message = require('./routes/send-message');
 
@@ -52,6 +54,8 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', login.view);
 app.get('/add-post', add_post.view);
+//Andrew added this
+app.get('/add-post2', add_post2.view);
 app.get('/index', index.view);
 app.get('/posts', posts.viewPost);
 app.get('/maingym', maingym.view);

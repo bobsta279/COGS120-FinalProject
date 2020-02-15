@@ -188,7 +188,7 @@
 
 #loginDetails
 {
-     font-size: 20px;
+     font-size: 25px;
 }
 
 #nameInfo
@@ -204,4 +204,9 @@
 #contactInfo
 {
      font-size: 30px;
+}
+
+.createAccountInfo
+{
+     font-size: 25px;
 }

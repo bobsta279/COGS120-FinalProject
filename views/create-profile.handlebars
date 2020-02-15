@@ -21,31 +21,17 @@
 		<div id="nameInfo">
 			<form action="/html/tags/html_form_tag_action.cfm" method="get">
 				First name:
-				<input type="text" size="18px" name="first_name" value="" maxlength="50" />
+				<input type="text" size="18px" placeholder="Antonio" name="firstName" value="" maxlength="50" />
 			
 			<br>
 			<br>
 
 			<form action="/html/tags/html_form_tag_action.cfm" method="get">
 				Last name:
-				<input type="text" size="18px" name="first_name" value="" maxlength="50" />
+				<input type="text" size="18px" placeholder="Simp" name="lastName" value="" maxlength="50" />
 		</div>
 		
 		<br>
-
-		<div>
-			<div class="gymChoice">
-				<h2 style="float: left;">Gym of Choice: &ensp; <h2>
-			</div>
-			<br>
-			<form>
-				<select name="dropdown" class="dropdown" class="gymChoice" style="height: 32px;">
-					<option value = "RIMAC" selected>RIMAC</option>
-					<option value = "Main Gym">Main Gym</option>
-				</select>
-      		</form>
-		</div>
-
 		<br>
 
 		<div class="skillLevel">
@@ -55,13 +41,14 @@
 		<form>
 			<br>
 			<select name="dropdown" class="dropdown" class="skillLevel" style="height: 32px;">
-				<option value = "Novice" selected>Novice</option>
-				<option value = "Intermediate">Intermediate</option>
-				<option value = "Expert">Expert</option>
+				<option value = "none">--Please select--</option>
+				<option value = "novice">Novice</option>
+				<option value = "intermediate">Intermediate</option>
+				<option value = "expert">Expert</option>
 			</select>
       	</form>
 		
-
+		<br>
 		<br>
 		<br>
 		<br>

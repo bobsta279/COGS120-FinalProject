@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>LIFTR</title>	
+	<meta charset="utf-8">
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet">
+      
+</head>
+
+<body>
+	<div class="container">
+		<a href="javascript:history.back()">
+			<img width="60px" align="left" class="leftImage" src="images/back_arrow.png">
+		</a>
+		<div class="jumbotron" style="z-index: -1">
+			<h3 class="title">LIFTR</h3>
+		</div>
+
+		<div class="experienceLevel">
+			<h2>What is your experience level?</h2>
+			<br>
+         	<select name="dropdown" style="width: 250px; font-size: 30px;">
+				<option value = "none">--Please select--</option>
+            	<option style="color: blue;" value = "novice">Novice</option>
+            	<option style="color: green;" value = "intermediate">Intermediate</option>
+				<option style="color: orange;" value = "expert">Expert</option>
+         	</select>
+		</div>
+
+		<br>
+		<br>
+
+		<div id="contactInfo">
+			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+				Phone Number:
+				<input type="text" placeholder="(858) 555-1234" size="18px" name="phoneNum" maxlength="50" />
+		</div>
+
+		<br>
+		<br>
+
+		<div id="addPostBtn">
+			<a href="index" ><button name="addPostButton">Add Post!</button></a>
+		</div>
+
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

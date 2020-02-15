@@ -55,17 +55,23 @@
 	</div>
 
 	<div class="toolbar">
-		<button class="toolbar-messages"><a href= "view-messages" class="toolbar-messages">
-			My Messages
-		</a></button>
-		<button class="toolbar-feed"><a href= "add-post" class="toolbar-feed">
-			Add Post
-		</a></button>
-		<button class="toolbar-profile"><a href= "create-profile" class="toolbar-profile">
-			Profile
-		</a></button>
+		<a href="add-post">
+			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
+				Add Post
+			</button>
+		</a>
+		<a href="index">
+			<button class="toolbar-home" onclick="window.location.href = 'index';">
+				Home
+			</button>
+		</a>
+		<a href="create-profile">
+			<button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
+				Profile
+			</button>
+		</a>
 	</div>
-
+	
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>

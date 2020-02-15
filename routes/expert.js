@@ -1,6 +1,15 @@
-var data = require("../expert.json");
+var data = require("../posts.json");
+var filteredData = JSON.parse(JSON.stringify(data));
 
 exports.view = function(req, res){
-  console.log(data)
-  res.render('expert', data);
+  var expString = "";
+  for (i = 0; i < filteredData.posts.length; i++){
+    expString = filteredData.posts[i].level;
+    if (expString.localeCompare("Expert")){
+      filteredData.posts.splice(i, 1);
+      i--;
+    }
+  }
+
+  res.render('expert', filteredData);
 };

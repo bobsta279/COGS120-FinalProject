@@ -33,68 +33,9 @@
 				<option value = "Cardio">Cardio</option>
          	</select>
 		</div>
-
-		<action="/html/tags/html_form_tag_action.cfm" method="get" class="postDetails">
-			Other:
-			<input type="text" name="otherWorkOn" size="20px" maxlength="100"/>
 		
+		<br>		
 		<br>
-
-		
-
-		<action="/html/tags/html_form_tag_action.cfm" method="get" class="postDetails">
-			Hobbies:
-		<input type="text" name="otherSpecific" size="25px" maxlength="100" />
-		
-		<br>
-
-		<script>
-			var count = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0);
-			function setColor(btn, color){
-				console.log("clicked");
-				var property = document.getElementById(btn);
-				if(count[btn-1] % 2 == 0){
-					property.style.backgroundColor = "#C9A69F"
-					count[btn-1]++;
-				} else {
-					count[btn-1]++;
-					property.style.backgroundColor = "#F0EBE9"
-				}
-			}
-		</script>
-
-		<h3 style="text-align: center; font-weight: bold;">Availability</h3> 
-
-		<table style="width:100%">
-			<tr>
-				<th>Sun</th>
-				<th>Mon</th>
-				<th>Tues</th>
-				<th>Wed</th>
-				<th>Thurs</th>
-				<th>Fri</th>
-				<th>Sat</th>
-			</tr>
-			<tr>
-				<td><button style="background-color: #F0EBE9;" id = "1" onclick="setColor('1', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "2" onclick="setColor('2', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "3" onclick="setColor('3', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "4" onclick="setColor('4', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "5" onclick="setColor('5', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "6" onclick="setColor('6', '#101010')">AM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "7" onclick="setColor('7', '#101010')">AM</button></td>
-			</tr>
-			<tr>
-				<td><button style="background-color: #F0EBE9;" id = "8" onclick="setColor('8', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "9" onclick="setColor('9', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "10" onclick="setColor('10', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "11" onclick="setColor('11', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "12" onclick="setColor('12', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "13" onclick="setColor('13', '#101010')">PM</button></td>
-				<td><button style="background-color: #F0EBE9;" id = "14" onclick="setColor('14', '#101010')">PM</button></td>
-			</tr>
-		</table>
-
 		<br>
 
 		<div id="addPostBtn">

@@ -9,6 +9,7 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var add = require('./routes/add');
 var create_profile = require('./routes/create-profile')
 var posts = require('./routes/posts');
 var maingym = require('./routes/maingym');
@@ -53,6 +54,7 @@ if ('development' == app.get('env')) {
 app.get('/', login.view);
 app.get('/add-post', add_post.view);
 app.get('/index', index.view);
+app.get('/add', add.addPost);
 app.get('/posts', posts.viewPost);
 app.get('/maingym', maingym.view);
 app.get('/rimac', rimac.view);

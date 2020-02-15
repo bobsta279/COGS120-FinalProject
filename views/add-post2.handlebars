@@ -20,33 +20,27 @@
 		<div class="jumbotron" style="z-index: -1">
 			<h3 class="title">LIFTR</h3>
 		</div>
-
-		<div class="experienceLevel">
-			<h2>What is your experience level?</h2>
-			<br>
-         	<select name="dropdown" style="width: 250px; font-size: 30px;">
+	
+		<form id="addPostForm" role="form" method="get" action="/add">
+		<h2>What is your experience level?</h2>
+	    <div class="form-group">
+	      <label for="name"></label>
+		  <select name="dropdown" style="width: 250px; font-size: 30px;">
 				<option value = "none">--Please select--</option>
             	<option style="color: blue;" value = "novice">Novice</option>
             	<option style="color: green;" value = "intermediate">Intermediate</option>
 				<option style="color: orange;" value = "expert">Expert</option>
          	</select>
-		</div>
+	    </div>
+	    <div class="form-group">
+	      <label for="description">Phone Number:</label>
+	      <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="(858) 555-1234" size="18px" maxlength="50" />
+	    </div>
+	    <input type="submit" id="addPostBtn" value="Add Post!"></input>
+	</form>
 
-		<br>
-		<br>
-
-		<div id="contactInfo">
-			<form action="/html/tags/html_form_tag_action.cfm" method="get">
-				Phone Number:
-				<input type="text" placeholder="(858) 555-1234" size="18px" name="phoneNum" maxlength="50" />
-		</div>
-
-		<br>
-		<br>
-
-		<div id="addPostBtn">
-			<a href="index" ><button name="addPostButton">Add Post!</button></a>
-		</div>
+	<br>
+	<br>
 
 	</div>
 

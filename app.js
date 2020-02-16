@@ -13,23 +13,11 @@ var user = require("./routes/user");
 var add = require('./routes/add');
 var create_profile = require('./routes/create-profile')
 var posts = require('./routes/posts');
-var maingym = require('./routes/maingym');
-var rimac = require('./routes/rimac');
-var expert = require('./routes/expert');
-var intermediate = require('./routes/intermediate');
-var novice = require('./routes/novice');
-var maingym_novice = require('./routes/maingym-novice');
-var maingym_intermediate = require('./routes/maingym-intermediate');
-var maingym_expert = require('./routes/maingym-expert');
-var rimac_novice = require('./routes/rimac-novice');
-var rimac_intermediate = require('./routes/rimac-intermediate');
-var rimac_expert = require('./routes/rimac-expert');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
 //Andrew added this
 var add_post2 = require('./routes/add-post2');
 var view_messages = require('./routes/view-messages');
-var send_message = require('./routes/send-message');
 
 var app = express();
 
@@ -62,20 +50,8 @@ app.get('/add-post2', add_post2.view);
 app.get('/index', index.view);
 app.get('/add', add.addPost);
 app.get('/posts', posts.viewPost);
-app.get('/maingym', maingym.view);
-app.get('/rimac', rimac.view);
-app.get('/novice', novice.view);
-app.get('/intermediate', intermediate.view);
-app.get('/expert', expert.view);
-app.get('/maingym-novice', maingym_novice.view);
-app.get('/maingym-intermediate', maingym_intermediate.view);
-app.get('/maingym-expert', maingym_expert.view);
-app.get('/rimac-novice', rimac_novice.view);
-app.get('/rimac-intermediate', rimac_intermediate.view);
-app.get('/rimac-expert', rimac_expert.view);
 app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view)
-app.get('/send-message', send_message.view)
 
 // Example route
 // app.get('/users', user.list);

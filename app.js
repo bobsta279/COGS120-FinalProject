@@ -20,6 +20,12 @@ var addPostTwo = require('./routes/addPostTwo');
 var posts = require('./routes/posts');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
+
+//Andrew added this
+var add_post2 = require('./routes/add-post2');
+var add_post3 = require('./routes/add-post3');
+var recommended = require('./routes/recommended');
+
 var view_messages = require('./routes/view-messages');
 
 var app = express();
@@ -51,7 +57,10 @@ app.get('/user', user.addInfo);
 app.get('/addPostOne', addPostOne.addInfo);
 app.get('/addPostTwo', addPostTwo.addInfo);
 //Andrew added this
+
 app.get('/add-post', add_post.view);
+app.get('/recommended', recommended.view);
+
 app.get('/index', index.view);
 app.get('/add', add.addPost);
 app.get('/posts', posts.viewPost);

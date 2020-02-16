@@ -19,7 +19,6 @@ var add_post = require('./routes/add-post');
 var add_post2 = require('./routes/add-post2');
 var add_post3 = require('./routes/add-post3');
 var view_messages = require('./routes/view-messages');
-var send_message = require('./routes/send-message');
 
 var app = express();
 
@@ -55,7 +54,6 @@ app.get('/add', add.addPost);
 app.get('/posts', posts.viewPost);
 app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view)
-app.get('/send-message', send_message.view)
 
 // Example route
 // app.get('/users', user.list);

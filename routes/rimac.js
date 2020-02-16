@@ -1,4 +1,4 @@
-var data = require("../posts.json");
+var data = require("../user.json");
 var filteredData = JSON.parse(JSON.stringify(data));
 
 exports.view = function(req, res){

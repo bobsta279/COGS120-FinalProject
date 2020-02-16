@@ -33,11 +33,12 @@
 <br>
 <br>
 <br>
+	<form label="skill" action="/addPostTwo">
 		<h2>What is your experience level?</h2>
 	    <div class="form-group">
 	      <label for="name"></label>
 		  <br>
-		  <select name="dropdown" style="width: 250px; font-size: 30px;">
+		  <select method="get" label="skill" action="/addPostOne" name="dropdown" style="width: 250px; font-size: 30px;">
 				<option value = "none">--Please select--</option>
             	<option style="color: blue;" value = "novice">Novice</option>
             	<option style="color: green;" value = "intermediate">Intermediate</option>
@@ -52,7 +53,7 @@
 		<br>
 
 		<div id="addPostBtn" style="text-align: center;">
-			<a href="add-post2"><button class="button1" name="continueButton">Get Recommendations!</button></a>
+			 <input type="submit" class="button1" name="pls" value="Get Reccomendations!"></input>
 		</div>
 	
 	</div>

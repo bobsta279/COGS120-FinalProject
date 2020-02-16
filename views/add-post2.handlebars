@@ -33,13 +33,15 @@
 <br>
 <br>
 <br>
+
+	<form label="skill" action="/addPostTwo">
 		<div class="gymQuestion">
 			<h2>Where are you planning on working out?</h2>
 			<br>
-         	<select name="dropdown" style="width: 250px; font-size: 30px;">
+         	<select method="get" label="skill" action="/addPostOne" name="dropdown" style="width: 250px; font-size: 30px;">
             	<option value = "none">--Please select--</option>
-				<option value = "now">RIMAC</option>
-            	<option value = "oneTwo">Main Gym</option>
+				<option value = "RIMAC">RIMAC</option>
+            	<option value = "Main Gym">Main Gym</option>
          	</select>
 		</div>
 
@@ -50,8 +52,9 @@
 		<br>
 
 		<div id="addPostBtn" style="text-align: center;">
-			<a href="add-post3"><button class="button1" name="continueButton">Continue</button></a>
+			 <input type="submit" class="button1" name="pls" value="Continue!"></input>
 		</div>
+	</form>
 	
 	</div>
 

@@ -33,10 +33,11 @@
 <br>
 <br>
 <br>
-		<div class="timeQuestion">
+		
+		<form label="skill" action="/addPostOne">
 			<h2>When are you planning on working out?</h2>
 			<br>
-         	<select name="dropdown" style="width: 250px; font-size: 30px;">
+         	<select method="get" label="skill" action="/addPostOne" class="timeQuestion" name="dropdown" style="width: 250px; font-size: 30px;">
             	<option value = "none">--Please select--</option>
 				<option value = "now">Now</option>
             	<option value = "oneTwo">in 1-2 hours</option>
@@ -44,17 +45,20 @@
 				<option value = "fourEight">in 4-8 hours</option>
 				<option value = "eightSixteen">in 8-16 hours</option>
          	</select>
-		</div>
+			 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+			 <input type="submit" class="button1" name="pls" value="Continue!"></input>
+		</form>
 
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 
-		<div id="addPostBtn" style="text-align: center;">
-			<a href="add-post2"><button class="button1" name="continueButton">Continue</button></a>
-		</div>
+
+		<form method="get" id="saveAddOne" style="text-align: center;">
+			 
+		</form>
 	
 	</div>
 

@@ -19,6 +19,9 @@ var fullAdder = require('./routes/fullAdder');
 var fullAdderTwo = require('./routes/fullAdderTwo');
 var fullAdderThree = require('./routes/fullAdderThree');
 
+var savePost = require('./routes/savePost');
+var savePhone = require('./routes/savePhone');
+
 var posts = require('./routes/posts');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
@@ -58,6 +61,9 @@ app.get('/addPostTwo', addPostTwo.addInfo);
 app.get('/fullAdder', fullAdder.view);
 app.get('/fullAdderTwo', fullAdderTwo.view);
 app.get('/fullAdderThree', fullAdderThree.view);
+
+app.get('/savePost', savePost.addPost);
+app.get('/savePhone', savePhone.addPost);
 
 app.get('/add-post', add_post.view);
 app.get('/recommended', recommended.view);

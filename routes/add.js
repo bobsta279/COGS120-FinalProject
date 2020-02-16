@@ -1,7 +1,7 @@
 var data = require("../posts.json");
+var user = require("../user.json")
 
 exports.addPost = function(req, res){
-    var myJson = {"name": req.query.phoneNumber, "goals": req.query.description};
-    data.posts.push(myJson);
-    res.render('recommendedIndex', data);
+    user.userLevel = req.query.dropdown;
+    res.render('index', data);
 };

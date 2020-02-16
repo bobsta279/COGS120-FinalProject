@@ -3,7 +3,10 @@ var user = require("../user.json");
 var filteredData = JSON.parse(JSON.stringify(data));
 
 exports.view = function(req, res){
-  user.level = (req.query.dropdown);
+  if(!user.level.localeCompare("")){
+    user.level = (req.query.dropdown);
+  }
+  user.wantsTo = req.query.wantsTo;
   console.log(user);
   var expString = "";
   var gymString = "";

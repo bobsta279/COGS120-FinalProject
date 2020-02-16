@@ -59,7 +59,7 @@
       "level": "Intermediate",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891"
     },
@@ -67,7 +67,7 @@
       "name": "Addison Sorrells",
       "level": "Novice",
       "gym": "Main Gym",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891"
     }, 
@@ -76,7 +76,7 @@
       "level": "Expert",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891"
     },
@@ -85,7 +85,7 @@
       "level": "Novice",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891"
     },
@@ -94,7 +94,7 @@
       "level": "Intermediate",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891"
     },
@@ -103,7 +103,7 @@
       "level": "Expert",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "oneTwo",
+      "when": "in 1-2 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891"
     },
@@ -112,7 +112,7 @@
       "level": "Intermediate",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891"
     },
@@ -120,7 +120,7 @@
       "name": "Bridget Cass",
       "level": "Novice",
       "gym": "Main Gym",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891"
     }, 
@@ -129,7 +129,7 @@
       "level": "Expert",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891"
     },
@@ -138,7 +138,7 @@
       "level": "Novice",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891"
     },
@@ -147,7 +147,7 @@
       "level": "Intermediate",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891"
     },
@@ -156,7 +156,7 @@
       "level": "Expert",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "twoFour",
+      "when": "in 2-4 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891"
     },
@@ -165,7 +165,7 @@
       "level": "Intermediate",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891"
     },
@@ -173,7 +173,7 @@
       "name": "Dane Melfi",
       "level": "Novice",
       "gym": "Main Gym",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891"
     }, 
@@ -182,7 +182,7 @@
       "level": "Expert",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891"
     },
@@ -191,7 +191,7 @@
       "level": "Novice",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891"
     },
@@ -200,7 +200,7 @@
       "level": "Intermediate",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891"
     },
@@ -209,7 +209,7 @@
       "level": "Expert",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "fourEight",
+      "when": "in 4-8 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891"
     },
@@ -218,7 +218,7 @@
       "level": "Intermediate",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891"
     },
@@ -226,7 +226,7 @@
       "name": "Hannah Dentot",
       "level": "Novice",
       "gym": "Main Gym",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891"
     }, 
@@ -235,7 +235,7 @@
       "level": "Expert",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891"
     },
@@ -244,7 +244,7 @@
       "level": "Novice",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891"
     },
@@ -253,7 +253,7 @@
       "level": "Intermediate",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891"
     },
@@ -262,7 +262,7 @@
       "level": "Expert",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "when": "eightSixteen",
+      "when": "in 8-18 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891"
     }

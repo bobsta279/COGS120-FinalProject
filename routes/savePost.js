@@ -5,7 +5,7 @@ var filteredData;
 exports.addPost = function(req, res){  
   user.wantsTo = req.query.wantsTo;
   var myJson = {"name": user.name, "level": user.userLevel, "gym": user.gym, "phone": user.phone, "wantsToLearn": user.wantsTo, "when": user.when};
-  data.posts.push(myJson);
+  data.posts.unshift(myJson);
 
   filteredData = JSON.parse(JSON.stringify(data));
 

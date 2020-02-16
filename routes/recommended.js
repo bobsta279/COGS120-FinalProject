@@ -2,11 +2,9 @@ var data = require("../posts.json");
 var user = require("../user.json");
 var filteredData = JSON.parse(JSON.stringify(data));
 
-exports.view = function(req, res){
-  if(!user.level.localeCompare("")){
-    user.level = (req.query.dropdown);
-  }
-  user.wantsTo = req.query.wantsTo;
+exports.view = function(req, res){  
+  user.level = (req.query.dropdown);
+  
   console.log(user);
   var expString = "";
   var gymString = "";

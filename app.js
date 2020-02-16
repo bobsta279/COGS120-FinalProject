@@ -15,6 +15,9 @@ var add = require('./routes/add');
 var create_profile = require('./routes/create-profile')
 var addPostOne = require('./routes/addPostOne');
 var addPostTwo = require('./routes/addPostTwo');
+var fullAdder = require('./routes/fullAdder');
+var fullAdderTwo = require('./routes/fullAdderTwo');
+var fullAdderThree = require('./routes/fullAdderThree');
 
 var savePost = require('./routes/savePost');
 var savePhone = require('./routes/savePhone');
@@ -55,6 +58,9 @@ app.get('/', login.view);
 app.get('/user', user.addInfo);
 app.get('/addPostOne', addPostOne.addInfo);
 app.get('/addPostTwo', addPostTwo.addInfo);
+app.get('/fullAdder', fullAdder.view);
+app.get('/fullAdderTwo', fullAdderTwo.view);
+app.get('/fullAdderThree', fullAdderThree.view);
 
 app.get('/savePost', savePost.addPost);
 app.get('/savePhone', savePhone.addPost);

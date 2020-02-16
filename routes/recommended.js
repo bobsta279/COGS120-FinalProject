@@ -10,11 +10,12 @@ exports.view = function(req, res){
   for (i = 0; i < filteredData.posts.length; i++){
     expString = filteredData.posts[i].level.toLowerCase();
     gymString = filteredData.posts[i].gym;
-    if (expString.localeCompare(user.level)){
+    if (expString.localeCompare(user.level) || gymString.localeCompare(user.gym)){
         filteredData.posts.splice(i, 1);
         i--;
     }
   }
 
   res.render('recommended', filteredData);
+  filteredData = JSON.parse(JSON.stringify(data));
 };

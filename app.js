@@ -16,6 +16,9 @@ var create_profile = require('./routes/create-profile')
 var addPostOne = require('./routes/addPostOne');
 var addPostTwo = require('./routes/addPostTwo');
 
+var savePost = require('./routes/savePost');
+var savePhone = require('./routes/savePhone');
+
 var posts = require('./routes/posts');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
@@ -52,6 +55,9 @@ app.get('/', login.view);
 app.get('/user', user.addInfo);
 app.get('/addPostOne', addPostOne.addInfo);
 app.get('/addPostTwo', addPostTwo.addInfo);
+
+app.get('/savePost', savePost.addPost);
+app.get('/savePhone', savePhone.addPost);
 
 app.get('/add-post', add_post.view);
 app.get('/recommended', recommended.view);

@@ -11,7 +11,7 @@ var handlebars = require('express3-handlebars')
 var index = require('./routes/index');
 var user = require("./routes/user");
 
-var add = require('./routes/add');
+var findPost = require('./routes/findPost');
 var create_profile = require('./routes/create-profile')
 var addPostOne = require('./routes/addPostOne');
 var addPostTwo = require('./routes/addPostTwo');
@@ -69,7 +69,7 @@ app.get('/add-post', add_post.view);
 app.get('/recommended', recommended.view);
 
 app.get('/index', index.view);
-app.get('/add', add.addPost);
+app.get('/findPost', findPost.findPost);
 app.get('/posts', posts.viewPost);
 app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view)

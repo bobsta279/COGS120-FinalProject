@@ -24,15 +24,15 @@
 		<h1 align="center">Posts</h1>
 
 		{{#each posts}}
-    	  <div class="posts" id="{{id}}">
-        	<a href="posts" class="thumbnail">
-          	<h2> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
+			<form name={{name}} class="thumbnail" method="get" action="/findPost" class="posts">
+			<button name="{{name}}">
+          	<h2 name="{{name}}"> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
 			<h3>{{level}}</h3>
 			<h3>Gym: {{gym}}</h3>
 			<h3>When: {{when}}</h3>
 		  	<h3>Wants to: {{wantsToLearn}}</h3>
-        	</a>
-      	</div>
+        	</button>
+			</form>
     	{{/each}}
 	</div>
 

@@ -15,7 +15,6 @@ var add = require('./routes/add');
 var create_profile = require('./routes/create-profile')
 var addPostOne = require('./routes/addPostOne');
 var addPostTwo = require('./routes/addPostTwo');
-var addPostThree = require('./routes/addPostThree');
 
 var posts = require('./routes/posts');
 var login = require('./routes/login');
@@ -53,7 +52,6 @@ app.get('/', login.view);
 app.get('/user', user.addInfo);
 app.get('/addPostOne', addPostOne.addInfo);
 app.get('/addPostTwo', addPostTwo.addInfo);
-app.get('/addPostThree', addPostThree.addInfo);
 
 app.get('/add-post', add_post.view);
 app.get('/recommended', recommended.view);

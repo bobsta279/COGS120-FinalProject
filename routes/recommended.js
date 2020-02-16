@@ -3,6 +3,8 @@ var user = require("../user.json");
 var filteredData = JSON.parse(JSON.stringify(data));
 
 exports.view = function(req, res){
+  user.level = (req.query.dropdown);
+  console.log(user);
   var expString = "";
   var gymString = "";
   for (i = 0; i < filteredData.posts.length; i++){
@@ -14,5 +16,5 @@ exports.view = function(req, res){
     }
   }
 
-  res.render('index', filteredData);
+  res.render('recommended', filteredData);
 };

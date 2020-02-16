@@ -1,5 +1,5 @@
 var data = require("../posts.json");
-var user = require("./user.json");
+var user = require("../user.json");
 
 exports.addPost = function(req, res){
     user.wantsTo = req.query.wantsTo;

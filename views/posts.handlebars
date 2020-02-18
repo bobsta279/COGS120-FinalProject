@@ -22,14 +22,16 @@
 <body>
 
   {{#each posts}}
-    <h4 class="theHead">  <a href= "send-message"><img width="50px" class="rightImage" align="right" src="images/telegramBoi.jpg"> </a></a>
-    <a href="index"> <img width="50px" align="left" class="leftImage" src="images/leftArrow.jpg"> </a> Potential Partner</h4> 
+    <h4 class="theHead">
+    <a href="index"> <img width="40px" align="left" class="leftImage"
+      src="images/leftArrow.jpg"> </a> Potential Partner</h4> 
     <h4 class="theHead">{{name}}</h4>
 
     <br>
 
     <div class="important">
-      <p>Skill Level: {{level}} <img width="130px" class="rightImage" align="right" src="images/antoniosBombSelfie.jpg"> </p>
+      <p>Skill Level: {{level}} <img width="130px"
+        class="rightImage" align="right" src="images/antoniosBombSelfie.jpg"> </p>
       <p>Gym: {{gym}}</p>
     </div>
 
@@ -43,17 +45,16 @@
 
     <div class="details">
       <p>Wants to:</p>
-      <h4>{{want}}</h4>
+      <h3>{{wantsToLearn}}</h3>
     </div>
 
     <br>
 
     <div class="details">
       <p>Phone Number:</p>
-      <h4>{{phoneNum}}</h4>
+      <h3>{{phone}}</h3>
     </div>
 
-    <br>
     <br>
 
   {{/each}}

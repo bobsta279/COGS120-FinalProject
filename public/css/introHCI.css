@@ -117,8 +117,8 @@
 .details
 {
      color: black;
-     font-size: 20px;
-     margin-left: 5px;
+     font-size: 30px;
+     margin-left: 10px;
 }
 
 .leftImage
@@ -290,3 +290,19 @@
      height: 50px;
      margin-left: 75px;
  }
+
+.facebookLogin
+{
+     text-align: center;
+}
+
+#buttonSave
+{
+     font-size: 28px;
+}
+
+#submitBtn
+{
+     font-size: 20px;
+     margin-left:10px;
+}

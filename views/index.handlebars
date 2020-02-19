@@ -19,33 +19,46 @@
 			<h3 class="title">LIFTR</h3>
 		</div>
 		
-	
-
 		<h1 align="center">Posts</h1>
 
+		<br>
+
+		{{#each posts}}
 		<div class="card">
-		<img src="../images/bluebox.jpg" alt="Avatar" style="width:100%">
 			<div class="container">
-				<h4><b>John Doe</b></h4>
-				<p>Architect & Engineer</p>
+				<form name={{name}} method="get" action="/findPost" class="posts">
+					<a name="{{name}}">
+						<h2 name="{{name}}"> {{name}} <img border="0" width="50px"
+							align="Right" src="images/rightArrow.png"> </h2>
+						<h3>{{level}}</h3>
+						<h3>Gym: {{gym}}</h3>
+						<h3>When: {{when}}</h3>
+						<h3>Wants to: {{wantsToLearn}}</h3>
+					</a>
+				</form>
 			</div>
 		</div>
-
 		<br>
+		<br>
+		{{/each}}
+
 		<br>
 		<br>
 
 		{{#each posts}}
 			<form name={{name}} class="thumbnail" method="get" action="/findPost" class="posts">
-			<button name="{{name}}">
-          	<h2 name="{{name}}"> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
-			<h3>{{level}}</h3>
-			<h3>Gym: {{gym}}</h3>
-			<h3>When: {{when}}</h3>
-		  	<h3>Wants to: {{wantsToLearn}}</h3>
-        	</button>
+				<button name="{{name}}">
+					<h2 name="{{name}}"> {{name}} <img border="0" width="50px"
+						align="Right" src="images/rightArrow.png"> </h2>
+					<h3>{{level}}</h3>
+					<h3>Gym: {{gym}}</h3>
+					<h3>When: {{when}}</h3>
+					<h3>Wants to: {{wantsToLearn}}</h3>
+				</button>
 			</form>
+			
     	{{/each}}
+		
 	</div>
 
 	<br>

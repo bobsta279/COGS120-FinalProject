@@ -19,26 +19,7 @@
 			<h3 class="title">LIFTR</h3>
 		</div>
 		
-		<h4>Add Filters:</h4>
-
-		<div id="outer">
-			
-			<div class="RIMAC"><a href="rimac" type="checkbox" name="rimac" class="RIMAC">
-			<label for="rimac"> RIMAC</label><br></a></div>
-			<a href="maingym" type="checkbox" name="maingym" class="RIMAC">
-			<label for="maingym"> Main Gym</label><br></a>
-		</div>
-
-		<div id="outer2">
-			<div style="float: left;">
-			<div class="skill"><a href="novice" type="checkbox" name="novice" class="RIMAC">
-			<label for="novice"> Novice</label><br></a></div></div>
-			<div class="skill"><a href="intermediate" type="checkbox" name="intermediate" class="RIMAC">
-			<label for="intermediate"> Intermediate</label><br></a></div>
-			<div style="float: right;">
-			<a href="expert" type="checkbox" name="expert" class="RIMAC">
-			<label for="expert"> Expert</label><br></a></div>
-		</div>
+	
 
 		<h1 align="center">Posts</h1>
 
@@ -55,15 +36,15 @@
 		<br>
 
 		{{#each posts}}
-    	  <div class="posts" id="{{id}}">
-        	<a href="posts" class="thumbnail">
-          	<h2> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
+			<form name={{name}} class="thumbnail" method="get" action="/findPost" class="posts">
+			<button name="{{name}}">
+          	<h2 name="{{name}}"> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
 			<h3>{{level}}</h3>
 			<h3>Gym: {{gym}}</h3>
-			<h3>Goals: {{goals}}</h3>
+			<h3>When: {{when}}</h3>
 		  	<h3>Wants to: {{wantsToLearn}}</h3>
-        	</a>
-      	</div>
+        	</button>
+			</form>
     	{{/each}}
 	</div>
 
@@ -77,7 +58,7 @@
 	<div class="toolbar">
 		<a href="add-post">
 			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
-				Add Post
+				Filter
 			</button>
 		</a>
 		<a href="index">
@@ -95,5 +76,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/introHCI.js"></script>
 </body>
 </html>

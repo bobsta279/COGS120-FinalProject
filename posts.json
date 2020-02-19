@@ -6,47 +6,265 @@
       "level": "Intermediate",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "goals": "Build muscle, lose fat, be big.",
-      "wantsToLearn": "bench press and squat"
+      "when": "now",
+      "wantsToLearn": "bench press and squat",
+      "phone": "800-261-2891"
     },
     {
       "name": "Antonio Simp",
       "level": "Novice",
       "gym": "Main Gym",
-      "goals": "Going of treadmills and lifting weight",
-      "wantsToLearn": "Cardio, Football"
+      "when": "now",
+      "wantsToLearn": "Cardio, Football",
+      "phone": "800-261-2891"
     }, 
     {
       "name": "Emily Ferguson",
       "level": "Expert",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "goals": "Beat up raccoons",
-      "wantsToLearn": "How to box"
+      "when": "now",
+      "wantsToLearn": "How to box",
+      "phone": "800-261-2891"
     },
     {
       "name": "Andrew Benser",
       "level": "Novice",
       "gym": "RIMAC",
       "image": "gym.jpg",
-      "goals": "Build muscle, and get a six pack.",
-      "wantsToLearn": "A great ab routine"
+      "when": "now",
+      "wantsToLearn": "A great ab routine",
+      "phone": "800-261-2891"
     },
     {
       "name": "Sophia Speredelozzi",
       "level": "Intermediate",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "goals": "Run faster, squat more",
-      "wantsToLearn": "Bench press"
+      "when": "now",
+      "wantsToLearn": "Bench press",
+      "phone": "800-261-2891"
     },
     {
       "name": "Mitchell Farrington",
       "level": "Expert",
       "gym": "Main Gym",
       "image": "gym.jpg",
-      "goals": "Get a chick",
-      "wantsToLearn": "How to be smooth"
+      "when": "now",
+      "wantsToLearn": "How to be smooth",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Ashley Pappilli",
+      "level": "Intermediate",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "bench press and squat",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Addison Sorrells",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "Cardio, Football",
+      "phone": "800-261-2891"
+    }, 
+    {
+      "name": "Advik Chins",
+      "level": "Expert",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "How to box",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Alexander Zhu",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "A great ab routine",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Jason Allen",
+      "level": "Intermediate",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "Bench press",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Ben Talcovitiz",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 1-2 hours",
+      "wantsToLearn": "How to be smooth",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Bobby Fredrick",
+      "level": "Intermediate",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "bench press and squat",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Bridget Cass",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "Cardio, Football",
+      "phone": "800-261-2891"
+    }, 
+    {
+      "name": "Bryan Lee",
+      "level": "Expert",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "How to box",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Caleb Mcman",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "A great ab routine",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Cameron Ducharme",
+      "level": "Intermediate",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "Bench press",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Chris Lefkarites",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 2-4 hours",
+      "wantsToLearn": "How to be smooth",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Connor McPherson",
+      "level": "Intermediate",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "bench press and squat",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Dane Melfi",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "Cardio, Football",
+      "phone": "800-261-2891"
+    }, 
+    {
+      "name": "Dennis Lyn",
+      "level": "Expert",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "How to box",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Derick Ma",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "A great ab routine",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Fahim Talukder",
+      "level": "Intermediate",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "Bench press",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Gabe French",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 4-8 hours",
+      "wantsToLearn": "How to be smooth",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Haley Wilson",
+      "level": "Intermediate",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "bench press and squat",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Hannah Dentot",
+      "level": "Novice",
+      "gym": "Main Gym",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "Cardio, Football",
+      "phone": "800-261-2891"
+    }, 
+    {
+      "name": "Will Hsu",
+      "level": "Expert",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "How to box",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Jacob Roger",
+      "level": "Novice",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "A great ab routine",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Jaylen Newman",
+      "level": "Intermediate",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "Bench press",
+      "phone": "800-261-2891"
+    },
+    {
+      "name": "Joseph Edward",
+      "level": "Expert",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 8-18 hours",
+      "wantsToLearn": "How to be smooth",
+      "phone": "800-261-2891"
     }
   ]
 }

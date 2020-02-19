@@ -21,42 +21,80 @@
 
 <body>
 
-  <h4 class="theHead">  <a href= "send-message"><img width="50px" class="rightImage" align="right" src="images/telegramBoi.jpg"> </a></a>
-  <a href="index"> <img width="50px" align="left" class="leftImage" src="images/leftArrow.jpg"> </a> Potential Partner</h4> 
-	<h4 class="theHead">Antonio Simp</h4>
+  {{#each posts}}
+    <h4 class="theHead">
+    <a href="index"> <img width="40px" align="left" class="leftImage"
+      src="images/leftArrow.jpg"> </a> Potential Partner</h4> 
+    <h4 class="theHead">{{name}}</h4>
 
-  <br>
-  <br>
-  <div class="important">
-    <p>Skill Level: Novice <img width="130px" class="rightImage" align="right" src="images/antoniosBombSelfie.jpg"> </p>
-    <p>Preferred Gym: RIMAC</p>
+    <br>
+
+    <div class="important">
+      <p>Skill Level: {{level}} <img width="130px"
+        class="rightImage" align="right" src="images/antoniosBombSelfie.jpg"> </p>
+      <p>Gym: {{gym}}</p>
+    </div>
+
+    <br>
+
+    <div class="details">
+      <p>Working out {{when}}</p>
+    </div>
+
+    <br>
+
+    <div class="details">
+      <p>Wants to:</p>
+      <h3>{{wantsToLearn}}</h3>
+    </div>
+
+    <br>
+
+    <div class="details">
+      <p>Phone Number:</p>
+      <h3>{{phone}}</h3>
+    </div>
+
+    <br>
+
+  {{/each}}
+
+  <div class="comment">
+    <textarea id="title" type="text "rows="2" cols="50" onkeyup="Allow()"
+      placeholder="Write a comment...." style="margin-left:10px;"></textarea>
+    <input type="submit" id="submitBtn" value="Post" align="right" onclick="insert()"/></form>
   </div>
-  <hr>
 
-  <div class="details">
-    <p>Wants to Learn:
-       <img width="140px" height="100px" class="rightImage" align="right" src="images/calendarPic.png">
-    </p>
-    <h4>Bench press, squat, and bicep curl</h4> 
-  </div>
-
-  <div class="details">
-    <hr>
-    <p>Hobbies:</p>
-    <h4>Flying drones, card magic, simping around, studying political science, jiu-jistu, and hopefully working out!</h4> 
-  </div>
-
-  <div class="toolbar-2">
-    <button><a href= "">Add Comment</button></a>
-    <p align="right"> whats up </p>
-    <p align="right"> What protein powder do u use? </p>
-	</div>
+  <script type="text/javascript">
+    var titles = [];
+    var titleInput = document.getElementById("title");
+    var messageBox = document.getElementById("display");
+    function Allow()
+    {
+    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+    {
+      user.title.value="";
+      alert("Please Enter only alphabets");
+    }
+      
+    }
+      function insert () {
+      titles.push(titleInput.value);
+      clearAndShow();
+    }
+    function clearAndShow ()
+    {
+      titleInput.value = "";
+      messageBox.innerHTML = "";
+      messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+    }
+  </script>
 
   <!-- the bottom of the page -->
 	<div class="toolbar">
 		<a href="add-post">
 			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
-				Add Post
+				Filter
 			</button>
 		</a>
 		<a href="index">

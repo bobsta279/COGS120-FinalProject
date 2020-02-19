@@ -9,25 +9,26 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var user = require("./routes/user");
+
+var findPost = require('./routes/findPost');
 var create_profile = require('./routes/create-profile')
+var addPostOne = require('./routes/addPostOne');
+var addPostTwo = require('./routes/addPostTwo');
+var fullAdder = require('./routes/fullAdder');
+var fullAdderTwo = require('./routes/fullAdderTwo');
+var fullAdderThree = require('./routes/fullAdderThree');
+
+var savePost = require('./routes/savePost');
+var savePhone = require('./routes/savePhone');
+
 var posts = require('./routes/posts');
-var maingym = require('./routes/maingym');
-var rimac = require('./routes/rimac');
-var expert = require('./routes/expert');
-var intermediate = require('./routes/intermediate');
-var novice = require('./routes/novice');
-var maingym_novice = require('./routes/maingym-novice');
-var maingym_intermediate = require('./routes/maingym-intermediate');
-var maingym_expert = require('./routes/maingym-expert');
-var rimac_novice = require('./routes/rimac-novice');
-var rimac_intermediate = require('./routes/rimac-intermediate');
-var rimac_expert = require('./routes/rimac-expert');
 var login = require('./routes/login');
 var add_post = require('./routes/add-post');
-//Andrew added this
-var add_post2 = require('./routes/add-post2');
+
+var recommended = require('./routes/recommended');
+
 var view_messages = require('./routes/view-messages');
-var send_message = require('./routes/send-message');
 
 var app = express();
 
@@ -53,25 +54,25 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', login.view);
+
+app.get('/user', user.addInfo);
+app.get('/addPostOne', addPostOne.addInfo);
+app.get('/addPostTwo', addPostTwo.addInfo);
+app.get('/fullAdder', fullAdder.view);
+app.get('/fullAdderTwo', fullAdderTwo.view);
+app.get('/fullAdderThree', fullAdderThree.view);
+
+app.get('/savePost', savePost.addPost);
+app.get('/savePhone', savePhone.addPost);
+
 app.get('/add-post', add_post.view);
-//Andrew added this
-app.get('/add-post2', add_post2.view);
+app.get('/recommended', recommended.view);
+
 app.get('/index', index.view);
+app.get('/findPost', findPost.findPost);
 app.get('/posts', posts.viewPost);
-app.get('/maingym', maingym.view);
-app.get('/rimac', rimac.view);
-app.get('/novice', novice.view);
-app.get('/intermediate', intermediate.view);
-app.get('/expert', expert.view);
-app.get('/maingym-novice', maingym_novice.view);
-app.get('/maingym-intermediate', maingym_intermediate.view);
-app.get('/maingym-expert', maingym_expert.view);
-app.get('/rimac-novice', rimac_novice.view);
-app.get('/rimac-intermediate', rimac_intermediate.view);
-app.get('/rimac-expert', rimac_expert.view);
 app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view)
-app.get('/send-message', send_message.view)
 
 // Example route
 // app.get('/users', user.list);

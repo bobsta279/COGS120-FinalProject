@@ -23,8 +23,8 @@
 		
 <div class="progressbar-wrapper">
       <ul class="progressbar">
-          <li>Step 1</li>
-          <li class="active">Step 2</li>
+          <li class="active">Step 1</li>
+          <li>Step 2</li>
           <li>Step 3</li>
       </ul>
 </div>
@@ -34,27 +34,21 @@
 <br>
 <br>
 
-	<form label="skill" action="/addPostTwo">
-		<div class="gymQuestion">
-			<h2>Where are you planning on working out?</h2>
+		<div id="contactInfo">
+			<h4>Your Gym: {{gym}}</h4>
 			<br>
-         	<select method="get" label="skill" action="/addPostOne" name="dropdown" style="width: 250px; font-size: 30px;">
-            	<option value = "none">--Please select--</option>
-				<option value = "RIMAC">RIMAC</option>
-            	<option value = "Main Gym">Main Gym</option>
-         	</select>
-		</div>
+			<h4>When you Plan to Workout: {{when}}</h4>
 
-		<br>
-		<br>
-		<br>
-		<br>
-
-		<div id="addPostBtn">
-			 <input type="submit" class="button1" name="pls" value="Continue!"></input>
 		</div>
-	</form>
-	
+			 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<a href="fullAdderTwo"> <button type="submit" class="button1" name="pls">Confirm and Continue!</button></a>
+		</form>
+
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
@@ -62,4 +56,3 @@
 	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-

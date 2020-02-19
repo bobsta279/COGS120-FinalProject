@@ -19,43 +19,43 @@
 		</div>
 		
 		<div id="nameInfo">
-			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			<form label="firstName" method="get", action="/user">
 				First name:
-				<input type="text" size="18px" placeholder="Antonio" name="firstName" value="" maxlength="50" />
+				<input type="text" size="18px" placeholder="{{firstName}}" name="firstName" value="" maxlength="50" />
 			
 			<br>
 			<br>
 
-			<form action="/html/tags/html_form_tag_action.cfm" method="get">
+			<form method="get" action="/user" label="lastName">
 				Last name:
-				<input type="text" size="18px" placeholder="Simp" name="lastName" value="" maxlength="50" />
+				<input type="text" size="18px" placeholder="{{lastName}}" name="lastName" value="" maxlength="50" />
 		</div>
 		
 		<br>
 		<br>
 
-		<div class="skillLevel">
-			<h2 style="float: left;">Skill Level: &ensp;</h2>
-		</div>
 			
-		<form>
+		<form label="skill" action="/user">
+			<div class="skillLevel">
+			<h2 style="float: left;">Skill Level: &ensp;</h2>
+			</div>
 			<br>
 			<select name="dropdown" class="dropdown" class="skillLevel" style="height: 32px;">
 				<option value = "none">--Please select--</option>
-				<option value = "novice">Novice</option>
-				<option value = "intermediate">Intermediate</option>
-				<option value = "expert">Expert</option>
+				<option value = "Novice">Novice</option>
+				<option value = "Intermediate">Intermediate</option>
+				<option value = "Expert">Expert</option>
 			</select>
-      	</form>
-		
-		<br>
-		<br>
-		<br>
-		<br>
+			
+			<br>
+			<br>
+			<br>
+			<br>
 
-		<div id="saveBtn">
-			<a href="index" ><button name="saveButton">Save!</button></a>
-		</div>
+			<div id="saveBtn">
+			 <input type="submit" value="Save!"></input>
+			</div>
+      	</form>
 
 	</div>
 

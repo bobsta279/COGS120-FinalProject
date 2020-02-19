@@ -20,42 +20,46 @@
 		<div class="jumbotron" style="z-index: -1">
 			<h3 class="title">LIFTR</h3>
 		</div>
+		
+<div class="progressbar-wrapper">
+      <ul class="progressbar">
+          <li class="active">Step 1</li>
+          <li>Step 2</li>
+          <li>Step 3</li>
+      </ul>
+</div>
 
-		<div class="timeQuestion">
+<br>
+<br>
+<br>
+<br>
+		
+		<form label="skill" action="/addPostOne">
 			<h2>When are you planning on working out?</h2>
 			<br>
-         	<select name="dropdown" style="width: 250px; font-size: 30px;">
+         	<select method="get" label="skill" action="/addPostOne" class="timeQuestion" name="dropdown" style="width: 250px; font-size: 30px;">
             	<option value = "none">--Please select--</option>
 				<option value = "now">Now</option>
-            	<option value = "oneTwo">in 1-2 hours</option>
-				<option value = "twoFour">in 2-4 hours</option>
-				<option value = "fourEight">in 4-8 hours</option>
-				<option value = "eightSixteen">in 8-16 hours</option>
+            	<option value = "in 1-2 hours">in 1-2 hours</option>
+				<option value = "in 2-4 hours">in 2-4 hours</option>
+				<option value = "in 4-8 hours">in 4-8 hours</option>
+				<option value = "in 8-16 hours">in 8-16 hours</option>
          	</select>
-		</div>
+			 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+			 <input type="submit" class="button1" name="pls" value="Continue!"></input>
+		</form>
 
-		<br>
-		<br>
-		<br>
 
-		<div class="gymQuestion">
-			<h2>Where are you planning on working out</h2>
-			<br>
-         	<select name="dropdown" style="width: 250px; font-size: 30px;">
-            	<option value = "none">--Please select--</option>
-				<option value = "now">RIMAC</option>
-            	<option value = "oneTwo">Main Gym</option>
-         	</select>
-		</div>
 
-		<br>
-		<br>
-		<br>
-
-		<div id="addPostBtn">
-			<a href="add-post2" ><button name="continueButton">Continue</button></a>
-		</div>
-
+		<form method="get" id="saveAddOne" style="text-align: center;">
+			 
+		</form>
+	
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>

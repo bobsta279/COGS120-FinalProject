@@ -1,3 +1,3 @@
 exports.view = function(req, res){
-  res.render('add-post2');
+  res.render('fullAdderThree');
 };

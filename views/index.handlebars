@@ -25,17 +25,16 @@
 
 		{{#each posts}}
 		<div class="card">
-			<div class="container">
+			<div class="container1">
 			<!--This division must be called "form" instead of "a" -->
 				<a name={{name}} method="get" action="/findPost" class="posts">
 				<!--This division must be called "button" instead of "a" -->
 					<a name="{{name}}">
 						<h2 name="{{name}}"> {{name}} <img border="0" width="50px"
 							align="Right" src="images/rightArrow.png"> </h2>
-						<h3>{{level}}</h3>
-						<h3>Gym: {{gym}}</h3>
 						<h3>When: {{when}}</h3>
-						<h3>Wants to: {{wantsToLearn}}</h3>
+						<h3>Gym: {{gym}}</h3>
+						<h3 style="color: {{color}};">Experience: {{level}}</h3>
 				<!--This division must be called "button" instead of "a" -->
 					</a>
 			<!--This division must be called "form" instead of "a" -->
@@ -58,7 +57,7 @@
 
 	<div class="toolbar">
 		<a href="add-post">
-			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
+			<button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
 				Filter
 			</button>
 		</a>

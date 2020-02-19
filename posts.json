@@ -8,7 +8,8 @@
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Antonio Simp",
@@ -16,7 +17,8 @@
       "gym": "Main Gym",
       "when": "now",
       "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     }, 
     {
       "name": "Emily Ferguson",
@@ -25,7 +27,8 @@
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "How to box",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Andrew Benser",
@@ -34,7 +37,8 @@
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     },
     {
       "name": "Sophia Speredelozzi",
@@ -43,7 +47,8 @@
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "Bench press",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Mitchell Farrington",
@@ -52,7 +57,8 @@
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Ashley Pappilli",
@@ -61,7 +67,8 @@
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Addison Sorrells",
@@ -69,7 +76,8 @@
       "gym": "Main Gym",
       "when": "in 1-2 hours",
       "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     }, 
     {
       "name": "Advik Chins",
@@ -78,7 +86,8 @@
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "How to box",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Alexander Zhu",
@@ -87,7 +96,8 @@
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     },
     {
       "name": "Jason Allen",
@@ -96,7 +106,8 @@
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "Bench press",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Ben Talcovitiz",
@@ -105,7 +116,8 @@
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Bobby Fredrick",
@@ -114,7 +126,8 @@
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Bridget Cass",
@@ -122,7 +135,8 @@
       "gym": "Main Gym",
       "when": "in 2-4 hours",
       "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     }, 
     {
       "name": "Bryan Lee",
@@ -131,7 +145,8 @@
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "How to box",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Caleb Mcman",
@@ -140,7 +155,8 @@
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     },
     {
       "name": "Cameron Ducharme",
@@ -149,7 +165,8 @@
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "Bench press",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Chris Lefkarites",
@@ -158,7 +175,8 @@
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Connor McPherson",
@@ -167,7 +185,8 @@
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Dane Melfi",
@@ -175,7 +194,8 @@
       "gym": "Main Gym",
       "when": "in 4-8 hours",
       "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     }, 
     {
       "name": "Dennis Lyn",
@@ -184,7 +204,8 @@
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "How to box",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Derick Ma",
@@ -193,7 +214,8 @@
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     },
     {
       "name": "Fahim Talukder",
@@ -202,7 +224,8 @@
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "Bench press",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Gabe French",
@@ -211,7 +234,8 @@
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Haley Wilson",
@@ -220,7 +244,8 @@
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Hannah Dentot",
@@ -228,7 +253,8 @@
       "gym": "Main Gym",
       "when": "in 8-18 hours",
       "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     }, 
     {
       "name": "Will Hsu",
@@ -237,7 +263,8 @@
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "How to box",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     },
     {
       "name": "Jacob Roger",
@@ -246,7 +273,8 @@
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "blue"
     },
     {
       "name": "Jaylen Newman",
@@ -255,7 +283,8 @@
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "Bench press",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "green"
     },
     {
       "name": "Joseph Edward",
@@ -264,7 +293,8 @@
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891"
+      "phone": "800-261-2891",
+      "color": "yellow"
     }
   ]
 }

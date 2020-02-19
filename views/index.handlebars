@@ -26,16 +26,16 @@
 		{{#each posts}}
 		<div class="card">
 			<div class="container">
-				<form name={{name}} method="get" action="/findPost" class="posts">
-					<button name="{{name}}">
+				<a name={{name}} method="get" action="/findPost" class="posts">
+					<a name="{{name}}">
 						<h2 name="{{name}}"> {{name}} <img border="0" width="50px"
 							align="Right" src="images/rightArrow.png"> </h2>
 						<h3>{{level}}</h3>
 						<h3>Gym: {{gym}}</h3>
 						<h3>When: {{when}}</h3>
 						<h3>Wants to: {{wantsToLearn}}</h3>
-					</button>
-				</form>
+					</a>
+				</a>
 			</div>
 		</div>
 		<br>

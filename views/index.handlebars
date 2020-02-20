@@ -19,29 +19,21 @@
 			<h3 class="title">LIFTR</h3>
 		</div>
 		
-		<h1 align="center">Posts</h1>
+		<h1 align="center">All Posts</h1>
 
 		<br>
 
 		{{#each posts}}
-		<div class="card">
-			<div class="container1">
-			<!--This division must be called "form" instead of "a" -->
-				<a name={{name}} method="get" action="/findPost" class="posts">
-				<!--This division must be called "button" instead of "a" -->
-					<a name="{{name}}">
-						<h2 name="{{name}}"> {{name}} <img border="0" width="50px"
-							align="Right" src="images/rightArrow.png"> </h2>
-						<h3>When: {{when}}</h3>
-						<h3>Gym: {{gym}}</h3>
-						<h3 style="color: {{color}};">Experience: {{level}}</h3>
-				<!--This division must be called "button" instead of "a" -->
-					</a>
-			<!--This division must be called "form" instead of "a" -->
-				</a>
-			<!-- But if you do those 4 things above, then the card looks ugly -->
-			</div>
-		</div>
+		<form name={{name}} method="get" action="/findPost" align="center">
+			<button name="{{name}}" class="card">
+				<h2 name="{{name}}"> {{name}} </h2>
+				<img border="0" width="50px"
+					align="Right" src="images/rightArrow.jpg" >
+				<h3> &emsp; &nbsp; When: {{when}}</h3>
+				<h3>Gym: {{gym}}</h3>
+				<h3 style="color: {{color}};">Experience: {{level}}</h3>
+			</button>
+		</form>
 		<br>
 		<br>
 		{{/each}}

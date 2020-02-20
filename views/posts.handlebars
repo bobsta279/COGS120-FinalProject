@@ -24,35 +24,26 @@
   {{#each posts}}
     <h4 class="theHead">
     <a href="index"> <img width="40px" align="left" class="leftImage"
-      src="images/leftArrow.jpg"> </a> Potential Partner</h4> 
+      src="images/leftArrow.jpg"> </a> Potential Partner &ensp; &ensp;</h4> 
     <h4 class="theHead">{{name}}</h4>
 
     <br>
 
     <div class="important">
-      <p>Skill Level: {{level}} <img width="130px"
-        class="rightImage" align="right" src="images/antoniosBombSelfie.jpg"> </p>
-      <p>Gym: {{gym}}</p>
+      <p class="card1" style="color: {{color}};"> Skill Level: {{level}} </p>
+      <div class="card1"> Gym: {{gym}} <br>
+        Working out {{when}}
+      </div>
     </div>
 
-    <br>
-
-    <div class="details">
-      <p>Working out {{when}}</p>
+    <div class="card2" align="center">
+      <h2>Wants to:</h2>
+      <h2>{{wantsToLearn}}</h2>
     </div>
 
-    <br>
-
-    <div class="details">
-      <p>Wants to:</p>
-      <h3>{{wantsToLearn}}</h3>
-    </div>
-
-    <br>
-
-    <div class="details">
-      <p>Phone Number:</p>
-      <h3>{{phone}}</h3>
+    <div class="card3" align="center">
+      <h2>Phone Number:</h2>
+      <h2>{{phone}}</h2>
     </div>
 
     <br>
@@ -93,7 +84,7 @@
   <!-- the bottom of the page -->
 	<div class="toolbar">
 		<a href="add-post">
-			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
+			<button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
 				Filter
 			</button>
 		</a>

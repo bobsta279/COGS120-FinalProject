@@ -21,14 +21,16 @@
 		<div id="nameInfo">
 			<form label="firstName" method="get", action="/user">
 				First name:
-				<input type="text" size="18px" placeholder="{{firstName}}" name="firstName" value="" maxlength="15" />
+				<input type="text" id="login" size="18px" placeholder="{{firstName}}"
+					name="firstName" value="" maxlength="15" />
 			
 			<br>
 			<br>
 
 			<form method="get" action="/user" label="lastName">
 				Last name:
-				<input type="text" size="18px" placeholder="{{lastName}}" name="lastName" value="" maxlength="15" />
+				<input type="text" id="login" size="18px" placeholder="{{lastName}}"
+					name="lastName" value="" maxlength="15" />
 		</div>
 		
 		<br>
@@ -40,7 +42,7 @@
 			<h2 style="float: left;">Skill Level: &ensp;</h2>
 			</div>
 			<br>
-			<select name="dropdown" class="dropdown" class="skillLevel" style="height: 32px;">
+			<select name="dropdown" id="login" class="dropdown" class="skillLevel" style="height: 32px;">
 				<option value = "none">--Please select--</option>
 				<option value = "Novice">Novice</option>
 				<option value = "Intermediate">Intermediate</option>

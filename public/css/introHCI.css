@@ -57,6 +57,8 @@
      background: #ccc; /* some styling */
      border-bottom: 1px solid #333; /* some styling */
      position: fixed;
+     border-radius: 10px; /* 25px rounded corners */
+     border: 1px solid #222222;
 }
 
 .toolbar-filter
@@ -67,6 +69,8 @@
      font-size: 20px;
      color: black;
      text-decoration: none;
+     border: 1px solid #222222;
+     border-radius: 15px; /* 25px rounded corners */
 }
 
 .toolbar-profile
@@ -77,6 +81,9 @@
      font-size: 20px;
      text-decoration: none;
      color: black;
+     border: 1px solid #222222;
+     border-radius: 15px; /* 25px rounded corners */
+     
 }
 
 .toolbar-home
@@ -87,6 +94,8 @@
      font-size: 20px;
      text-decoration: none;
      color: black;
+     border: 1px solid #222222;
+     border-radius: 15px; /* 25px rounded corners */
 }
 
 .theHead
@@ -156,24 +165,30 @@
 {
      text-align: center;
      font-size: 30px;
+     border: 2px solid #222222;
 }
 
 #addPostForm #addPostBtn
 {
      text-align: center;
      font-size: 40px;
+     border-radius: 15px; /* 25px rounded corners */
+     border: 2px solid #222222;
 }
 
 #saveBtn
 {
      text-align: center;
      font-size: 35px;
+     border-radius: 10px; /* 25px rounded corners */
+     border: 2px solid #222222;
 }
 
 #sendMsg
 {
      text-align: center;
      font-size: 35px;
+     border-radius: 25px; /* 25px rounded corners */
 }
 
 #loginDetails
@@ -279,6 +294,7 @@
      width: 200px;
      height: 50px;
      margin-left: 75px;
+     border: 2px solid #222222;
  }
 
 .facebookLogin
@@ -289,12 +305,15 @@
 #buttonSave
 {
      font-size: 28px;
+     border: 2px solid #222222;
 }
 
 #submitBtn
 {
      font-size: 20px;
      margin-left:10px;
+     border-radius: 8px; /* 25px rounded corners */
+     border: 1px solid #777777;
 }
 
 .card {
@@ -302,7 +321,8 @@
      box-shadow: 15px 15px 20px 0 rgba(0,0,0,0.2);
      transition: 0.3s;
      border-radius: 25px; /* 25px rounded corners */
-     background-color: rgba(230, 230, 230, 1);
+     background-color: rgba(235, 235, 235, 1);
+     min-width: 300px;
 }
    
 /* On mouse-over, add a deeper shadow */
@@ -317,7 +337,48 @@ img {
      margin-right: 10px;
 }
 
-.card
+textarea
 {
-     min-width: 300px;
+     border: 2px solid #222222;
+     max-width: 355px;
+     border-radius: 8px; /* 25px rounded corners */
+}
+
+#login
+{
+     border: 2px solid #222222;
+}
+
+.card1 {
+     /* Add shadows to create the "card" effect */
+     box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+     border-radius: 15px; /* 25px rounded corners */
+     background-color: rgba(235, 235, 235, 1);
+     max-width: 350px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.card2 {
+     /* Add shadows to create the "card" effect */
+     box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+     border-radius: 15px; /* 25px rounded corners */
+     background-color: rgba(235, 235, 235, 1);
+     max-width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.card3 {
+     /* Add shadows to create the "card" effect */
+     box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+     border-radius: 15px; /* 25px rounded corners */
+     background-color: rgba(235, 235, 235, 1);
+     max-width: 250px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.comment {
+     border-radius: 15px; /* 25px rounded corners */
 }

@@ -24,18 +24,18 @@
 		<br>
 
 		{{#each posts}}
-		<form name={{name}} method="get" action="/findPost" align="center">
-			<button name="{{name}}" class="card">
-				<h2 name="{{name}}"> {{name}} </h2>
-				<img border="0" width="35px"
-					align="Right" src="images/rightArrow.jpg" >
-				<h3> &emsp; &nbsp; When: {{when}}</h3>
-				<h3>Gym: {{gym}}</h3>
-				<h3 style="color: {{color}};">Skill Level: {{level}}</h3>
-			</button>
-		</form>
-		<br>
-		<br>
+			<form name={{name}} method="get" action="/findPost" align="center">
+				<button name="{{name}}" class="card">
+					<h2 name="{{name}}"> {{name}} </h2>
+					<img border="0" width="35px"
+						align="Right" src="images/rightArrow.jpg" >
+					<h3> &emsp; &nbsp; When: {{when}}</h3>
+					<h3>Gym: {{gym}}</h3>
+					<h3 style="color: {{color}};">Skill Level: {{level}}</h3>
+				</button>
+			</form>
+			<br>
+			<br>
 		{{/each}}
 		
 	</div>

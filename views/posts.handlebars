@@ -23,14 +23,19 @@
 
   {{#each posts}}
     <h4 class="theHead">
-    <a href="index"> <img width="40px" align="left" class="leftImage"
-      src="images/leftArrow.jpg"> </a> Potential Partner &ensp; &ensp;</h4> 
+      <a href="index"> <img width="40px" align="left" class="leftImage"
+        src="images/leftArrow.jpg"> </a>
+      Potential Partner &ensp; &ensp;
+    </h4> 
     <h4 class="theHead">{{name}}</h4>
 
     <br>
 
     <div class="important">
       <p class="card1" style="color: {{color}};"> Skill Level: {{level}} </p>
+    </div>
+    <br>
+    <div class="important">
       <div class="card1"> Gym: {{gym}} <br>
         Working out {{when}}
       </div>
@@ -53,7 +58,7 @@
   <div class="comment">
     <textarea id="title" type="text "rows="2" cols="50" onkeyup="Allow()"
       placeholder="Write a comment...." style="margin-left:10px;"></textarea>
-    <input type="submit" id="submitBtn" value="Post" align="right" onclick="insert()"/></form>
+    <input type="submit" id="submitBtn" value="Post" align="right" onclick="insert()"/>
   </div>
 
   <script type="text/javascript">

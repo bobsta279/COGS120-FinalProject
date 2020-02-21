@@ -8,10 +8,12 @@ exports.view = function(req, res){
   console.log(user);
   var expString = "";
   var gymString = "";
+  var whenString = "";
   for (i = 0; i < filteredData.posts.length; i++){
     expString = filteredData.posts[i].level.toLowerCase();
     gymString = filteredData.posts[i].gym;
-    if (expString.localeCompare(user.level) || gymString.localeCompare(user.gym)){
+    whenString = filteredData.posts[i].when;
+    if (expString.localeCompare(user.level) || gymString.localeCompare(user.gym) || whenString.localeCompare(user.when)){
         filteredData.posts.splice(i, 1);
         i--;
     }

@@ -54,36 +54,35 @@
 
   {{/each}}
 
-  <div class="comment">
-    <textarea id="title" type="text "rows="2" cols="50" onkeyup="Allow()"
-      placeholder="Write a comment...." style="margin-left:10px;"></textarea>
-    <input type="submit" id="submitBtn" value="Post" align="right" onclick="insert()"/>
-  </div>
-
-  <script type="text/javascript">
-    var titles = [];
-    var titleInput = document.getElementById("title");
-    var messageBox = document.getElementById("display");
-    function Allow()
-    {
-    if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
-    {
-      user.title.value="";
-      alert("Please Enter only alphabets");
-    }
-      
-    }
-      function insert () {
-      titles.push(titleInput.value);
-      clearAndShow();
-    }
-    function clearAndShow ()
-    {
-      titleInput.value = "";
-      messageBox.innerHTML = "";
-      messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-    }
-  </script>
+    <div class="comment">
+<textarea id="title" type="text "rows="2" cols="50" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:50px;" /></form>
+</div>
+<div id="display"></div>
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>
 
   <!-- the bottom of the page -->
 	<div class="toolbar">

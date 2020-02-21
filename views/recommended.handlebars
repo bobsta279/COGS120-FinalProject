@@ -18,27 +18,35 @@
 		<div class="jumbotron">
 			<h3 class="title">LIFTR</h3>
 		</div>
-		
-	
 
 		<h1 align="center">Recommended Posts</h1>
 
-		<h5 style="display:inline;"> Can't find what you're looking for?</h5>
+		<h4 style="display:inline;" class="addPostSuggestion1"> Can't find what you're looking for?</h4>
+
+		<br>
+
 		<a href="fullAdder">
-			<h5 style="display:inline;"> Add Post</h5>
-			</a>
+			<h4 style="display:inline;" class="addPostSuggestion2"> Add Post</h4>
+		</a>
+
+		<br>
+		<br>
 
 		{{#each posts}}
-    	  <div class="posts" id="{{id}}">
-        	<a href="posts" class="thumbnail">
-          	<h2> {{name}} <img border="0" width="50px" align="Right" src="images/rightArrow.png"> </h2>
-			<h3>{{level}}</h3>
-			<h3>Gym: {{gym}}</h3>
-			<h3>When: {{when}}</h3>
-		  	<h3>Wants to: {{wantsToLearn}}</h3>
-        	</a>
-      	</div>
-    	{{/each}}
+			<form name={{name}} method="get" action="/findPost" align="center">
+				<button name="{{name}}" class="card">
+					<h2 name="{{name}}"> {{name}} </h2>
+					<img border="0" width="35px"
+						align="Right" src="images/rightArrow.jpg" >
+					<h3> &emsp; &nbsp; When: {{when}}</h3>
+					<h3>Gym: {{gym}}</h3>
+					<h3 style="color: {{color}};">Skill Level: {{level}}</h3>
+				</button>
+			</form>
+			<br>
+			<br>
+		{{/each}}
+
 	</div>
 
 	<br>
@@ -50,7 +58,7 @@
 
 	<div class="toolbar">
 		<a href="add-post">
-			<button class="toolbar-addPost" onclick="window.location.href = 'add-posts';">
+			<button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
 				Filter
 			</button>
 		</a>

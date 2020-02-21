@@ -26,14 +26,14 @@
 		<h1 style="text-align: center;">Create an Account:</h1>
 
 		<h4 class="facebookLogin">Please login through Facebook to connect with fellow Liftr's!</h4>
-			<fb:login-button id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
+			<fb:login-button 
+				id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
 			</fb:login-button>
 
 		<div id="loginContinue" style="text-align: center;">
 			<a href="create-profile"><button id="loginContinue" name="saveButton">Continue!</button></a>
 		</div>
 
-		<br>
 		<br>
 
 		<div class="createAccountInfo">
@@ -55,10 +55,10 @@
 
 		<br>
 		<br>
-		<br>
 
 		<div id="buttonSave" style="text-align: center;">
-			<a href="create-profile" ><button name="saveButton">Continue!</button></a>
+			<a href="create-profile"><button name="saveButton"
+			style="border: 1.2px solid #222222; border-radius: 8px;" > Continue! </button></a>
 		</div>
 	
 	</div>

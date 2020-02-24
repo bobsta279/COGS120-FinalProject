@@ -26,6 +26,10 @@
      font-family: 'Fredoka One';
 }
 
+#AllPosts{
+     font-family: 'Fredoka One';
+}
+
 .toolbar
 {
      width: 100%;
@@ -195,7 +199,6 @@
 }
 
 .progressbar-wrapper {
-     background: #fff;
      width: 100%;
      padding-top: 10px;
      padding-bottom: 5px;
@@ -323,7 +326,7 @@ textarea
 }
 
 .grad {
-     background-image: linear-gradient(to top, navy, lightblue);
+     background-image: linear-gradient(to top, royalblue, lightblue);
 }
 
 .card1 {

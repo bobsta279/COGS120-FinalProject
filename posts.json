@@ -3,7 +3,7 @@
   [
     {
       "name": "Alex Garza",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "now",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Antonio Simp",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "Main Gym",
       "when": "now",
       "wantsToLearn": "Cardio, Football",
@@ -22,7 +22,7 @@
     }, 
     {
       "name": "Emily Ferguson",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "now",
@@ -32,7 +32,7 @@
     },
     {
       "name": "Andrew Benser",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "now",
@@ -42,7 +42,7 @@
     },
     {
       "name": "Sophia Speredelozzi",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "now",
@@ -52,7 +52,7 @@
     },
     {
       "name": "Mitchell Farrington",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "now",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Ashley Pappilli",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Addison Sorrells",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "Main Gym",
       "when": "in 1-2 hours",
       "wantsToLearn": "Cardio, Football",
@@ -81,7 +81,7 @@
     }, 
     {
       "name": "Advik Chins",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
@@ -91,7 +91,7 @@
     },
     {
       "name": "Alexander Zhu",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
@@ -101,7 +101,7 @@
     },
     {
       "name": "Jason Allen",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
@@ -111,7 +111,7 @@
     },
     {
       "name": "Ben Talcovitiz",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Bobby Fredrick",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Bridget Cass",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "Main Gym",
       "when": "in 2-4 hours",
       "wantsToLearn": "Cardio, Football",
@@ -140,7 +140,7 @@
     }, 
     {
       "name": "Bryan Lee",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
@@ -150,7 +150,7 @@
     },
     {
       "name": "Caleb Mcman",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
@@ -160,7 +160,7 @@
     },
     {
       "name": "Cameron Ducharme",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
@@ -170,7 +170,7 @@
     },
     {
       "name": "Chris Lefkarites",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
@@ -180,7 +180,7 @@
     },
     {
       "name": "Connor McPherson",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
@@ -190,7 +190,7 @@
     },
     {
       "name": "Dane Melfi",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "Main Gym",
       "when": "in 4-8 hours",
       "wantsToLearn": "Cardio, Football",
@@ -199,7 +199,7 @@
     }, 
     {
       "name": "Dennis Lyn",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
@@ -209,7 +209,7 @@
     },
     {
       "name": "Derick Ma",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
@@ -219,7 +219,7 @@
     },
     {
       "name": "Fahim Talukder",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
@@ -229,7 +229,7 @@
     },
     {
       "name": "Gabe French",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
@@ -239,7 +239,7 @@
     },
     {
       "name": "Haley Wilson",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
@@ -249,7 +249,7 @@
     },
     {
       "name": "Hannah Dentot",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "Main Gym",
       "when": "in 8-18 hours",
       "wantsToLearn": "Cardio, Football",
@@ -258,7 +258,7 @@
     }, 
     {
       "name": "Will Hsu",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
@@ -268,7 +268,7 @@
     },
     {
       "name": "Jacob Roger",
-      "level": "Novice",
+      "level": "Loosing Weight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
@@ -278,7 +278,7 @@
     },
     {
       "name": "Jaylen Newman",
-      "level": "Intermediate",
+      "level": "Building Muscle",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
@@ -288,7 +288,7 @@
     },
     {
       "name": "Joseph Edward",
-      "level": "Expert",
+      "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 8-18 hours",

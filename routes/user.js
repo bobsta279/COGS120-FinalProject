@@ -15,15 +15,17 @@ exports.addInfo = function(req, res){
         req.query.lastName = data.lastName;
     }
 
-    if(req.query.dropdown != "none"){
-        data.userLevel = (req.query.dropdown);
-    }
-
     if(("" + req.query.lastName).localeCompare("") && 
         ("" + req.query.firstName).localeCompare("") &&
-        req.query.dropdown != "none"){
+        req.query.user2 == null){
             data.userLevel = (req.query.dropdown);
 
             res.render('index', posts);
-    } 
+    } else if (("" + req.query.lastName).localeCompare("") && 
+    ("" + req.query.firstName).localeCompare("") &&
+     req.query.user2 != null){
+        data.userLevel = (req.query.dropdown);
+
+        res.render('add-post')
+    }
 }

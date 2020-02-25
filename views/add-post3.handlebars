@@ -14,37 +14,39 @@
 
 <body>
 	<div class="grad">
+
+		<img onclick="history.back()" width="80px" align="left" style="margin-left: 0px;"
+			class="leftImage" src="images/back_arrow.png">
+
 		<div class="container">
-			<a href="javascript:history.back()">
-				<img width="60px" align="left" class="leftImage" src="images/back_arrow.png">
-			</a>
 			<div class="jumbotron" style="z-index: -1">
 				<h3 class="title">LIFTR</h3>
 			</div>
-			
 		</div>	
-			<div class="progressbar-wrapper">
-				<ul class="progressbar">
-					<li>Step 1</li>
-					<li>Step 2</li>
-					<li class="active">Step 3</li>
-				</ul>
-			</div>
+		<div class="progressbar-wrapper">
+			<ul class="progressbar">
+				<li></li>
+				<li></li>
+				<li class="active"></li>
+			</ul>
+		</div>
 
-			<br>
-			<br>
-			<br>
-			<br>
+		<br>
+		<br>
+		<br>
+		<br>
 			
 		<div class="container">
 			<form label="skill" action="/recommended">
-			<h2 class="WhatLevel"id="AllPosts">What is your Main Focus:</h2>
-			<div class="form-group">
+			<h2 style="text-align:center" class="WhatLevel"id="AllPosts">What is your Main Focus?</h2>
+			<div class="form-group" style="text-align: center;">
 				<label for="name"></label>
 
 				<br>
 				
-				<select method="get" label="skill" action="/fullAdder" name="dropdown" id="LevelQuestion" class="dropdown" style="width: 250px; font-size: 30px;">
+				<select method="get" label="skill" action="/fullAdder"
+					name="dropdown" id="LevelQuestion" class="dropdown"
+					style="width: 250px; font-size: 30px;">
 					<option value = "none">--Please select--</option>
 					<option style="color: #e7eaed;" value = "Losing Weight">Losing Weight</option>
 					<option style="color: #6c7e90;" value = "Building Muscle">Building Muscle</option>
@@ -57,8 +59,9 @@
 			<br>
 			<br>
 
-			<div id="addPostBtn">
-				<input type="submit" class="button1" id="buttonLevel" name="pls" value="Continue!"></input>
+			<div id="addPostBtn" style="text-align: center;">
+				<input type="submit" class="button1" id="buttonLevel"
+					name="pls" value="Continue!"></input>
 			</div>
 		
 		</div>

@@ -41,7 +41,7 @@
      border-bottom: 1px solid #333; /* some styling */
      position: fixed;
      border-radius: 10px; /* 25px rounded corners */
-     border: 1px solid #222222;
+     border: 2px solid #222222;
 }
 
 .toolbar-filter
@@ -52,7 +52,7 @@
      font-size: 20px;
      color: black;
      text-decoration: none;
-     border: 1px solid #222222;
+     border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
 }
 
@@ -64,7 +64,7 @@
      font-size: 20px;
      text-decoration: none;
      color: black;
-     border: 1px solid #222222;
+     border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
      
 }
@@ -77,7 +77,7 @@
      font-size: 20px;
      text-decoration: none;
      color: black;
-     border: 1px solid #222222;
+     border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
 }
 
@@ -199,31 +199,31 @@
 }
 
 .progressbar-wrapper {
-     width: 100%;
+     width: 90%;
      padding-top: 10px;
      padding-bottom: 5px;
 }
 
 .progressbar li {
      list-style-type: none;
-     width: 15%;
+     width: 33%;
      float: left;
-     font-size: 12px;
+     font-size: 35px;
      position: relative;
      text-align: center;
      text-transform: uppercase;
      color: #5c5b5b;
 }
 .progressbar li:before {
-     width: 40px;
-     height: 40px;
+     width: 70px;
+     height: 70px;
      content: "";
-     line-height: 40px;
+     line-height: 60px;
      border: 2px solid #7d7d7d;
      display: block;
      text-align: center;
      margin: 2px auto 3px auto;
-     border-radius: 40%;
+     border-radius: 50%;
      position: relative;
      z-index: 2;
      background-color: #fff;
@@ -234,12 +234,16 @@
       content: '';
       position: absolute;
       background-color: #7d7d7d;
-      top: 20px;
+      top: 35px;
       left: -50%;
       z-index: 0;
  }
  .progressbar li:first-child:after {
       content: none;
+ }
+
+ .facebook {
+     width: 500px !important
  }
 
  .progressbar li.active {
@@ -248,38 +252,38 @@
  }
  .progressbar li.active:before {
      border-color: black;
-     background: hsl(205, 96%, 82%);
+     background: #3eebeb;
   }
  .progressbar li.active + li:after {
-     background-color: hsl(205, 96%, 82%);
+     background-color: #3eebeb;
  }
  .progressbar li.active:before {
-     background: hsl(205, 96%, 82%)  url(user.svg) no-repeat center center;
+     background: #3eebeb  url(user.svg) no-repeat center center;
      background-size: 60%;
  }
  .progressbar li::before {
      background: #fff url(user.svg) no-repeat center center;
      background-size: 60%;
  }
- .progressbar {
+.progressbar {
      counter-reset: step;
- }
- .progressbar li:before {
+}
+.progressbar li:before {
      content: counter(step);
      counter-increment: step; 
- }
+}
 
- .button1 {
-     background-color:hsl(205, 96%, 82%);
+.button1 {
+     background-color:#3eebeb;
      width: 200px;
      height: 50px;
-     margin-left: 75px;
      border: 2px solid #222222;
      border-radius: 8px;
  }
 
 .facebookLogin
 {
+     
      align-self: center;
 }
 
@@ -380,7 +384,9 @@ textarea
 
 .dropdown
 {
-     background-color:  rgb(163, 191, 241);
+     background-color:  #3eebeb;
      border: 2px solid #222222;
      border-radius: 5px;
+     margin-left: auto;
+     margin-right: auto;
 }

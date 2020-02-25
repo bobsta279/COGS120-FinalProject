@@ -14,58 +14,65 @@
 
 <body>
 	<div class="grad">
-	<div class="container">
-		<div class="jumbotron">
-		</div>
+	
+		<img onclick="history.back()" width="80px" align="left" style="margin-left: 0px;"
+			class="leftImage" src="images/back_arrow.png">
 
-	<a onclick="history.back()">
-		<img width="60px" align="left" class="leftImage" src="images/back_arrow.png">
-	</a>
-			<h3 class="title">LIFTR</h3>
-		
-		<div id="nameInfo">
-			<form label="firstName" method="get" action="/user">
-				<h2 id="AllPosts" class="firstNameT">First name:</h2>
-				<input type="text" id="login" class="firstName"size="18px" placeholder="{{firstName}}"
-					name="firstName" value="" maxlength="15" />
+		<div class="container">
+
+			<br>
+			<br>
+			<br>
+				<h3 class="title">LIFTR</h3>
 			
 			<br>
-
-			<form method="get" action="/user" label="lastName">
-				<h2 id="AllPosts" class="lastNameT">Last name:</h2>
-				<input type="text" id="login" class="lastName" size="18px" placeholder="{{lastName}}"
-					name="lastName" value="" maxlength="15" />
-		</div>
-		
-		<br>
-		<br>
-
-			
-		<form label="skill" action="/user">
-			<br>
-			<br>
-			<br>
-			<br>
 			<br>
 
-			<div id="saveBtn">
-			<input style="border: 1.2px solid #222222; border-radius: 8px;
-			 	background-color: #3eebeb;" id="saveUser" name = "user2" type="submit" value="Save and Continue"></input>
+			<div id="nameInfo">
+				<form label="firstName" method="get" action="/user">
+					<h2 id="AllPosts" class="firstNameT">First name:</h2>
+					<input type="text" id="login" class="firstName"size="18px" placeholder="{{firstName}}"
+						name="firstName" value="" maxlength="15" />
+				
+				<br>
+				<br>
+
+				<form method="get" action="/user" label="lastName">
+					<h2 id="AllPosts" class="lastNameT">Last name:</h2>
+					<input type="text" id="login" class="lastName" size="18px" placeholder="{{lastName}}"
+						name="lastName" value="" maxlength="15" />
 			</div>
-      	</form>
+			
+			<br>
+			<br>
 
-	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+				
+			<form label="skill" action="/user">
+			
+				<br>
+				<br>
+				<br>
+				<br>
+
+				<div id="saveBtn">
+				<input style="border: 1.2px solid #222222; border-radius: 8px;
+					background-color: #3eebeb;" id="saveUser" name = "user2"
+					type="submit" value="Save and Continue"></input>
+				</div>
+			</form>
+
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>

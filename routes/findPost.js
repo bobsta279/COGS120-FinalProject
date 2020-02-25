@@ -4,6 +4,8 @@ var user = require("../user.json")
 
 exports.findPost = function(req, res){
   var nameStr = Object.keys(req.query)[0] + "";
+  console.log(nameStr);
+  console.log(Object.keys(req.query)[1] + "");
   nameStr = nameStr.toLowerCase();
   for (i = 0; i < filteredData.posts.length; i++){
     expString = filteredData.posts[i].name.toLowerCase();

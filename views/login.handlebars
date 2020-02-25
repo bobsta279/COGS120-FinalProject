@@ -18,6 +18,7 @@
 </head>
 
 <body>
+	<div class="grad">
 	<div class="container">
 		<div class="jumbotron">
 			<h3 class="title">LIFTR</h3>
@@ -25,21 +26,22 @@
 
 		<h1 style="text-align: center;">Login</h1>
 
-		<h3 class="facebookLogin">Please login through Facebook to connect with fellow Liftr's!</h3>
+		<h3 class="facebookLogin">Please login via Facebook to connect with fellow Liftr's!</h3>
 			<fb:login-button 
 				id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
 			</fb:login-button>
 
+		<a href="create-profile" id="buttonSave"><button style="border: 1.2px solid #222222; border-radius: 8px;" id="loginContinue">Continue!</button></a>
+
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;"> Login to your Liftr Account</h3>
+			<h3 id="loginDetails" style="text-align: center;">Or Login to your Liftr Account</h3>
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
 				User Name: 
 				<input type="text" id="login" name="user_name" value="" maxlength="50" />
 			</div>
 
-			<br>
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
 				Password:
@@ -48,18 +50,16 @@
 		</div>
 
 		<br>
-		<br>
 
 		<div id="buttonSave" align="center">
-			<a href="index"><button name="saveButton"
+			<a href="create-profile"><button name="saveButton"
 			style="border: 1.2px solid #222222; border-radius: 8px;"> Continue! </button></a>
 		</div>
 	
 		<br>
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;">If you're new to Liftr, create an
-				account to connect with fellow Liftr's!</h3>
+			<h3 id="loginDetails" style="text-align: center;">New To Liftr?</h3>
 
 			<div id="buttonSave" align="center">
 				 <a href="register"><button name="saveButton"
@@ -67,12 +67,29 @@
 					Register! </button></a>
 			</div>
 		</div>
+		</div>
 
 		<br>
 		<br>
 		<br>
-
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</div>
+	
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>

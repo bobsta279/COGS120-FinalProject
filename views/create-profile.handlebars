@@ -25,15 +25,15 @@
 		
 		<div id="nameInfo">
 			<form label="firstName" method="get" action="/user">
-				<h2 id="AllPosts">First name:</h2>
-				<input type="text" id="login" size="18px" placeholder="{{firstName}}"
+				<h2 id="AllPosts" class="firstNameT">First name:</h2>
+				<input type="text" id="login" class="firstName"size="18px" placeholder="{{firstName}}"
 					name="firstName" value="" maxlength="15" />
 			
 			<br>
 
 			<form method="get" action="/user" label="lastName">
-				<h2 id="AllPosts">Last name:</h2>
-				<input type="text" id="login" size="18px" placeholder="{{lastName}}"
+				<h2 id="AllPosts" class="lastNameT">Last name:</h2>
+				<input type="text" id="login" class="lastName" size="18px" placeholder="{{lastName}}"
 					name="lastName" value="" maxlength="15" />
 		</div>
 		
@@ -43,10 +43,10 @@
 			
 		<form label="skill" action="/user">
 			<div class="skillLevel">
-			<h2 id="AllPosts" style="float: left;">Skill Level: &ensp;</h2>
+			<h2 id="AllPosts" style="float: left;" class="UserLevel">Skill Level: &ensp;</h2>
 			</div>
 			<br>
-			<select name="dropdown" id="login" class="dropdown" class="skillLevel" style="height: 32px;">
+			<select name="dropdown" id="UserLevelSel" class="dropdown" style="height: 32px;">
 				<option value="none">--Please select--</option>
 				<option style="color: #e7eaed;" value="Novice">Novice</option>
 				<option style="color: #6c7e90;" value="Intermediate">Intermediate</option>
@@ -61,7 +61,7 @@
 
 			<div id="saveBtn">
 			 <input style="border: 1.2px solid #222222; border-radius: 8px;
-			 	background-color: #3eebeb;" type="submit" value="Save!"></input>
+			 	background-color: #3eebeb;" id="saveUser"type="submit" value="Save!"></input>
 			</div>
       	</form>
 
@@ -80,5 +80,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/hci-friends.js"></script>
 </body>
 </html>

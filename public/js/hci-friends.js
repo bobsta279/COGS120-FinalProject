@@ -29,7 +29,28 @@ function initializePage() {
 			console.log("woob");
 		$(".WhatLevel").css('color', 'red');
 		}
-});
+	});
+
+	$('#saveUser').click(function(e) {
+		console.log($("#UserLevelSel").val());
+		if($("#UserLevelSel").val() == "none"){
+			console.log("woob");
+			$(".UserLevel").css('color', 'red');
+		}
+		if($(".firstName").val() == ""){
+			console.log("woobName");
+			$(".firstNameT").css('color', 'red');
+		} else {
+			$(".firstNameT").css('color', 'black');
+		}
+		if($(".lastName").val() == ""){
+			console.log("woobName2");
+			$(".lastNameT").css('color', 'red');
+		} else {
+			$(".lastNameT").css('color', 'black');
+
+		}
+	});
 
    
 }

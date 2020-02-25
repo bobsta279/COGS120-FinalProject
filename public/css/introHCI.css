@@ -382,4 +382,6 @@ textarea
 .dropdown
 {
      background-color:  rgb(163, 191, 241);
+     border: 2px solid #222222;
+     border-radius: 5px;
 }

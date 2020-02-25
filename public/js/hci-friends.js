@@ -10,4 +10,11 @@ function initializePage() {
 	$("#loginContinue").toggle();
 	$(".searchButton").click(function(e) {
   });
+
+   $('#buttonWhen').click(function(e) {
+	   console.log("Woob");
+	if($(".timeQuestion").val() == "none"){
+		$(".WhenWork").css('color', 'red');
+	}
+   });
 }

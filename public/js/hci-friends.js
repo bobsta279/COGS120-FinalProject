@@ -12,20 +12,20 @@ function initializePage() {
   });
 
    $('#buttonWhen').click(function(e) {
-	if($(".timeQuestion").val() == "none"){
+	if($("#timeQuestion").val() == "none"){
 		$(".WhenWork").css('color', 'red');
 	}
    });
 
    $('#buttonWhere').click(function(e) {
- 	if($(".gymQuestion").val() == "none"){
+ 	if($("#gymQuestion").val() == "none"){
 		 console.log("woob");
 	 $(".WhereWork").css('color', 'red');
 	 }
 	});
 	 
 	 $('#buttonLevel').click(function(e) {
-		if($(".LevelQuestion").val() == "none"){
+		if($("#LevelQuestion").val() == "none"){
 			console.log("woob");
 		$(".WhatLevel").css('color', 'red');
 		}

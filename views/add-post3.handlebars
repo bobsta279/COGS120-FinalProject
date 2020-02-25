@@ -36,13 +36,13 @@
 			<br>
 			
 			<form label="skill" action="/fullAdder">
-			<h2 id="AllPosts">What is the expertise level of your desired partner:</h2>
+			<h2 class="WhatLevel"id="AllPosts">What is the expertise level of your desired partner:</h2>
 			<div class="form-group">
 				<label for="name"></label>
 
 				<br>
 				
-				<select method="get" label="skill" action="/fullAdder" name="dropdown" class="dropdown" style="width: 250px; font-size: 30px;">
+				<select method="get" label="skill" action="/fullAdder" name="dropdown" id="LevelQuestion" class="dropdown" style="width: 250px; font-size: 30px;">
 					<option value = "none">--Please select--</option>
 					<option style="color: #e7eaed;" value = "novice">Novice</option>
 					<option style="color: #6c7e90;" value = "intermediate">Intermediate</option>
@@ -53,9 +53,10 @@
 			<br>
 			<br>
 			<br>
+			<br>
 
 			<div id="addPostBtn">
-				<input type="submit" class="button1" name="pls" value="Continue!"></input>
+				<input type="submit" class="button1" id="buttonLevel" name="pls" value="Continue!"></input>
 			</div>
 		
 		</div>

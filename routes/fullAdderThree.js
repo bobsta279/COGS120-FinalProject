@@ -1,3 +1,5 @@
+var data = require('../posts.json')
+
 exports.view = function(req, res){
-  res.render('fullAdderThree');
+  res.render('index');
 };

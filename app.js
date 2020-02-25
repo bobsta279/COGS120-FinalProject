@@ -24,6 +24,7 @@ var savePhone = require('./routes/savePhone');
 
 var posts = require('./routes/posts');
 var login = require('./routes/login');
+var register = require('./routes/register');
 var add_post = require('./routes/add-post');
 
 var recommended = require('./routes/recommended');
@@ -54,6 +55,7 @@ if ('development' == app.get('env')) {
 
 // Add routes here
 app.get('/', login.view);
+app.get('/register', register.view);
 
 app.get('/user', user.addInfo);
 app.get('/addPostOne', addPostOne.addInfo);

@@ -23,26 +23,30 @@
 			<h3 class="title">LIFTR</h3>
 		</div>
 
-		<h1 style="text-align: center;">Login</h1>
+		<h1 style="text-align: center;">Create a Liftr Account:</h1>
 
-		<h3 class="facebookLogin">Please login through Facebook to connect with fellow Liftr's!</h3>
-			<fb:login-button 
-				id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
-			</fb:login-button>
-
+		<br>
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;"> Login to your Liftr Account</h3>
+			<h4 id="loginDetails" style="text-align: center;">Or create a Liftr account to
+			to connect with fellow Liftr's!</h4>
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-				User Name: 
+				User Name: &ensp;
 				<input type="text" id="login" name="user_name" value="" maxlength="50" />
 			</div>
 
 			<br>
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-				Password:
+				Password: &ensp;
+				<input type="password" id="login" name="password" value="" maxlength="50" />
+			</div>
+
+			<br>
+
+			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+				Confirm Password: &ensp;
 				<input type="password" id="login" name="password" value="" maxlength="50" />
 			</div>
 		</div>
@@ -50,28 +54,15 @@
 		<br>
 		<br>
 
-		<div id="buttonSave" align="center">
-			<a href="index"><button name="saveButton"
-			style="border: 1.2px solid #222222; border-radius: 8px;"> Continue! </button></a>
+		<div id="buttonSave" style="text-align: center;">
+			<a href="create-profile"><button name="saveButton"
+			style="border: 1.2px solid #222222; border-radius: 8px;" > Continue! </button></a>
 		</div>
+
+		<br>
+		<br>
+		<br>
 	
-		<br>
-
-		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;">If you're new to Liftr, create an
-				account to connect with fellow Liftr's!</h3>
-
-			<div id="buttonSave" align="center">
-				 <a href="register"><button name="saveButton"
-					style="border: 1.2px solid #222222; border-radius: 8px;">
-					Register! </button></a>
-			</div>
-		</div>
-
-		<br>
-		<br>
-		<br>
-
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>

@@ -21,12 +21,12 @@
 
 		<h3 class="title">LIFTR</h3>
 
-		<h1 align="center">Recommended Posts</h1>
+		<h2 align="center" id="AllPosts">Similar Posts</h2>
 
 		<h4 align ="center">No Matches?</h4>
 
 		<a href="fullAdder">
-			<h4 style="display:inline;" class="addPostSuggestion2">Continue</h4>
+			<h4 align="center">Finish Adding Post</h4>
 		</a>
 
 		<br>
@@ -36,12 +36,12 @@
 			<form name={{name}} method="get" action="/findPost" align="center">
 				<button name="{{name}}" class="card" style="border-color: {{color}}";
 >
-					<h2 name="{{name}}"> {{name}} </h2>
+					<h2 id="AllPosts" name="{{name}}"> {{name}} </h2>
 					<img border="0" width="35px"
 						align="Right" src="images/bubbleRight.png" >
-					<h3>When: {{when}}</h3>
-					<h3>Gym: {{gym}}</h3>
-					<h3 style="color: {{color}};">Skill Level: {{level}}</h3>
+					<h3 id="AllPosts">When: {{when}}</h3>
+					<h3 id="AllPosts">Gym: {{gym}}</h3>
+					<h3 id="AllPosts" style="color: {{color}};">Skill Level: {{level}}</h3>
 				</button>
 			</form>
 			<br>
@@ -50,6 +50,7 @@
 
 	</div>
 
+	<br>
 	<br>
 	<br>
 	<br>

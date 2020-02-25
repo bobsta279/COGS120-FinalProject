@@ -13,27 +13,26 @@
 </head>
 
 <body>
+	<div class="grad">
 	<div class="container">
-		
 		<div class="jumbotron">
-			<a onclick="history.back()">
-			<img width="60px" align="left" class="leftImage" src="images/back_arrow.png">
-			</a>
-			<h3 class="title">LIFTR</h3>
 		</div>
 
+	<a onclick="history.back()">
+		<img width="60px" align="left" class="leftImage" src="images/back_arrow.png">
+	</a>
+			<h3 class="title">LIFTR</h3>
 		
 		<div id="nameInfo">
-			<form label="firstName" method="get", action="/user">
-				First name:
+			<form label="firstName" method="get" action="/user">
+				<h2 id="AllPosts">First name:</h2>
 				<input type="text" id="login" size="18px" placeholder="{{firstName}}"
 					name="firstName" value="" maxlength="15" />
 			
 			<br>
-			<br>
 
 			<form method="get" action="/user" label="lastName">
-				Last name:
+				<h2 id="AllPosts">Last name:</h2>
 				<input type="text" id="login" size="18px" placeholder="{{lastName}}"
 					name="lastName" value="" maxlength="15" />
 		</div>
@@ -44,7 +43,7 @@
 			
 		<form label="skill" action="/user">
 			<div class="skillLevel">
-			<h2 style="float: left;">Skill Level: &ensp;</h2>
+			<h2 id="AllPosts" style="float: left;">Skill Level: &ensp;</h2>
 			</div>
 			<br>
 			<select name="dropdown" id="login" class="dropdown" class="skillLevel" style="height: 32px;">
@@ -65,6 +64,15 @@
 			</div>
       	</form>
 
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>

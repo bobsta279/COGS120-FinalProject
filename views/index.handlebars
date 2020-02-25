@@ -14,45 +14,46 @@
 </head>
 
 <body>
-		<div class="grad">
-		<div class="jumbotron">
-		</div>
+	<div class="grad">
+			<div class="jumbotron">
+			</div>
 
-		<h3 class="title">LIFTR</h3>
-		<h1 align="center" id="AllPosts">All Posts</h1>
+			<h3 class="title">LIFTR</h3>
+			<h1 align="center" id="AllPosts">All Posts</h1>
 
 
-		<h4 style="text-align:center;">Can't find what you're looking for?</h4>
-	
-		<a href="add-Post">
-			<h4 style="text-align:center;">Add Post</h4>
-		</a>
-		<br>
-	
-
-		{{#each posts}}
-			<form name={{name}} method="get" action="/findPost" align="center">
-				<button name="{{name}}" class="card" style="border-color: {{color}}";
->
-					<h2 name="{{name}}"> {{name}} </h2>
-					<img border="0" width="35px"
-						align="Right" src="images/bubbleRight.png" >
-					<h3>When: {{when}}</h3>
-					<h3>Gym: {{gym}}</h3>
-					<h3 style="color: {{color}};">Skill Level: {{level}}</h3>
-				</button>
-			</form>
-			<br>
-			<br>
-		{{/each}}
+			<h4 style="text-align:center;">Can't find what you're looking for?</h4>
 		
-	</div>
+			<a href="add-Post">
+				<h4 style="text-align:center;">Add Post</h4>
+			</a>
+			<br>
+		
 
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+			{{#each posts}}
+				<form name={{name}} method="get" action="/findPost" align="center">
+					<button name="{{name}}" class="card" style="border-color: {{color}}";
+	>
+						<h2 id="AllPosts" name="{{name}}"> {{name}} </h2>
+						<img border="0" width="35px"
+							align="Right" src="images/bubbleRight.png" >
+						<h3 id="AllPosts">&nbsp; &ensp; When: {{when}}</h3>
+						<h3 id="AllPosts">Gym: {{gym}}</h3>
+						<h3 id="AllPosts" style="color: {{color}};">Skill Level: {{level}}</h3>
+					</button>
+				</form>
+				<br>
+				<br>
+			{{/each}}
+			
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		</div>
+	
 	</div>
 
 	<div class="toolbar">

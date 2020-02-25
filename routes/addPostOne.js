@@ -6,7 +6,6 @@ exports.addInfo = function(req, res){
         isEntered = false;
     } else {
        data.when = req.query.dropdown;
-       console.log("Add1");
        res.render('add-post2');
     }
 };

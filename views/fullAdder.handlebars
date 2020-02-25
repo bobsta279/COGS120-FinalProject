@@ -34,11 +34,11 @@
 <br>
 <br>
 
-		<div id="contactInfo">
-			<h4>Your Gym: {{gym}}</h4>
-			<br>
-			<h4>When you Plan to Workout: {{when}}</h4>
+	<form label="skill" action="/savePost">
 
+		<div id="contactInfo">
+				What do you want to work on?:
+				<input type="text" placeholder="Chest, Legs, Abs, etc" size="18px" name="wantsTo" maxlength="200" />
 		</div>
 			 
 		<br>
@@ -46,8 +46,21 @@
 		<br>
 		<br>
 		<br>
-		<a href="fullAdderTwo"> <button type="submit" class="button1" name="pls">Confirm and Continue!</button></a>
+			 <input type="submit" class="button1" name="pls" value="Continue!"></input>
 		</form>
+
+
+
+		<form method="get" id="saveAddOne" style="text-align: center;">
+			 
+		</form>
+
+			 
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
 	</div>
 

@@ -1,6 +1,6 @@
-var data = require("../user.json");
+var user = require("../user.json");
 
 exports.view = function(req, res){
-  console.log(data)
-  res.render('fullAdder', data);
+  user.level = (req.query.dropdown);
+  res.render('fullAdder');
 };

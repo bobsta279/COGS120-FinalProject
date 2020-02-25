@@ -60,13 +60,12 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: #3eebeb; 
      font-size: 20px;
      text-decoration: none;
+     background-color: #3eebeb;
      color: black;
      border: 1px solid #222222;
-     border-radius: 15px; /* 25px rounded corners */
-     
+     border-radius: 15px; /* 25px rounded corners */    
 }
 
 .toolbar-home

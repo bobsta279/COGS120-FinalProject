@@ -60,12 +60,13 @@
 {
      width: 32.5%;
      height: 100%;
+     background-color: #3eebeb; 
      font-size: 20px;
      text-decoration: none;
-     background-color: #3eebeb;
      color: black;
      border: 1px solid #222222;
-     border-radius: 15px; /* 25px rounded corners */    
+     border-radius: 15px; /* 25px rounded corners */
+     
 }
 
 .toolbar-home
@@ -195,25 +196,23 @@
 .createAccountInfo
 {
      font-size: 25px;
-     text-align: center;
 }
 
 .progressbar-wrapper {
      width: 100%;
      padding-top: 10px;
      padding-bottom: 5px;
-     padding-left: 50px;
 }
 
 .progressbar li {
      list-style-type: none;
-     width: 20%;
+     width: 15%;
      float: left;
      font-size: 12px;
      position: relative;
      text-align: center;
      text-transform: uppercase;
-     color: #7d7d7d;
+     color: #5c5b5b;
 }
 .progressbar li:before {
      width: 40px;
@@ -223,8 +222,8 @@
      border: 2px solid #7d7d7d;
      display: block;
      text-align: center;
-     margin: 0 auto 3px auto;
-     border-radius: 50%;
+     margin: 2px auto 3px auto;
+     border-radius: 40%;
      position: relative;
      z-index: 2;
      background-color: #fff;
@@ -244,18 +243,18 @@
  }
 
  .progressbar li.active {
-     color: green;
+     color: black;
      font-weight: bold;
  }
  .progressbar li.active:before {
-     border-color: #55b776;
-     background: green;
+     border-color: black;
+     background: hsl(205, 96%, 82%);
   }
  .progressbar li.active + li:after {
-     background-color: #55b776;
+     background-color: hsl(205, 96%, 82%);
  }
  .progressbar li.active:before {
-     background: #55b776  url(user.svg) no-repeat center center;
+     background: hsl(205, 96%, 82%)  url(user.svg) no-repeat center center;
      background-size: 60%;
  }
  .progressbar li::before {
@@ -271,7 +270,7 @@
  }
 
  .button1 {
-     background-color:#55b776;
+     background-color:hsl(205, 96%, 82%);
      width: 200px;
      height: 50px;
      margin-left: 75px;
@@ -377,9 +376,4 @@ textarea
 #title
 {
      border-radius: 10px;
-}
-
-.dropdown
-{
-     background-color:  rgb(163, 191, 241);
 }

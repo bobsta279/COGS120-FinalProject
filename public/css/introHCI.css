@@ -381,6 +381,7 @@ textarea
 #title
 {
      border-radius: 10px;
+     margin-left: 10px;
 }
 
 .dropdown
@@ -390,4 +391,9 @@ textarea
      border-radius: 5px;
      margin-left: 30px;
      
+}
+
+#display {
+     font-size:25px;
+     margin-left: 10px;
 }

@@ -1,15 +1,15 @@
 var data;
 var filteredData;
-var user;
+var user1;
 
 exports.findPost = function(req, res){
   data = require("../posts.json");
   filteredData = JSON.parse(JSON.stringify(data));
-  user = require("../user.json");
+  user1 = require("../user.json");
 
   var nameStr = Object.keys(req.query)[0] + "";
   if(nameStr == ""){
-    nameStr = user.firstName + user.lastName;
+    nameStr = user1.firstName + user1.lastName;
   }
 
   console.log(nameStr);

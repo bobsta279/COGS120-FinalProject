@@ -20,82 +20,103 @@
 </head>
 
 <body>
-
-  {{#each posts}}
-    <h4 class="theHead">
-    <a onclick="history.back()"> <img width="40px" align="left" class="leftImage"
-      src="images/leftArrow.jpg"> </a> Potential Partner &ensp; &ensp;</h4> 
-
-    <h4 class="theHead">{{name}}</h4>
-
+  <div class="grad">
+    <img onclick="history.back()" width="80px" align="left" style="margin-left: 0px;"
+			class="leftImage" src="images/back_arrow.png">
     <br>
+    {{#each posts}}
+      <h4 class="theHead"> </a> Potential Partner &ensp; &ensp;</h4> 
 
-    <div class="important">
-      <p class="card1" style="color: {{color}};"> Skill Level: {{level}} </p>
-    </div>
-    <br>
-    <div class="important">
-      <div class="card1"> Gym: {{gym}} <br>
-        Workout in: {{when}}
+      <h4 id="theName" style="text-align: center;" class="theHead">{{name}} &ensp; &ensp; &nbsp;</h4>
+
+      <br>
+
+      <div class="important">
+        <p class="card1"> Main Focus: <br> {{level}} </p>
       </div>
+      <br>
+      <div class="important">
+        <div class="card1"> Gym: {{gym}} <br>
+          When: {{when}}
+        </div>
+      </div>
+
+      <div class="card2" align="center">
+        <h2>Specific Workouts: <br>
+          {{wantsToLearn}}</h2>
+      </div>
+
+      <div class="card3" align="center">
+        <h2>Phone Number: <br>
+          {{phone}}</h2>
+      </div>
+
+      <br>
+
+    {{/each}}
+
+      <div class="comment">
+  <textarea id="title" style="font-size:20px;" type="text "rows="1" cols="25" onkeyup="Allow()" placeholder="&nbsp;Write a Comment..."></textarea>
+  <input id="title" type="submit" value="Post" onclick="insert()" style="font-size:20px; width:75px; height: 35px; background-color:hsl(205, 96%, 82%); display: inline-block;" /></form>
+  </div>
+  <div id="display"></div>
+  <script type="text/javascript">
+  var titles = [];
+  var titleInput = document.getElementById("title");
+  var messageBox = document.getElementById("display");
+  function Allow()
+  {
+  if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+  {
+  }
+  function insert () {
+  titles.push(titleInput.value);
+  clearAndShow();
+  }
+  function clearAndShow ()
+  {
+  titleInput.value = "";
+  messageBox.innerHTML = "";
+  messageBox.innerHTML += "Tone Xu: " + titles.join("<br/> ") + "<br/>";
+  }
+  </script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <!-- the bottom of the page -->
+    <div class="toolbar">
+      <a href="fullAdder">
+        <button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
+          Add Post
+        </button>
+      </a>
+      <a href="recommended">
+        <button class="toolbar-home" onclick="window.location.href = 'index';">
+          Home
+        </button>
+      </a>
+      <a href="create-profile">
+        <button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
+          Profile
+        </button>
+      </a>
     </div>
-
-    <div class="card2" align="center">
-      <h2>Wants to:</h2>
-      <h2>{{wantsToLearn}}</h2>
-    </div>
-
-    <div class="card3" align="center">
-      <h2>Phone Number:</h2>
-      <h2>{{phone}}</h2>
-    </div>
-
-    <br>
-
-  {{/each}}
-
-    <div class="comment">
-<textarea id="title" type="text "rows="2" cols="50" onkeyup="Allow()" placeholder="write a comment......"></textarea>
-<input type="submit" value="Post" onclick="insert()" style="width:50px;" /></form>
-</div>
-<div id="display"></div>
-<script type="text/javascript">
-var titles = [];
-var titleInput = document.getElementById("title");
-var messageBox = document.getElementById("display");
-function Allow()
-{
-}
-function insert () {
-titles.push(titleInput.value);
-clearAndShow();
-}
-function clearAndShow ()
-{
-titleInput.value = "";
-messageBox.innerHTML = "";
-messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-}
-</script>
-
-  <!-- the bottom of the page -->
-	<div class="toolbar">
-		<a href="fullAdder">
-			<button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
-				Add Post
-			</button>
-		</a>
-		<a href="recommended">
-			<button class="toolbar-home" onclick="window.location.href = 'index';">
-				Home
-			</button>
-		</a>
-		<a href="create-profile">
-			<button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
-				Profile
-			</button>
-		</a>
-	</div>
+  </div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>

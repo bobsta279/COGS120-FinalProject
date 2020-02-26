@@ -259,15 +259,13 @@
 
 .progressbar li.active + li:after {
      background-color: #3eebeb;
-}
-
-.progressbar li.active:before {
-     background: #3eebeb  url(user.svg) no-repeat center center;
+ }
+ .progressbar li.active:before {
+     background: #3eebeb no-repeat center center;
      background-size: 60%;
-}
-
-.progressbar li::before {
-     background: #fff url(user.svg) no-repeat center center;
+ }
+ .progressbar li::before {
+     background: #fff no-repeat center center;
      background-size: 60%;
 }
 

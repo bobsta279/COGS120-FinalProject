@@ -63,7 +63,6 @@ exports.viewAlt = function(req, res){
           i--;
       }
     }
-
     
     // BOOLEAN
     filteredData["alt"] = true;

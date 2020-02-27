@@ -15,7 +15,7 @@ exports.view = function(req, res){
       user.level = (req.query.dropdown);
     }
     
-    console.log(user);
+    console.log(filteredData["alt"]);
     var expString = "";
     var gymString = "";
     var whenString = "";
@@ -30,7 +30,7 @@ exports.view = function(req, res){
     }
 
     // BOOLEAN
-    data["alt"] = false;
+    filteredData["alt"] = false;
 
     res.render('recommended', filteredData);
     filteredData = JSON.parse(JSON.stringify(data));
@@ -50,7 +50,7 @@ exports.viewAlt = function(req, res){
       user.level = (req.query.dropdown);
     }
     
-    console.log(user);
+    console.log(filteredData["alt"]);
     var expString = "";
     var gymString = "";
     var whenString = "";
@@ -66,7 +66,7 @@ exports.viewAlt = function(req, res){
 
     
     // BOOLEAN
-    data["alt"] = true;
+    filteredData["alt"] = true;
 
     res.render('recommended', filteredData);
     filteredData = JSON.parse(JSON.stringify(data));

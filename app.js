@@ -69,12 +69,13 @@ app.get('/savePhone', savePhone.addPost);
 
 app.get('/add-post', add_post.view);
 app.get('/recommended', recommended.view);
+app.get('/recommendedAlt', recommended.viewAlt);
 
 app.get('/index', index.view);
 app.get('/findPost', findPost.findPost);
 app.get('/posts', posts.viewPost);
 app.get('/view-messages', view_messages.view);
-app.get('/create-profile', create_profile.view)
+app.get('/create-profile', create_profile.view);
 
 // Example route
 // app.get('/users', user.list);

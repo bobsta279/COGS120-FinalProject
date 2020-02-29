@@ -15,7 +15,23 @@ exports.view = function(req, res){
       user.level = (req.query.dropdown);
     }
     
-    console.log(filteredData["alt"]);
+    if(("" + req.query.firstName).localeCompare("")){
+      data.firstName = req.query.firstName + " ";
+  } else {
+      req.query.firstName = data.firstName;
+  }
+
+  if(("" + req.query.lastName).localeCompare("")){
+      data.lastName = req.query.lastName;
+  } else {
+      req.query.lastName = data.lastName;
+  }
+
+  if(("" + req.query.phoneNumber).localeCompare("")){
+      data.phone = req.query.phoneNumber;
+  } else {
+      req.query.phoneNumber = data.phone;
+  }
     var expString = "";
     var gymString = "";
     var whenString = "";
@@ -32,7 +48,11 @@ exports.view = function(req, res){
     // BOOLEAN
     filteredData["alt"] = false;
 
-    res.render('recommended', filteredData);
+    if (("" + req.query.lastName).localeCompare("") && 
+    ("" + req.query.firstName).localeCompare("") &&
+    ("" + req.query.phoneNumber).localeCompare("")){
+      res.render('recommended', filteredData);
+    }
     filteredData = JSON.parse(JSON.stringify(data));
   }
 };
@@ -49,8 +69,28 @@ exports.viewAlt = function(req, res){
     if(req.query.dropdown != null){
       user.level = (req.query.dropdown);
     }
+
+
+  if(("" + req.query.firstName).localeCompare("")){
+      data.firstName = req.query.firstName + " ";
+  } else {
+      req.query.firstName = data.firstName;
+  }
+
+  if(("" + req.query.lastName).localeCompare("")){
+      data.lastName = req.query.lastName;
+  } else {
+      req.query.lastName = data.lastName;
+  }
+
+  if(("" + req.query.phoneNumber).localeCompare("")){
+      data.phone = req.query.phoneNumber;
+  } else {
+      req.query.phoneNumber = data.phone;
+  }
+
+  
     
-    console.log(filteredData["alt"]);
     var expString = "";
     var gymString = "";
     var whenString = "";
@@ -67,7 +107,11 @@ exports.viewAlt = function(req, res){
     // BOOLEAN
     filteredData["alt"] = true;
 
-    res.render('recommended', filteredData);
+    if (("" + req.query.lastName).localeCompare("") && 
+    ("" + req.query.firstName).localeCompare("") &&
+    ("" + req.query.phoneNumber).localeCompare("")){
+      res.render('recommended', filteredData);
+    }
     filteredData = JSON.parse(JSON.stringify(data));
   }
 };

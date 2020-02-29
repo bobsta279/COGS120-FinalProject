@@ -45,6 +45,12 @@ function initializePage() {
 			$(".lastNameT").css('color', 'black');
 
 		}
+
+		if($(".phoneNumber").val() == ""){
+			$(".phoneNumberT").css('color', 'red');
+		} else {
+			$(".phoneNumberT").css('color', 'black');
+		}
 	});
 
    

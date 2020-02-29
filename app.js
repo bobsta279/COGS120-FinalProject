@@ -10,6 +10,7 @@ var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
 var user = require("./routes/user");
+var updateProfile = require('./routes/update-profile');
 
 var findPost = require('./routes/findPost');
 var create_profile = require('./routes/create-profile')
@@ -29,7 +30,6 @@ var add_post = require('./routes/add-post');
 
 var recommended = require('./routes/recommended');
 
-var view_messages = require('./routes/view-messages');
 
 var app = express();
 
@@ -74,8 +74,8 @@ app.get('/recommendedAlt', recommended.viewAlt);
 app.get('/index', index.view);
 app.get('/findPost', findPost.findPost);
 app.get('/posts', posts.viewPost);
-app.get('/view-messages', view_messages.view);
 app.get('/create-profile', create_profile.view);
+app.get('/update-profile', updateProfile.view);
 
 // Example route
 // app.get('/users', user.list);

@@ -27,10 +27,51 @@
 
 <body>
 	<div class="grad">
-			<div class="jumbotron">
-			</div>
+			<br>
+				<form label="skill" action="/addPostOne" style="text-align: center; display: inline-block;
+					margin-left:10px">
+					<select onchange="location = 'index';" class="dropdown" style="float: left;"
+					name="dropdown" style="width: 100px; font-size: 5px;">
+    				<option value = "none">Time</option>
+						<option value = "now">Now</option>
+						<option value = "in 1-2 hours">in 1-2 hours</option>
+						<option value = "in 2-4 hours">in 2-4 hours</option>
+						<option value = "in 4-8 hours">in 4-8 hours</option>
+						<option value = "in 8-16 hours">in 8-16 hours</option>
+					</select>​
+					
+					<br>
+					<br>
+				</form>
 
-			<h3 class="title">LIFTR</h3>
+				<form label="skill" action="/addPostOne" style="display: inline-block;">
+					<select onchange="location = 'index';" class="dropdown" style="float: left;"
+					name="dropdown" style="width: 100px; font-size: 30px;">
+    				<option value = "none">Location</option>
+					<option value = "none">--Please select--</option>
+					<option value = "RIMAC">RIMAC</option>
+					<option value = "Main Gym">Main Gym</option>
+					</select>​
+					
+					<br>
+					<br>
+				</form>
+
+				<form label="skill" action="/addPostOne" style="display: inline-block; float:right">
+					<select onchange="location = 'index';" class="dropdown" style="float: left;"
+					name="dropdown" style="width: 100px; font-size: 30px;">
+    				<option value = "none">Main Focus</option>
+					<option style="color: #e7eaed;" value = "Losing Weight">Losing Weight</option>
+					<option style="color: #6c7e90;" value = "Building Muscle">Building Muscle</option>
+					<option style="color: black;" value = "Cardio">Cardio</option>
+					</select>​
+					
+					<br>
+					<br>
+				</form>
+			
+
+			
 			<h1 align="center" id="AllPosts">All Posts</h1>
 
 

@@ -3,22 +3,22 @@
   [
     {
       "name": "Alex Garza",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Antonio Simp",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "now",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     }, 
     {
       "name": "Emily Ferguson",
@@ -28,27 +28,27 @@
       "when": "now",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Andrew Benser",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     },
     {
       "name": "Sophia Speredelozzi",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "now",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Mitchell Farrington",
@@ -58,26 +58,26 @@
       "when": "now",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Ashley Pappilli",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Addison Sorrells",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 1-2 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     }, 
     {
       "name": "Advik Chins",
@@ -87,27 +87,27 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Alexander Zhu",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     },
     {
       "name": "Jason Allen",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Ben Talcovitiz",
@@ -117,26 +117,26 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Bobby Fredrick",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Bridget Cass",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 2-4 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     }, 
     {
       "name": "Bryan Lee",
@@ -146,27 +146,27 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Caleb Mcman",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     },
     {
       "name": "Cameron Ducharme",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 2-4 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Chris Lefkarites",
@@ -176,26 +176,26 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Connor McPherson",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Dane Melfi",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 4-8 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     }, 
     {
       "name": "Dennis Lyn",
@@ -205,27 +205,27 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Derick Ma",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     },
     {
       "name": "Fahim Talukder",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 4-8 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Gabe French",
@@ -235,26 +235,26 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Haley Wilson",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Hannah Dentot",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 8-18 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     }, 
     {
       "name": "Will Hsu",
@@ -264,27 +264,27 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     },
     {
       "name": "Jacob Roger",
-      "level": "Losing Weight",
+      "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#6c7e90"
     },
     {
       "name": "Jaylen Newman",
-      "level": "Building Muscle",
+      "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 8-18 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "black"
     },
     {
       "name": "Joseph Edward",
@@ -294,7 +294,7 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "#e7eaed"
     }
   ]
 }

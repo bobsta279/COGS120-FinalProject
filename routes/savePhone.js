@@ -6,10 +6,10 @@ exports.addPost = function(req, res){
     user.longTerm = req.query.longTerm;
     console.log(user);
     var color;
-    if(user.level == "Losing Weight"){
-        color = "white";
-    } else if ( user.level == "Building Muscle"){
-        color = "#6c7e90"
+    if(user.level == "Weightlifting"){
+        color = "#6c7e90";
+    } else if (user.level == "Bodyweight"){
+        color = "#e7eaed"
     } else {
         color = "black"
     }

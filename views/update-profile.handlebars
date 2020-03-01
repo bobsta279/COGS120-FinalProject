@@ -41,23 +41,23 @@
 			<br>
 
 			<div id="nameInfo">
-				<form label="firstName" method="get" action="/user">
+				<form label="firstName" method="get" action="/recommended">
 					<h2 id="AllPosts" class="firstNameT">First name:</h2>
-					<input type="text" id="login" class="firstName"size="18px" placeholder="&nbsp;{{firstName}}"
+					<input type="text" id="login" class="firstName" size="18px" placeholder="&nbsp;{{firstName}}"
 						name="firstName" value="" maxlength="15" />
 				
 				<br>
 
-				<form method="get" action="/user" label="lastName">
+				<form method="get" action="/recommended" label="lastName">
 					<h2 id="AllPosts" class="lastNameT">Last name:</h2>
 					<input type="text" id="login" class="lastName" size="18px" placeholder="&nbsp;{{lastName}}"
 						name="lastName" value="" maxlength="15" />
 
 				<br>
 
-				<form method="get" action="/user" label="phoneNumber">
+				<form method="get" action="/recommended" label="phoneNumber">
 					<h2 id="AllPosts" class="phoneNumberT">Phone Number:</h2>
-					<input type="text" id="login" class="phoneNumber" size="18px" placeholder="&nbsp;{{lastName}}"
+					<input type="text" id="login" class="phoneNumber" size="18px" placeholder="&nbsp;{{phone}}"
 						name="phoneNumber" value="" maxlength="15" />
 			</div>
 			
@@ -69,17 +69,19 @@
 					<input style="border: 1.8px solid #222222; border-radius: 8px;
 						background-color: #3eebeb;" id="saveUser" name="user2"
 						type="submit" value="Save"></input>
+						<br>
+						<br>
+						<input style="border: 1.8px solid #222222; border-radius: 8px;
+						background-color: #3eebeb;" id="saveUser" name = "user1"
+						type="submit" value="Update Preferences"></input>
 				</div>
 			</form>
 
-			<br>
-			<br>
+			
 
-			<form label="skill" action="/user">
+			<form label="save" action="/recommended">
 				<div id="saveBtn">
-					<input style="border: 1.8px solid #222222; border-radius: 8px;
-						background-color: #3eebeb;" id="saveUser" name = "user2"
-						type="submit" value="Update Preferences"></input>
+					
 				</div>
 			</form>
 

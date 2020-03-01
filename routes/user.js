@@ -19,9 +19,14 @@ exports.addInfo = function(req, res){
         req.query.phoneNumber = data.phone;
     }
 
+    console.log(data);
+
     if (("" + req.query.lastName).localeCompare("") && 
       ("" + req.query.firstName).localeCompare("") &&
       ("" + req.query.phoneNumber).localeCompare("")){
+
+        
         res.render('add-post')
+        
     }
 }

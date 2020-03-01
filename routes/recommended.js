@@ -3,36 +3,64 @@ var user;
 var filteredData;
 
 exports.view = function(req, res){ 
-
   data = require("../posts.json");
   filteredData = JSON.parse(JSON.stringify(data));
   user = require("../user.json");
+
+  if(req.query.user1 == "Update Preferences"){
+    console.log(req.query.firstName);
+    
+    if(("" + req.query.firstName).localeCompare("")){
+      user.firstName = req.query.firstName + " ";
+    } else {
+      req.query.firstName = user.firstName;
+    }
+
+    if(("" + req.query.lastName).localeCompare("")){
+      user.lastName = req.query.lastName;
+    } else {
+      req.query.lastName = user.lastName;
+    }
+
+    if(("" + req.query.phoneNumber).localeCompare("")){
+      user.phone = req.query.phoneNumber;
+    } else {
+      req.query.phoneNumber = user.phone;
+    }
+
+    if (("" + req.query.lastName).localeCompare("") && 
+      ("" + req.query.firstName).localeCompare("") &&
+      ("" + req.query.phoneNumber).localeCompare("")){
+        res.render('add-post')
+     } 
+  } else {
+
+
   console.log(user);
   
-  if (req.query.dropdown == "none"){
-    isEntered = false;
-  } else {
+  
     if(req.query.dropdown != null){
       user.level = (req.query.dropdown);
     }
     
-    if(("" + req.query.firstName).localeCompare("")){
-      data.firstName = req.query.firstName + " ";
-  } else {
-      req.query.firstName = data.firstName;
-  }
+    if(("" + req.query.firstName).localeCompare("") && req.query.firstName != null){
+      user.firstName = req.query.firstName + " ";
+    } else {
+      req.query.firstName = user.firstName;
+    }
 
-  if(("" + req.query.lastName).localeCompare("")){
-      data.lastName = req.query.lastName;
-  } else {
-      req.query.lastName = data.lastName;
-  }
+    if(("" + req.query.lastName).localeCompare("") && req.query.lastName != null){
+      user.lastName = req.query.lastName;
+    } else {
+      req.query.lastName = user.lastName;
+    }
 
-  if(("" + req.query.phoneNumber).localeCompare("")){
-      data.phone = req.query.phoneNumber;
-  } else {
-      req.query.phoneNumber = data.phone;
-  }
+    if(("" + req.query.phoneNumber).localeCompare("") && req.query.phoneNumber != null){
+      user.phone = req.query.phoneNumber;
+    } else {
+      req.query.phoneNumber = user.phone;
+    }
+
     var expString = "";
     var gymString = "";
     var whenString = "";
@@ -56,6 +84,7 @@ exports.view = function(req, res){
     }
     filteredData = JSON.parse(JSON.stringify(data));
   }
+
 };
 
 exports.viewAlt = function(req, res){ 

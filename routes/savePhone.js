@@ -6,7 +6,7 @@ exports.addPost = function(req, res){
     user.phone = req.query.phone;
     console.log(user);
     var color;
-    if(user.level == "Loosing Weight"){
+    if(user.level == "Losing Weight"){
         color = "white";
     } else if ( user.level == "Building Muscle"){
         color = "#6c7e90"

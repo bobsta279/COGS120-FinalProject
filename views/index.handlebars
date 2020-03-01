@@ -31,11 +31,7 @@
 		<h1 align="center" id="AllPosts">All Posts</h1>
 
 
-			<h4 style="text-align:center;">Can't find what you're looking for?</h4>
-		
-			<a href="fullAdder">
-				<h4 style="text-align:center;">Add Post</h4>
-			</a>
+			<br>
 
 				<form label="skill" action="/addPostOne" >
 					<label style="float:left; margin-left:80px; font-size:20px">Time:</label>
@@ -44,9 +40,9 @@
     				<option value = "none">No Preference</option>
 						<option value = "now">Now</option>
 						<option value = "in 1-2 hours">in 1-2 hours</option>
-						<option value = "in 2-4 hours">in 2-4 hours</option>
-						<option value = "in 4-8 hours">in 4-8 hours</option>
-						<option value = "in 8-16 hours">in 8-16 hours</option>
+						<option value = "in 3-4 hours">in 3-4 hours</option>
+						<option value = "in 5-6 hours">in 5-6 hours</option>
+						<option value = "in 7-8 hours">in 7-8 hours</option>
 					</select>​
 				
 				</form>
@@ -81,8 +77,19 @@
 					</select>​
 					
 				</form>
-					<br>
+				<br>
 					
+			<h4 style="text-align:center;">Can't find what you're looking for?</h4>
+
+			<div align="center">
+				<a href="fullAdder">
+					<button class="button3">
+						<h4>Add a Post</h4>
+					</button>
+				</a>
+			</div>
+
+			<br>
 
 			{{#each posts}}
 				<form name={{name}} method="get" action="/findPost" align="center">

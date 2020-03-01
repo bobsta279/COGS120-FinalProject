@@ -297,9 +297,16 @@
      font-size: 30px;
 }
 
+.button3 {
+     background-color: #ccc;
+     width: 130px;
+     height: 40px;
+     border: 1.2px solid #222222;
+     border-radius: 8px;
+}
+
 .facebookLogin
-{
-     
+{    
      align-self: center;
 }
 

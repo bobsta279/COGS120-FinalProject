@@ -383,6 +383,17 @@ textarea
      margin-right: auto;
 }
 
+.card4 {
+     color: black;
+     /* Add shadows to create the "card" effect */
+     box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
+     border-radius: 10px; /* 25px rounded corners */
+     background-color:  #b3cde0;
+     max-width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
 .addPostSuggestion1
 {
      margin-left: 38px;

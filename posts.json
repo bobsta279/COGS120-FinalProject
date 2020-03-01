@@ -9,7 +9,8 @@
       "when": "now",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Benching 2 plates"
     },
     {
       "name": "Antonio Simp",
@@ -18,7 +19,8 @@
       "when": "now",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Doing one pullup"
     }, 
     {
       "name": "Emily Ferguson",
@@ -28,7 +30,8 @@
       "when": "now",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Losing weight"
     },
     {
       "name": "Andrew Benser",
@@ -38,7 +41,8 @@
       "when": "now",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Building muscle"
     },
     {
       "name": "Sophia Speredelozzi",
@@ -48,7 +52,8 @@
       "when": "now",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Six minute mile"
     },
     {
       "name": "Mitchell Farrington",
@@ -58,7 +63,8 @@
       "when": "now",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Gain weight"
     },
     {
       "name": "Ashley Pappilli",
@@ -68,7 +74,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Benching 2 plates"
     },
     {
       "name": "Addison Sorrells",
@@ -77,7 +84,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Doing one pullup"
     }, 
     {
       "name": "Advik Chins",
@@ -87,7 +95,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Losing weight"
     },
     {
       "name": "Alexander Zhu",
@@ -97,7 +106,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Building muscle"
     },
     {
       "name": "Jason Allen",
@@ -107,7 +117,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Six minute mile"
     },
     {
       "name": "Ben Talcovitiz",
@@ -117,7 +128,8 @@
       "when": "in 1-2 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Gain weight"
     },
     {
       "name": "Bobby Fredrick",
@@ -127,7 +139,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Benching 2 plates"
     },
     {
       "name": "Bridget Cass",
@@ -136,7 +149,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Doing one pullup"
     }, 
     {
       "name": "Bryan Lee",
@@ -146,7 +160,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Losing weight"
     },
     {
       "name": "Caleb Mcman",
@@ -156,7 +171,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Building muscle"
     },
     {
       "name": "Cameron Ducharme",
@@ -166,7 +182,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Six minute mile"
     },
     {
       "name": "Chris Lefkarites",
@@ -176,7 +193,8 @@
       "when": "in 2-4 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Gain weight"
     },
     {
       "name": "Connor McPherson",
@@ -186,7 +204,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Benching 2 plates"
     },
     {
       "name": "Dane Melfi",
@@ -195,7 +214,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Doing one pullup"
     }, 
     {
       "name": "Dennis Lyn",
@@ -205,7 +225,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Losing weight"
     },
     {
       "name": "Derick Ma",
@@ -215,7 +236,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Building muscle"
     },
     {
       "name": "Fahim Talukder",
@@ -225,7 +247,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Six minute mile"
     },
     {
       "name": "Gabe French",
@@ -235,7 +258,8 @@
       "when": "in 4-8 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Gain weight"
     },
     {
       "name": "Haley Wilson",
@@ -245,7 +269,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "bench press and squat",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Benching 2 plates"
     },
     {
       "name": "Hannah Dentot",
@@ -254,7 +279,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Doing one pullup"
     }, 
     {
       "name": "Will Hsu",
@@ -264,7 +290,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "How to box",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Losing weight"
     },
     {
       "name": "Jacob Roger",
@@ -274,7 +301,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "A great ab routine",
       "phone": "800-261-2891",
-      "color": "#6c7e90"
+      "color": "#6c7e90",
+      "longTerm": "Building muscle"
     },
     {
       "name": "Jaylen Newman",
@@ -284,7 +312,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
-      "color": "black"
+      "color": "black",
+      "longTerm": "Six minute mile"
     },
     {
       "name": "Joseph Edward",
@@ -294,7 +323,8 @@
       "when": "in 8-18 hours",
       "wantsToLearn": "How to be smooth",
       "phone": "800-261-2891",
-      "color": "#e7eaed"
+      "color": "#e7eaed",
+      "longTerm": "Gain weight"
     }
   ]
 }

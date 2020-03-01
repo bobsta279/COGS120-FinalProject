@@ -8,7 +8,7 @@
     "userLevel": "",
     "wantsTo": "",
     "longTerm": "",
-    "noPrefTime": "false",
-    "noPrefLoc": "false",
-    "noPrefFoc": "false"
+    "noPrefTime": "true",
+    "noPrefLoc": "true",
+    "noPrefFoc": "true"
 }

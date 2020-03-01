@@ -40,28 +40,39 @@
     {{#each posts}}
       <h4 class="theHead"> </a> Potential Partner &ensp; &ensp;</h4> 
 
-      <h4 id="theName" style="text-align: center;" class="theHead">{{name}} &ensp; &ensp; &nbsp;</h4>
-
-      <br>
-
-      <div class="important">
-        <p class="card1"> Main Focus: <br> {{level}} </p>
+      <div id="theName" style="text-align: center;"
+        class="theHead">{{name}} &ensp; &ensp; &nbsp; &nbsp;
       </div>
+
       <br>
+
       <div class="important">
-        <div class="card1"> Gym: {{gym}} <br>
-          When: {{when}}
+        <p class="card1"> <b>Main Focus:</b> <br> {{level}} </p>
+      </div>
+
+      
+      <div class="important">
+        <div class="card1"> <b>Gym:</b> {{gym}} <br>
+          <b>When:</b> {{when}}
         </div>
       </div>
 
       <div class="card2" align="center">
-        <h2>Specific Workouts: <br>
-          {{wantsToLearn}}</h2>
+        <h2> <b>Specific Workouts:</b>
+        <br>
+        {{wantsToLearn}}</h2>
+      </div>
+
+      <div class="card2" align="center">
+        <h2> <b>Long Term Goals:</b>
+        <br>
+        {{longTerm}}</h2>
       </div>
 
       <div class="card3" align="center">
-        <h2>Phone Number: <br>
-          {{phone}}</h2>
+        <h2> <b>Phone Number:</b>
+        <br>
+        {{phone}}</h2>
       </div>
 
       <br>
@@ -70,7 +81,7 @@
 
       <div class="comment">
   <textarea id="title" style="font-size:20px;" type="text "rows="1" cols="25" onkeyup="Allow()" placeholder="&nbsp;Write a Comment..."></textarea>
-  <input id="title" type="submit" value="Post" onclick="insert()" style="font-size:20px; width:75px; height: 35px; background-color:hsl(205, 96%, 82%); display: inline-block;" /></form>
+  <input id="title" type="submit" value="Post" onclick="insert()" style="font-size:20px; width:75px; height: 35px; margin-right: 1px; background-color:hsl(205, 96%, 82%); display: inline-block;" /></form>
   </div>
   <div id="display"></div>
   <script type="text/javascript">
@@ -81,27 +92,16 @@
   {
   }
   function insert () {
-  titles.push(titleInput.value);
-  clearAndShow();
+    titles.push(titleInput.value);
+    clearAndShow();
   }
   function clearAndShow ()
   {
-  titleInput.value = "";
-  messageBox.innerHTML = "";
-  messageBox.innerHTML += "Tone Xu: " + titles.join("<br/> Tone Xu: ") + "<br/>";
+    titleInput.value = "";
+    messageBox.innerHTML = "";
+    messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
   }
   </script>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   <br>
   <br>
   <br>

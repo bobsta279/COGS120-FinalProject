@@ -1,6 +1,8 @@
 var data = require("../user.json");
 
 exports.addInfo = function(req, res){
+    data.from = "true";
+
     if(("" + req.query.firstName).localeCompare("")){
         data.firstName = req.query.firstName + " ";
     } else {

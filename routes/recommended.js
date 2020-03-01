@@ -7,6 +7,7 @@ exports.view = function(req, res){
   data = require("../posts.json");
   filteredData = JSON.parse(JSON.stringify(data));
   user = require("../user.json");
+  console.log(user);
   
   if (req.query.dropdown == "none"){
     isEntered = false;

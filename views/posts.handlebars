@@ -79,59 +79,64 @@
 
     {{/each}}
 
-      <div class="comment">
-  <textarea id="title" style="font-size:20px;" type="text "rows="1" cols="25" onkeyup="Allow()" placeholder="&nbsp;Write a Comment..."></textarea>
-  <input id="title" type="submit" value="Post" onclick="insert()" style="font-size:20px; width:75px; height: 35px; margin-right: 1px; background-color:hsl(205, 96%, 82%); display: inline-block;" /></form>
-  </div>
-  <div id="display"></div>
-  <script type="text/javascript">
-  var titles = [];
-  var titleInput = document.getElementById("title");
-  var messageBox = document.getElementById("display");
-  function Allow()
-  {
-  }
-  function insert () {
-    titles.push(titleInput.value);
-    clearAndShow();
-  }
-  function clearAndShow ()
-  {
-    titleInput.value = "";
-    messageBox.innerHTML = "";
-    messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
-  }
-  </script>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-    <!-- the bottom of the page -->
-    <div class="toolbar">
-		<a href="recommended">
-			<button class="toolbar-home" onclick="window.location.href = 'index';">
-				<img border="0" width="58px" align="center"
-					src="images/housePic.png">
-			</button>
-		</a>
+    <div class="comment">
+      <textarea id="title" style="font-size:20px;" type="text"
+        rows="1" cols="25" onkeyup="Allow()"
+        placeholder="&nbsp;Write a Comment..."></textarea>
+      <input id="title" type="submit" value="Post" onclick="insert()"
+        style="font-size:20px; width:75px; height: 35px;
+        margin-right: 1px; background-color:hsl(205, 96%, 82%);
+        display: inline-block;" /></form>
+      </div>
+      <div id="display"></div>
+      <script type="text/javascript">
+        var titles = [];
+        var titleInput = document.getElementById("title");
+        var messageBox = document.getElementById("display");
+        function Allow()
+        {
+        }
+        function insert () {
+          titles.push(titleInput.value);
+          clearAndShow();
+        }
+        function clearAndShow ()
+        {
+          titleInput.value = "";
+          messageBox.innerHTML = "";
+          messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+        }
+      </script>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!-- the bottom of the page -->
+      <div class="toolbar">
+      <a href="recommended">
+        <button class="toolbar-home" onclick="window.location.href = 'index';">
+          <img border="0" width="58px" align="center"
+            src="images/housePic.png">
+        </button>
+      </a>
 
-		<a href="fullAdder">
-			<button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
-				<img border="0" width="55px" align="center"
-							src="images/plusSign.png">
-			</button>
-		</a>
+      <a href="fullAdder">
+        <button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
+          <img border="0" width="55px" align="center"
+                src="images/plusSign.png">
+        </button>
+      </a>
 
-		<a href="update-profile">
-			<button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
-				<img border="0" width="65px" align="center"
-							src="images/profilePic.png">
-			</button>
-		</a>
-	</div>
+      <a href="update-profile">
+        <button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
+          <img border="0" width="65px" align="center"
+                src="images/profilePic.png">
+        </button>
+      </a>
+    </div>
 
   </div>
 

@@ -27,14 +27,57 @@
 
 <body>
 	<div class="grad">
-	<div class="container">
-		<div class="jumbotron">
-		</div>
-
-		<h3 class="title">LIFTR</h3>
+		<br>
 
 		<h2 align="center" id="AllPosts">Recommended Posts</h2>
 
+		<br>
+
+		<form label="skill" action="/addPostOne" >
+					<label style="float:left; margin-left:80px; font-size:20px">Time:</label>
+					<select method="get" class="dropdown"
+					style="margin-left:10px; width: 155px; height:28px; font-size: 20px;" name="when">
+    				<option value = "none">No Preference</option>
+						<option value = "now">Now</option>
+						<option value = "in 1-2 hours">in 1-2 hours</option>
+						<option value = "in 2-4 hours">in 2-4 hours</option>
+						<option value = "in 4-8 hours">in 4-8 hours</option>
+						<option value = "in 8-16 hours">in 8-16 hours</option>
+					</select>​
+				
+				</form>
+
+				<form label="skill" action="/addPostOne"   style="display: inline-block;">
+					<label style="float:left; margin-left:43px; font-size:20px">Location:</label>
+					<select method="get" class="dropdown"
+					name="where" style="margin-left:10px; width: 155px; height:28px; font-size: 20px;">
+    				<option value = "none">No Preference</option>
+					<option value = "RIMAC">RIMAC</option>
+					<option value = "Main Gym">Main Gym</option>
+					</select>​
+					
+				</form>
+
+				<form style="display: inline-block;" label="save" action="/recommended">
+					<img name = "refresh"
+					type="submit" value="Save" style="margin-left:10px; width:50px; height:50px" src="images/refresh.png">
+			</form>
+
+			<br>
+			
+
+				<form label="skill" action="/addPostOne">
+					<label style="float:left; margin-left:15px; font-size:20px">Main Focus:</label>
+					<select method="get" class="dropdown"
+					name="focus" style="margin-left:10px; width: 155px; height:28px; font-size: 20px;">
+    				<option value = "none">No Preference</option>
+					<option  value = "Weightlifting">Weightlifting</option>
+					<option  value = "Bodyweight">Bodyweight</option>
+					<option  value = "Cardio">Cardio</option>
+					</select>​
+					
+				</form>
+					<br>
 		<h4 align ="center">No Matches?</h4>
 
 		<div align="center">
@@ -44,8 +87,8 @@
 				</button>
 			</a>
 		</div>
+						<div class="container">
 
-		<br>
 
 		{{#if alt}}
 

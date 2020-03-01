@@ -3,7 +3,7 @@ var data = require("../posts.json");
 
 
 exports.addPost = function(req, res){
-    user.phone = req.query.phone;
+    user.longTerm = req.query.longTerm;
     console.log(user);
     var color;
     if(user.level == "Losing Weight"){

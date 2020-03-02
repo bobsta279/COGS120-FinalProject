@@ -34,16 +34,16 @@
 
 		<br>
 
-		<form label="skill" action="/addPostOne" >
+		<form>
 					<label style="float:left; margin-left:80px; font-size:20px">Time:</label>
-					<select method="get" class="dropdown"
+					<select method="get" class="dropdown" id="dropWhen"
 					style="margin-left:10px; width: 155px; height:28px; font-size: 20px;" name="when">
     				<option value = "none">No Preference</option>
-						<option value = "now">Now</option>
-						<option value = "in 1-2 hours">in 1-2 hours</option>
-						<option value = "in 3-4 hours">in 3-4 hours</option>
-						<option value = "in 5-6 hours">in 5-6 hours</option>
-						<option value = "in 7-8 hours">in 7-8 hours</option>
+						<option value="now">Now</option>
+						<option value="in 1-2 hours">in 1-2 hours</option>
+						<option value="in 3-4 hours">in 3-4 hours</option>
+						<option value="in 5-6 hours">in 5-6 hours</option>
+						<option value="in 7-8 hours">in 7-8 hours</option>
 					</select>​
 				
 				
@@ -71,12 +71,11 @@
 <br>
 			
 					<label style="float:left; margin-left:15px; font-size:20px">Main Focus:</label>
-					<select method="get" class="dropdown"
-					name="focus" style="margin-left:10px; width: 155px; height:28px; font-size: 20px;">
+					<select method="get" class="dropdown" name="focus" style="margin-left:10px; width: 155px; height:28px; font-size: 20px;">
     				<option value = "none">No Preference</option>
-					<option  value = "Weightlifting">Weightlifting</option>
-					<option  value = "Bodyweight">Bodyweight</option>
-					<option  value = "Cardio">Cardio</option>
+					<option value = "Weightlifting">Weightlifting</option>
+					<option value = "Bodyweight">Bodyweight</option>
+					<option value = "Cardio">Cardio</option>
 					</select>​
 					
 				</form>
@@ -184,6 +183,6 @@
 	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/introHCI.js"></script>
+	<script src="js/hci-friends.js"></script>
 </body>
 </html>

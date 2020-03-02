@@ -3,10 +3,13 @@ var user;
 var filteredData;
 
 exports.view = function(req, res){
+ 
+
   data = require("../posts.json");
   filteredData = JSON.parse(JSON.stringify(data));
   user = require("../user.json");
   console.log(user);
+  user.from = "true";
   
   //If it is not none
   if(("" + req.query.when).localeCompare("none") && req.query.when != null){

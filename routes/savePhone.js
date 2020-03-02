@@ -3,6 +3,8 @@ var data = require("../posts.json");
 
 
 exports.addPost = function(req, res){
+    user.from = "true";
+
     user.longTerm = req.query.longTerm;
     console.log(user);
     var color;

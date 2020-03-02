@@ -1,39 +1,36 @@
 // Call this function when the page loads (the "ready" event)
-var dropWhen;
-var dropFocus;
-var dropGym;
 $(document).ready(function() {
 	initializePage();
 	// Click event handler for A/B testing
-	$("#measurement").click(ga("send", "event", "AccessProfile", "ClickBoi"));
-})
-
-
+	$("#measurement").click(function(e){
+		ga("send", "event", "AccessProfile", "ClickBoi");
+		console.log("Mesasurement");
+	});
+});
 
 /*
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	
 
-	$("#dropWhen").click(function(e){
-		dropWhen = $("#dropWhen").val() + "";
-		console.log(dropWhen);
+	/*$("#dropWhen").click(function(e){
+		$pls = $("#dropWhen").val() + "";
 	});  
 
-	console.log(dropWhen);
 
-	if(dropWhen == "in 1-2 hours"){
+	console.log($pls);
+
+	if(pls == "in 1-2 hours"){
 		$('#dropWhen').val("in 1-2 hours");
-	} else if(dropWhen == "in 2-4 hours"){
+	} else if(pls == "in 2-4 hours"){
 		$('#dropWhen').val("in 2-4 hours");
-	} else if(dropWhen == "in 5-6 hours"){
+	} else if(pls == "in 5-6 hours"){
 		$('#dropWhen').val("in 5-6 hours");
-	} else if(dropWhen == "in 7-8 hours"){
+	} else if(pls == "in 7-8 hours"){
 		$('#dropWhen').val("in 7-8 hours");
 	} else {
 		$('#dropWhen').val("none");
-	}
+	}*/
 
 
 

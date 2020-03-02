@@ -3,6 +3,8 @@ var user = require("../user.json");
 var filteredData = JSON.parse(JSON.stringify(data));
 
 exports.view = function(req, res){
+  user.from = "true";
+
   /*var expString = "";
   var gymString = "";
   var whenString = "";

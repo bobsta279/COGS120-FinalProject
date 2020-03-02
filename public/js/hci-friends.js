@@ -4,6 +4,8 @@ var dropFocus;
 var dropGym;
 $(document).ready(function() {
 	initializePage();
+	// Click event handler for A/B testing
+	$("#measurement").click(ga("send", "event", "AccessProfile", "ClickBoi"));
 })
 
 

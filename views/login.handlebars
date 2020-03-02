@@ -23,6 +23,7 @@
 		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 		ga('create', 'UA-158827415-1', 'auto');
+		ga('require', 'GTM-KQHR8MD');
 		ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
@@ -32,15 +33,14 @@
 <body>
 	<div class="grad">
 	<div class="container">
-		<div class="jumbotron">
-			<h3 class="title">LIFTR</h3>
-		</div>
+		<br>
+		<br>
+		<h3 class="title">LIFTR</h3>
+		<h1 style="text-align: center;font-family: 'Fredoka One'; font-size:40px"><b>Login</b></h1>
 
-		<h1 style="text-align: center;">Login</h1>
-
-		<h3 class="facebookLogin">Please login via Facebook to connect with fellow Liftr's!</h3>
+		<h3 class="facebookLogin" style="text-align: center;"><b>Login via Facebook to connect with fellow Liftr's!</b></h3>
 			<div class="facebook">
-			<fb:login-button 
+			<fb:login-button style="margin-left:150px; self-align:center; height:50px"
 				id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
 			</fb:login-button>
 			</div>
@@ -49,16 +49,16 @@
 
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;">Or Login to your Liftr Account</h3>
+			<h3 id="loginDetails" style="text-align: center;"><b>Or Login to your Liftr Account</b></h3>
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-				User Name: 
+				<b>User Name:</b> 
 				<input type="text" id="login" name="user_name" value="" maxlength="50" />
 			</div>
 
 
 			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
-				Password:
+				<b>Password:</b>
 				<input type="password" id="login" name="password" value="" maxlength="50" />
 			</div>
 		</div>
@@ -67,18 +67,20 @@
 
 		<div id="buttonSave" align="center">
 			<a href="create-profile"><button name="saveButton"
-			style="border: 1.2px solid #222222; border-radius: 8px;"> Continue! </button></a>
+			style="background-color:rgb(163, 191, 241); border: 1.2px solid #222222;
+			border-radius: 8px;"><b> Continue!</b> </button></a>
 		</div>
 	
 		<br>
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;">New To Liftr?</h3>
+			<h3 id="loginDetails" style="text-align: center;"><b>New To Liftr?</b></h3>
 
 			<div id="buttonSave" align="center">
 				 <a href="register"><button name="saveButton"
-					style="border: 1.2px solid #222222; border-radius: 8px;">
-					Register! </button></a>
+					style="background-color:rgb(163, 191, 241); border: 1.2px solid #222222;
+					border-radius: 8px;">
+					<b>Register!</b> </button></a>
 			</div>
 		</div>
 		</div>

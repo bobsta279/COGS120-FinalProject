@@ -3,7 +3,6 @@ var filteredData;
 var user1;
 
 exports.findPost = function(req, res){
-  user1.from = "true";
 
   data = require("../posts.json");
   filteredData = JSON.parse(JSON.stringify(data));

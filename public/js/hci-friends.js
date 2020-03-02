@@ -6,6 +6,7 @@ $(document).ready(function() {
 		ga("send", "event", "AccessProfile", "ClickBoi");
 		console.log("Mesasurement");
 	});
+});
 
 /*
  * Function that is called when the document is ready.

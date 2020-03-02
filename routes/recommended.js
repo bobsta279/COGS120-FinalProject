@@ -96,7 +96,8 @@ exports.view = function(req, res){
           i--;
       }*/
 
-      if(user.from + "" == "true"){
+      //user.from + "" == "true"
+      if(user.noPrefLoc == "true" && user.noPrefFoc == "true" && user.noPrefWhen == "true"){
         var expString = "";
     var gymString = "";
     var whenString = "";

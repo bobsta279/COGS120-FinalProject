@@ -5,8 +5,10 @@ var dropGym;
 $(document).ready(function() {
 	initializePage();
 	// Click event handler for A/B testing
-	$("#measurement").click(ga("send", "event", "AccessProfile", "ClickBoi"));
-})
+	$("#measurement").click(function(e){
+		ga("send", "event", "AccessProfile", "ClickBoi");
+		console.log("Mesasurement");
+	});
 
 
 

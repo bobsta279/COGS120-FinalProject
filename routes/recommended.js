@@ -86,6 +86,9 @@ exports.view = function(req, res){
     filteredData = JSON.parse(JSON.stringify(data));
   }
 
+  // Click event handler for A/B testing
+  $(".card").click(ga("send", "event", "AccessProfile", "ClickBoi"));
+
 };
 
 exports.viewAlt = function(req, res){ 
@@ -171,5 +174,8 @@ exports.viewAlt = function(req, res){
     }
     filteredData = JSON.parse(JSON.stringify(data));
   }
+
+  // Click event handler for A/B testing
+  $(".card").click(ga("send", "event", "AccessProfile", "ClickBoi"));
 
 };

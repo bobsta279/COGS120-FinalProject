@@ -304,10 +304,10 @@
 }
 
 .button3 {
-     background-color: rgb(163, 191, 241);
+     background-color: hsl(205, 96%, 82%);
      width: 140px;
      height: 40px;
-     border: 1.4px solid #222222;
+     border: 1.5px solid #222222;
      border-radius: 8px;
 }
 

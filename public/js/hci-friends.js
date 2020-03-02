@@ -1,6 +1,8 @@
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
+	// Click event handler for A/B testing
+	$("#measurement").click(ga("send", "event", "AccessProfile", "ClickBoi"));
 })
 
 /*

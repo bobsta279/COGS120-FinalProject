@@ -24,10 +24,12 @@
      font-size: 90px;
      text-transform: capitalize;
      font-family: 'Fredoka One';
+     color:white;
 }
 
 #AllPosts{
      font-family: 'Fredoka One';
+     color:white;
 }
 
 .toolbar
@@ -48,9 +50,9 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: hsl(205, 96%, 82%); 
+     background-color: #7B0100; 
      font-size: 24px;
-     color: black;
+     color: white;
      text-decoration: none;
      border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
@@ -60,10 +62,10 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: #3eebeb; 
+     background-color: #54799D ; 
      font-size: 24px;
      text-decoration: none;
-     color: black;
+     color: white;
      border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
      
@@ -73,17 +75,17 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: rgb(54, 181, 235);
+     background-color: #916060;
      font-size: 24px;
      text-decoration: none;
-     color: black;
+     color: white;
      border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
 }
 
 .theHead
 {
-     color: black;
+     color: white;
      font-weight: bold;
      text-align: center;
      font-size: 38px;
@@ -92,14 +94,14 @@
 
 .important
 {
-     color: black;
+     color: white;
      text-align: center;
      font-size: 30px;
 }
 
 .details
 {
-     color: black;
+     color: white;
      font-size: 30px;
      margin-left: 10px;
 }
@@ -194,6 +196,10 @@
      font-size: 18px;
 }
 
+.container{
+     color:white;
+}
+
 #contactInfo
 {
      font-size: 30px;
@@ -236,10 +242,10 @@
  }
  .progressbar li:after {
       width: 100%;
-      height: 2px;
+      height: 4px;
       content: '';
       position: absolute;
-      background-color: #7d7d7d;
+      background-color: #504f4f;
       top: 35px;
       left: -50%;
       z-index: 0;
@@ -254,20 +260,20 @@
 }
 
 .progressbar li.active {
-     color: black;
+     color: white;
      font-weight: bold;
 }
 
  .progressbar li.active:before {
-     border-color: black;
-     background: #3eebeb;
+     border-color: white;
+     background: #54799D;
 }
 
 .progressbar li.active + li:after {
-     background-color: #3eebeb;
+     background-color: #54799D;
  }
  .progressbar li.active:before {
-     background: #3eebeb no-repeat center center;
+     background: #54799D no-repeat center center;
      background-size: 60%;
  }
  .progressbar li::before {
@@ -285,26 +291,29 @@
 }
 
 .button1 {
-     background-color:#3eebeb;
+     background-color:#54799D;
      text-align: center;
      width: 200px;
      height: 50px;
      border: 2px solid #222222;
      border-radius: 8px;
      font-size: 30px;
+     color:white;
  }
 
 .button2 {
-     background-color:#3eebeb;
+     background-color:#54799D;
      text-align: center;
      height: 50px;
      border: 2px solid #222222;
      border-radius: 8px;
      font-size: 30px;
+     color:white;
 }
 
 .button3 {
-     background-color: hsl(205, 96%, 82%);
+     background-color: #7B0100;
+     color: white;
      width: 140px;
      height: 40px;
      border: 1.5px solid #222222;
@@ -333,7 +342,7 @@
      /* Add shadows to create the "card" effect */
      box-shadow: 10px 15px 20px 0 rgba(0, 0, 0, 0.466);
      border-radius: 28px; /* 25px rounded corners */
-     background-color:  rgb(163, 191, 241);
+     background-color:  #7B0100;
      border-width: 4px;
      min-width: 330px;
      border-right-style: solid;
@@ -360,15 +369,17 @@ textarea
 }
 
 .grad {
-     background-image: linear-gradient(to top, royalblue, lightblue);
-}
+     background-image: linear-gradient(to bottom left, rgb(161, 159, 159), rgb(65, 63, 63));
+   }
+
 
 .card1 {
-     color: black;
+     color: white;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
-     background-color:  #b3cde0;
+     background-color:  #7B0100;
+     color: white;
      max-width: 300px;
      margin-left: auto;
      margin-right: auto;
@@ -377,7 +388,7 @@ textarea
 }
 
 .card2 {
-     color: black;
+     color: white;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -390,7 +401,7 @@ textarea
 }
 
 .card3 {
-     color: black;
+     color: white;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -403,7 +414,7 @@ textarea
 }
 
 .card4 {
-     color: black;
+     color: white;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -431,7 +442,15 @@ textarea
 
 .dropdown
 {
-     background-color:  #3eebeb;
+     background-color:  #54799D;
+     border: 2px solid #222222;
+     border-radius: 5px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.dropdown2 {
+     background-color: #916060;
      border: 2px solid #222222;
      border-radius: 5px;
      margin-left: auto;

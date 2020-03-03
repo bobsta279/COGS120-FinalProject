@@ -3,7 +3,7 @@ $(document).ready(function() {
 	initializePage();
 	// Click event handler for A/B testing
 	$("#measurement").click(function(e){
-		ga("send", "event", "AccessProfile", "ClickBoi");
+		ga("send", "event", 'like', 'click');
 		console.log("Mesasurement");
 	});
 });

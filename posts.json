@@ -732,35 +732,35 @@
       "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 1-2 hours",
-      "wantsToLearn": "Cardio, Football",
+      "wantsToLearn": "Ab whell roll",
       "phone": "800-261-2891",
       "color": "#6c7e90",
-      "longTerm": "Doing one pullup"
+      "longTerm": "Improve my core balance"
     }, 
     {
-      "name": "Advik Chins",
+      "name": "Christmas Adena",
       "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
-      "wantsToLearn": "How to box",
+      "wantsToLearn": "Swimming laps",
       "phone": "800-261-2891",
       "color": "#e7eaed",
-      "longTerm": "Losing weight"
+      "longTerm": "Improve my lap time"
     },
     {
-      "name": "Alexander Zhu",
+      "name": "Headley Azure",
       "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
-      "wantsToLearn": "A great ab routine",
+      "wantsToLearn": "Russian twists",
       "phone": "800-261-2891",
       "color": "#6c7e90",
-      "longTerm": "Building muscle"
+      "longTerm": "Twist my core easier"
     },
     {
-      "name": "Jason Allen",
+      "name": "Delano Trixie",
       "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
@@ -768,213 +768,213 @@
       "wantsToLearn": "Bench press",
       "phone": "800-261-2891",
       "color": "black",
-      "longTerm": "Six minute mile"
+      "longTerm": "Bench more weight"
     },
     {
-      "name": "Ben Talcovitiz",
+      "name": "Masterman Delia",
       "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 1-2 hours",
-      "wantsToLearn": "How to be smooth",
+      "wantsToLearn": "Biking",
       "phone": "800-261-2891",
       "color": "#e7eaed",
-      "longTerm": "Gain weight"
+      "longTerm": "Bike to work"
     },
     {
-      "name": "Bobby Fredrick",
+      "name": "Paulette Danielle",
       "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 3-4 hours",
-      "wantsToLearn": "bench press and squat",
+      "wantsToLearn": "Military press",
       "phone": "800-261-2891",
       "color": "black",
       "longTerm": "Benching 2 plates"
     },
     {
-      "name": "Bridget Cass",
+      "name": "Gayelord Vin",
       "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 3-4 hours",
+      "wantsToLearn": "Swiss ball crunch",
+      "phone": "800-261-2891",
+      "color": "#6c7e90",
+      "longTerm": "Utilize exercise balls more"
+    }, 
+    {
+      "name": "Fisher Britton",
+      "level": "Cardio",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 3-4 hours",
+      "wantsToLearn": "Soccer",
+      "phone": "800-261-2891",
+      "color": "#e7eaed",
+      "longTerm": "Join the school soccer team"
+    },
+    {
+      "name": "Basil Earnestine",
+      "level": "Bodyweight",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 3-4 hours",
+      "wantsToLearn": "Flutter kick",
+      "phone": "800-261-2891",
+      "color": "#6c7e90",
+      "longTerm": "Get a 8 pack"
+    },
+    {
+      "name": "Shanon Maryann",
+      "level": "Weightlifting",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 3-4 hours",
+      "wantsToLearn": "Squats",
+      "phone": "800-261-2891",
+      "color": "black",
+      "longTerm": "Squat 3 plates"
+    },
+    {
+      "name": "Eleanora Woody",
+      "level": "Cardio",
+      "gym": "Main Gym",
+      "image": "gym.jpg",
+      "when": "in 3-4 hours",
+      "wantsToLearn": "Biking",
+      "phone": "800-261-2891",
+      "color": "#e7eaed",
+      "longTerm": "Bike to the beach"
+    },
+    {
+      "name": "Cecelia Fletcher",
+      "level": "Weightlifting",
+      "gym": "RIMAC",
+      "image": "gym.jpg",
+      "when": "in 5-6 hours",
+      "wantsToLearn": "Face pulls",
+      "phone": "800-261-2891",
+      "color": "black",
+      "longTerm": "Get stronger shoulders"
+    },
+    {
+      "name": "Trudi Evander",
+      "level": "Bodyweight",
+      "gym": "Main Gym",
+      "when": "in 5-6 hours",
       "wantsToLearn": "Cardio, Football",
       "phone": "800-261-2891",
       "color": "#6c7e90",
       "longTerm": "Doing one pullup"
     }, 
     {
-      "name": "Bryan Lee",
-      "level": "Cardio",
-      "gym": "RIMAC",
-      "image": "gym.jpg",
-      "when": "in 3-4 hours",
-      "wantsToLearn": "How to box",
-      "phone": "800-261-2891",
-      "color": "#e7eaed",
-      "longTerm": "Losing weight"
-    },
-    {
-      "name": "Caleb Mcman",
-      "level": "Bodyweight",
-      "gym": "RIMAC",
-      "image": "gym.jpg",
-      "when": "in 3-4 hours",
-      "wantsToLearn": "A great ab routine",
-      "phone": "800-261-2891",
-      "color": "#6c7e90",
-      "longTerm": "Building muscle"
-    },
-    {
-      "name": "Cameron Ducharme",
-      "level": "Weightlifting",
-      "gym": "Main Gym",
-      "image": "gym.jpg",
-      "when": "in 3-4 hours",
-      "wantsToLearn": "Bench press",
-      "phone": "800-261-2891",
-      "color": "black",
-      "longTerm": "Six minute mile"
-    },
-    {
-      "name": "Chris Lefkarites",
-      "level": "Cardio",
-      "gym": "Main Gym",
-      "image": "gym.jpg",
-      "when": "in 3-4 hours",
-      "wantsToLearn": "How to be smooth",
-      "phone": "800-261-2891",
-      "color": "#e7eaed",
-      "longTerm": "Gain weight"
-    },
-    {
-      "name": "Connor McPherson",
-      "level": "Weightlifting",
-      "gym": "RIMAC",
-      "image": "gym.jpg",
-      "when": "in 5-6 hours",
-      "wantsToLearn": "bench press and squat",
-      "phone": "800-261-2891",
-      "color": "black",
-      "longTerm": "Benching 2 plates"
-    },
-    {
-      "name": "Dane Melfi",
-      "level": "Bodyweight",
-      "gym": "Main Gym",
-      "when": "in 5-6 hours",
-      "wantsToLearn": "Cardio, Football",
-      "phone": "800-261-2891",
-      "color": "#6c7e90",
-      "longTerm": "Doing one pullup"
-    }, 
-    {
-      "name": "Dennis Lyn",
+      "name": "Gaz Braden",
       "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 5-6 hours",
-      "wantsToLearn": "How to box",
+      "wantsToLearn": "Running",
       "phone": "800-261-2891",
       "color": "#e7eaed",
-      "longTerm": "Losing weight"
+      "longTerm": "Improving blood pressure"
     },
     {
-      "name": "Derick Ma",
+      "name": "Kamryn Eulalia",
       "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 5-6 hours",
-      "wantsToLearn": "A great ab routine",
+      "wantsToLearn": "Leg raise",
       "phone": "800-261-2891",
       "color": "#6c7e90",
-      "longTerm": "Building muscle"
+      "longTerm": "Stregthen my core"
     },
     {
-      "name": "Fahim Talukder",
+      "name": "Dayton Xavier",
       "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 5-6 hours",
-      "wantsToLearn": "Bench press",
+      "wantsToLearn": "Calf raisies",
       "phone": "800-261-2891",
       "color": "black",
-      "longTerm": "Six minute mile"
+      "longTerm": "Impress my mom"
     },
     {
-      "name": "Gabe French",
+      "name": "Pansy Annie",
       "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 5-6 hours",
-      "wantsToLearn": "How to be smooth",
+      "wantsToLearn": "Tennis",
       "phone": "800-261-2891",
       "color": "#e7eaed",
-      "longTerm": "Gain weight"
+      "longTerm": "Improve hand eye coordination"
     },
     {
-      "name": "Haley Wilson",
+      "name": "Jenna Gaye",
       "level": "Weightlifting",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 7-8 hours",
-      "wantsToLearn": "bench press and squat",
+      "wantsToLearn": "Dumbell raises",
       "phone": "800-261-2891",
       "color": "black",
-      "longTerm": "Benching 2 plates"
+      "longTerm": "Improve my balance"
     },
     {
-      "name": "Hannah Dentot",
+      "name": "Lonny Lionel",
       "level": "Bodyweight",
       "gym": "Main Gym",
       "when": "in 7-8 hours",
-      "wantsToLearn": "Cardio, Football",
+      "wantsToLearn": "Pull ups",
       "phone": "800-261-2891",
       "color": "#6c7e90",
       "longTerm": "Doing one pullup"
     }, 
     {
-      "name": "Will Hsu",
+      "name": "Ardath Brianne",
       "level": "Cardio",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 7-8 hours",
-      "wantsToLearn": "How to box",
+      "wantsToLearn": "Walking the beach",
       "phone": "800-261-2891",
       "color": "#e7eaed",
       "longTerm": "Losing weight"
     },
     {
-      "name": "Jacob Roger",
+      "name": "Abigail Hellen",
       "level": "Bodyweight",
       "gym": "RIMAC",
       "image": "gym.jpg",
       "when": "in 7-8 hours",
-      "wantsToLearn": "A great ab routine",
+      "wantsToLearn": "Learn new ab workouts",
       "phone": "800-261-2891",
       "color": "#6c7e90",
-      "longTerm": "Building muscle"
+      "longTerm": "Start going to the gym more often"
     },
     {
-      "name": "Jaylen Newman",
+      "name": "Gale Macie",
       "level": "Weightlifting",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 7-8 hours",
-      "wantsToLearn": "Bench press",
+      "wantsToLearn": "Tricep curls",
       "phone": "800-261-2891",
       "color": "black",
-      "longTerm": "Six minute mile"
+      "longTerm": "Get bigger arms"
     },
     {
-      "name": "Joseph Edward",
+      "name": "Charlie Daniella",
       "level": "Cardio",
       "gym": "Main Gym",
       "image": "gym.jpg",
       "when": "in 7-8 hours",
-      "wantsToLearn": "How to be smooth",
+      "wantsToLearn": "Run on the treadmill",
       "phone": "800-261-2891",
       "color": "#e7eaed",
-      "longTerm": "Gain weight"
+      "longTerm": "Be faster than my friend"
     }
   ]
 }

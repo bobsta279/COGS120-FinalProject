@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	initializePage();
 	// Click event handler for A/B testing
-	$("#measurement").click(function(e){
+	$(".card").click(function(e){
 		ga("send", "event", 'like', 'click');
 		console.log("Mesasurement");
 	});

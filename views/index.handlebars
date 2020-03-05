@@ -10,6 +10,7 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/introHCI.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
       
 		<!-- Google Analytics -->
 <script>
@@ -31,12 +32,13 @@ ga('send', 'pageview');
 			<br>
 		<h1 align="center" id="AllPosts">All Posts</h1>
 
-
-			<br>
 			<form>
-					<label style="color:white;float:left; margin-left:80px; font-size:20px">Time:</label>
+				
+					<h1 style="color:white;float:left; margin-left:10px; font-size:20px;display:inline-block"><b>Time:</b></h1>
+					<h1 style="margin-left:150px;color:white; font-size:20px; display:inline-block"><b>Location:</b></h1>
+				
 					<select method="get" class="dropdown2" id="dropWhen"
-					style="color:white; margin-left:10px; width: 155px; height:28px; font-size: 20px;" name="when">
+					style="display:inline-block;color:white; margin-left:10px; width: 156px; height:28px; font-size: 20px;" name="when">
     				<option value = "none">No Preference</option>
 						<option value="now">Now</option>
 						<option value="in 1-2 hours">in 1-2 hours</option>
@@ -44,39 +46,45 @@ ga('send', 'pageview');
 						<option value="in 5-6 hours">in 5-6 hours</option>
 						<option value="in 7-8 hours">in 7-8 hours</option>
 					</select>​
-<p></p>
+
 
 		
 
-					<label style="color:white;float:left; margin-left:43px; font-size:20px">Location:</label>
+					
 					<select method="get" class="dropdown2"
-					name="where" style="color:white;margin-left:10px; width: 155px; height:28px; font-size: 20px;">
+					name="where" style="display:inline-block;color:white;margin-left:40px; width: 155px; height:28px; font-size: 20px;">
     				<option value = "none">No Preference</option>
 					<option value = "RIMAC">RIMAC</option>
 					<option value = "Main Gym">Main Gym</option>
 					</select>​
-					
-					<button id="refreshBtn" style="border-radius: 8px; diplay:inline-block; margin-left: 10px;
-					background-color:#916060; border: 2px solid #222222;">
-					<img  name="refresh"
-					type="submit" value="Save" style="width:40px; height:40px" src="images/refreshing.png">
-					</button>
-			
-<p></p>
 			
 
-					<label style="color:white;float:left; margin-left:15px; font-size:20px">Main Focus:</label>
-					<select method="get" class="dropdown2" name="focus" style="color:white;margin-left:10px; width: 155px; height:28px; font-size: 20px;">
+			
+
+					<h1 style="color:white;float:left; margin-left:15px; font-size:20px"><b>Main Focus:</b></h1>
+					
+					<br><br><p></p>
+					<button id="refreshBtn" style="display:inline-block;float:right;border-radius: 8px; margin-right: 55px;
+					background-color:rgb(78, 1, 1); border: 2px solid #222222;">
+					<img  name="refresh"
+					type="submit" value="Save" style="width:55px; height:55px" src="images/refreshing.png">
+					</button>
+					<br>
+					
+					<select method="get" class="dropdown2" name="focus" style="color:white;margin-left:10px; width: 155px; height:28px; font-size: 20px;">	
     				<option value = "none">No Preference</option>
 					<option value = "Weightlifting">Weightlifting</option>
 					<option value = "Bodyweight">Bodyweight</option>
 					<option value = "Cardio">Cardio</option>
 					</select>​
 					
+
+					
+					
 				</form>
 				<br>
 				
-					
+				<hr>	
 			<h4 style="color:white;text-align:center;">Can't find what you're looking for?</h4>
 
 			<div align="center">

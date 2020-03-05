@@ -23,12 +23,12 @@
      text-align: center;
      font-size: 90px;
      text-transform: capitalize;
-     font-family: 'Fredoka One';
+     font-family: 'Lato';
      color:white;
 }
 
 #AllPosts{
-     font-family: 'Fredoka One';
+     font-family: 'Lato';
      color:white;
 }
 
@@ -50,7 +50,7 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: #7B0100; 
+     background-color: #c04e4e; 
      font-size: 24px;
      color: white;
      text-decoration: none;
@@ -75,7 +75,7 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: #916060;
+     background-color: rgb(78, 1, 1);
      font-size: 24px;
      text-decoration: none;
      color: white;
@@ -89,7 +89,7 @@
      font-weight: bold;
      text-align: center;
      font-size: 38px;
-     font-family: 'Fredoka One';
+     font-family: 'Lato';
 }
 
 .important
@@ -312,7 +312,7 @@
 }
 
 .button3 {
-     background-color: #7B0100;
+     background-color: #c04e4e;
      color: white;
      width: 140px;
      height: 40px;
@@ -342,7 +342,7 @@
      /* Add shadows to create the "card" effect */
      box-shadow: 10px 15px 20px 0 rgba(0, 0, 0, 0.466);
      border-radius: 28px; /* 25px rounded corners */
-     background-color:  #7B0100;
+     background-color:  #c04e4e;
      border-width: 4px;
      min-width: 330px;
      border-right-style: solid;
@@ -369,7 +369,7 @@ textarea
 }
 
 .grad {
-     background-image: linear-gradient(to bottom left, rgb(161, 159, 159), rgb(65, 63, 63));
+     background-image: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(0, 0, 0));
    }
 
 
@@ -378,7 +378,7 @@ textarea
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
-     background-color:  #7B0100;
+     background-color:  #c04e4e;
      color: white;
      max-width: 300px;
      margin-left: auto;
@@ -451,7 +451,7 @@ textarea
 }
 
 .dropdown2 {
-     background-color: #916060;
+     background-color: rgb(78, 1, 1);
      border: 2px solid #222222;
      border-radius: 5px;
      margin-left: auto;

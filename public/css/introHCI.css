@@ -504,7 +504,9 @@ textarea
 }
 
 #display {
-     font-size:25px;
+     font-size:20px;
+     font-family: 'Lato';
      margin-left: 10px;
+     color:white;
 }
 

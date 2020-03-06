@@ -36,9 +36,9 @@ ga('send', 'pageview');
 		<br>
 		<br>
 		<h3 class="title">LIFTR</h3>
-		<h1 style="text-align: center;font-family: 'Lato'; font-size:40px"><b>Login</b></h1>
+		<h1 id="AllPoststitle" style="text-align: center;"><b>Login</b></h1>
 
-		<h3 class="facebookLogin" style="text-align: center;"><b>Login via Facebook to connect with fellow Liftr's!</b></h3>
+		<h3 id="accountText" style="text-align: center;"><b>Login via Facebook to connect with fellow Liftr's!</b></h3>
 			<div class="facebook">
 			<fb:login-button style="margin-left:150px; self-align:center; height:50px"
 				id="fbLog" scope="public_profile,email" onlogin="checkLoginState();">
@@ -49,15 +49,15 @@ ga('send', 'pageview');
 
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;"><b>Or Login to your Liftr Account</b></h3>
+			<h3 id="accountText" style="text-align: center;"><b>Or Login to your Liftr Account</b></h3>
 
-			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+			<div action="/html/tags/html_form_tag_action.cfm" method="get" id="accountText" style="text-align: center;">
 				<b>User Name:</b> 
 				<input type="text" id="login" name="user_name" value="" maxlength="50" />
 			</div>
 
 
-			<div action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
+			<div id="accountText" action="/html/tags/html_form_tag_action.cfm" method="get" style="text-align: center;">
 				<b>Password:</b>
 				<input type="password" id="login" name="password" value="" maxlength="50" />
 			</div>
@@ -67,19 +67,17 @@ ga('send', 'pageview');
 
 		<div id="buttonSave" align="center">
 			<a href="create-profile"><button name="saveButton"
-			style="color:white;background-color:#54799D; border: 1.2px solid #222222;
-			border-radius: 8px;"><b> Continue!</b> </button></a>
+			class="button1"><b> Continue!</b> </button></a>
 		</div>
 	
 		<br>
 
 		<div class="createAccountInfo">
-			<h3 id="loginDetails" style="text-align: center;"><b>New To Liftr?</b></h3>
+			<h3 id="accountText" style="text-align: center;"><b>New To Liftr?</b></h3>
 
 			<div id="buttonSave" align="center">
 				 <a href="register"><button name="saveButton"
-					style="color:white;background-color:#54799D; border: 1.2px solid #222222;
-					border-radius: 8px;">
+					class="button1">
 					<b>Register!</b> </button></a>
 			</div>
 		</div>

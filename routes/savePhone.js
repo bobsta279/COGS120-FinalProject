@@ -9,9 +9,9 @@ exports.addPost = function(req, res){
     console.log(user);
     var color;
     if(user.level == "Weightlifting"){
-        color = "#6c7e90";
+        color = "black";
     } else if (user.level == "Bodyweight"){
-        color = "#e7eaed"
+        color = "#black"
     } else {
         color = "black"
     }

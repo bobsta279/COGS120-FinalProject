@@ -27,47 +27,68 @@
      color:white;
 }
 
+#accountText{
+     color:white;
+     font-family: 'Lato';
+     font-size: 25px;
+}
+
+#AllPoststext{
+     color:white;
+     font-family: 'Lato';
+     font-size: 30px;
+}
+
+#AllPoststitle{
+     color:white;
+     font-family: 'Lato';
+     font-size: 40px;
+}
+
 #AllPosts{
      font-family: 'Lato';
-     color:white;
+     color:black;
+     text-align: left;
 }
 
 .toolbar
 {
      width: 100%;
-     height: 100px;
+     height: 70px;
      bottom: 0;
      left: 0;
+     background-color: #DADDD8;
      padding: 5px 10px; /* some styling, please note overall height of the object will be 35px due to 5px padding on top/bottom. */
-     background: #ccc; /* some styling */
      border-bottom: 1px solid #333; /* some styling */
      position: fixed;
-     border-radius: 10px; /* 25px rounded corners */
-     border: 2px solid #222222;
 }
 
 .toolbar-filter
 {
      width: 32.5%;
      height: 100%;
-     background-color: #c04e4e; 
+     background-color:transparent; 
      font-size: 24px;
-     color: white;
+     color: black;
      text-decoration: none;
-     border: 1.5px solid #222222;
      border-radius: 15px; /* 25px rounded corners */
+     border: transparent;
+}
+
+.bottomBorder{
+     margin-bottom: 5px;
 }
 
 .toolbar-profile
 {
      width: 32.5%;
      height: 100%;
-     background-color: #54799D ; 
+     background-color: transparent ; 
      font-size: 24px;
      text-decoration: none;
-     color: white;
-     border: 1.5px solid #222222;
+     color: black;
      border-radius: 15px; /* 25px rounded corners */
+     border: transparent;
      
 }
 
@@ -75,17 +96,17 @@
 {
      width: 32.5%;
      height: 100%;
-     background-color: rgb(78, 1, 1);
+     background-color: transparent;
      font-size: 24px;
      text-decoration: none;
-     color: white;
-     border: 1.5px solid #222222;
+     color: black;
      border-radius: 15px; /* 25px rounded corners */
+     border: transparent;
 }
 
 .theHead
 {
-     color: white;
+     color: black;
      font-weight: bold;
      text-align: center;
      font-size: 38px;
@@ -94,14 +115,15 @@
 
 .important
 {
-     color: white;
+     color: black;
      text-align: center;
      font-size: 30px;
+     font-family: 'Lato';
 }
 
 .details
 {
-     color: white;
+     color: black;
      font-size: 30px;
      margin-left: 10px;
 }
@@ -189,6 +211,7 @@
 #nameInfo
 {
      font-size: 30px;
+     color:white;
 }
 
 .postDetails
@@ -197,7 +220,7 @@
 }
 
 .container{
-     color:white;
+     color:black;
 }
 
 #contactInfo
@@ -260,20 +283,20 @@
 }
 
 .progressbar li.active {
-     color: white;
+     color: black;
      font-weight: bold;
 }
 
  .progressbar li.active:before {
-     border-color: white;
-     background: #54799D;
+     border-color: black;
+     background: #A9CEF4;
 }
 
 .progressbar li.active + li:after {
-     background-color: #54799D;
+     background-color: #A9CEF4;
  }
  .progressbar li.active:before {
-     background: #54799D no-repeat center center;
+     background: #A9CEF4 no-repeat center center;
      background-size: 60%;
  }
  .progressbar li::before {
@@ -291,29 +314,33 @@
 }
 
 .button1 {
-     background-color:#54799D;
+     background-color:#A9CEF4;
      text-align: center;
      width: 200px;
      height: 50px;
      border: 2px solid #222222;
      border-radius: 8px;
      font-size: 30px;
-     color:white;
+     color:black;
+     font-family: 'Lato';
  }
 
 .button2 {
-     background-color:#54799D;
+     background-color:#A9CEF4;
      text-align: center;
      height: 50px;
      border: 2px solid #222222;
      border-radius: 8px;
      font-size: 30px;
-     color:white;
+     color:black;
 }
 
 .button3 {
-     background-color: #c04e4e;
-     color: white;
+     background-color:  #D72638;
+     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     border: 2px solid #222222;
+     border-radius: 10px;
+     color: black;
      width: 140px;
      height: 40px;
      border: 1.5px solid #222222;
@@ -338,13 +365,23 @@
      border: 1px solid #777777;
 }
 
+#refreshBtn{
+     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     border-radius: 20px;
+     float:right;
+     border-radius: 8px;
+     margin-right: 55px;
+     background-color:#D72638;
+     border: 2px solid #222222;
+}
+
 .card {
      /* Add shadows to create the "card" effect */
-     box-shadow: 10px 15px 20px 0 rgba(0, 0, 0, 0.466);
-     border-radius: 28px; /* 25px rounded corners */
-     background-color:  #c04e4e;
+     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     border-radius: 20px; /* 25px rounded corners */
+     background-color:    #D72638;
      border-width: 4px;
-     min-width: 330px;
+     min-width: 340px;
      border-right-style: solid;
      border-bottom-style: solid;
 }
@@ -369,18 +406,18 @@ textarea
 }
 
 .grad {
-     background-image: linear-gradient(to bottom left, rgb(0, 0, 0), rgb(0, 0, 0));
+     background-image: linear-gradient(to bottom left, #151f2b, #151f2b);
    }
 
 
 .card1 {
-     color: white;
+     color: black;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
-     background-color:  #c04e4e;
-     color: white;
-     max-width: 300px;
+     background-color: #D72638;
+     color: black;
+     max-width: 340px;
      margin-left: auto;
      margin-right: auto;
      margin-bottom: 8px;
@@ -388,7 +425,7 @@ textarea
 }
 
 .card2 {
-     color: white;
+     color: black;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -401,7 +438,7 @@ textarea
 }
 
 .card3 {
-     color: white;
+     color: black;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -414,7 +451,7 @@ textarea
 }
 
 .card4 {
-     color: white;
+     color: black;
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
@@ -442,20 +479,28 @@ textarea
 
 .dropdown
 {
-     background-color:  #54799D;
+     background-color:  #A9CEF4;
      border: 2px solid #222222;
      border-radius: 5px;
      margin-left: auto;
      margin-right: auto;
-     color:white;
+     color:black;
+}
+
+.rightArrow{
+     margin-top: 10px;
 }
 
 .dropdown2 {
-     background-color: rgb(78, 1, 1);
+     background-color:  #D72638;
+     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
      border: 2px solid #222222;
-     border-radius: 5px;
+     border-radius: 10px;
      margin-left: auto;
      margin-right: auto;
+     color:black;
+     font-family: 'Lato';
+     font-size: 20px;
 }
 
 #display {

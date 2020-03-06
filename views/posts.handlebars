@@ -45,7 +45,7 @@ ga('send', 'pageview');
 
     {{#each posts}}
 
-      <div id="theName" style="text-align: center;"
+      <div id="AllPoststitle" 
         class="theHead">{{name}}
       </div>
 
@@ -76,6 +76,7 @@ ga('send', 'pageview');
         <p class="card1"> <b>Phone Number:</b> <br>{{phone}}
         </p>
       </div>
+      <br>
 
     {{/each}}
 
@@ -84,9 +85,12 @@ ga('send', 'pageview');
         rows="1" cols="24" onkeyup="Allow()"
         placeholder="&nbsp;Write a Comment..."></textarea>
       <input id="title" type="submit" value="Post" onclick="insert()"
-        style="color:white; font-size:20px; width:75px; height: 35px;
-        margin-right: 1px; background-color:#7B0100;
-        display: inline-block;" /></form>
+        style="color:black; font-size:20px; width:75px; height: 35px;
+        margin-right: 1px;
+        box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     border: 2px solid #222222;
+     border-radius: 10px;background-color:#D72638;
+        display: inline-block;font-family:'Lato'" /></form>
       </div>
       <div id="display"></div>
       <script type="text/javascript">
@@ -121,28 +125,28 @@ ga('send', 'pageview');
       <br>
 
       <!-- the bottom of the page -->
-      <div class="toolbar">
-      <a href="recommended">
-        <button class="toolbar-home" onclick="window.location.href = 'index';">
-          <img border="0" width="58px" align="center"
-            src="images/housePic.png">
-        </button>
-      </a>
+	<div class="toolbar">
+		<a href="recommended">
+			<button class="toolbar-home" onclick="window.location.href = 'recommended';">
+				<img class="bottomBorder" border="0" width="35px" align="center"
+					src="images/housePic.png">
+			</button>
+		</a>
 
-      <a href="fullAdder">
-        <button class="toolbar-filter" onclick="window.location.href = 'add-posts';">
-          <img border="0" width="55px" align="center"
-                src="images/plusSign.png">
-        </button>
-      </a>
+		<a href="fullAdder">
+			<button class="toolbar-filter" onclick="window.location.href = 'fullAdder';">
+				<img class="bottomBorder" border="0" width="35px" align="center"
+							src="images/plusSign.png">
+			</button>
+		</a>
 
-      <a href="update-profile">
-        <button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
-          <img border="0" width="65px" align="center"
-                src="images/profilePic.png">
-        </button>
-      </a>
-    </div>
+		<a href="update-profile">
+			<button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
+				<img class="bottomBorder" border="0" width="40px" align="center"
+							src="images/profilePic.png">
+			</button>
+		</a>
+	</div>
 
   </div>
 

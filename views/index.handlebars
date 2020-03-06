@@ -30,15 +30,15 @@ ga('send', 'pageview');
 <body>
 	<div class="grad">
 			<br>
-		<h1 align="center" id="AllPosts">All Posts</h1>
+		<h1 align="center" id="AllPoststitle">All Posts</h1>
 
 			<form>
 				
-					<h1 style="color:white;float:left; margin-left:10px; font-size:20px;display:inline-block"><b>Time:</b></h1>
-					<h1 style="margin-left:150px;color:white; font-size:20px; display:inline-block"><b>Location:</b></h1>
+					<h1 style="font-family: 'Lato';color:white;float:left; margin-left:10px; font-size:20px;display:inline-block"> Time: </h1>
+					<h1 style="font-family: 'Lato';margin-left:150px;color:white; font-size:20px; display:inline-block"> Location: </h1>
 				
 					<select method="get" class="dropdown2" id="dropWhen"
-					style="display:inline-block;color:white; margin-left:10px; width: 156px; height:28px; font-size: 20px;" name="when">
+					style="display:inline-block; margin-left:10px; width: 156px; height:28px;" name="when">
     				<option value = "none">No Preference</option>
 						<option value="now">Now</option>
 						<option value="in 1-2 hours">in 1-2 hours</option>
@@ -52,7 +52,7 @@ ga('send', 'pageview');
 
 					
 					<select method="get" class="dropdown2"
-					name="where" style="display:inline-block;color:white;margin-left:40px; width: 155px; height:28px; font-size: 20px;">
+					name="where" style="display:inline-block;margin-left:40px; width: 155px; height:28px;">
     				<option value = "none">No Preference</option>
 					<option value = "RIMAC">RIMAC</option>
 					<option value = "Main Gym">Main Gym</option>
@@ -61,17 +61,16 @@ ga('send', 'pageview');
 
 			
 
-					<h1 style="color:white;float:left; margin-left:15px; font-size:20px"><b>Main Focus:</b></h1>
+					<h1 style="font-family: 'Lato';color:white;float:left; margin-left:15px; font-size:20px">Main Focus:</h1>
 					
 					<br><br><p></p>
-					<button id="refreshBtn" style="display:inline-block;float:right;border-radius: 8px; margin-right: 55px;
-					background-color:rgb(78, 1, 1); border: 2px solid #222222;">
+					<button id="refreshBtn" >
 					<img  name="refresh"
 					type="submit" value="Save" style="width:55px; height:55px" src="images/refreshing.png">
 					</button>
 					<br>
 					
-					<select method="get" class="dropdown2" name="focus" style="color:white;margin-left:10px; width: 155px; height:28px; font-size: 20px;">	
+					<select method="get" class="dropdown2" name="focus" style="margin-left:10px; width: 155px; height:28px;">	
     				<option value = "none">No Preference</option>
 					<option value = "Weightlifting">Weightlifting</option>
 					<option value = "Bodyweight">Bodyweight</option>
@@ -85,12 +84,12 @@ ga('send', 'pageview');
 				<br>
 				
 				<hr>	
-			<h4 style="color:white;text-align:center;">Can't find what you're looking for?</h4>
+			<h4 style="font-size:20px;font-family:'Lato';color:white;text-align:center;">Can't find what you're looking for?</h4>
 
 			<div align="center">
 				<a href="fullAdder">
 					<button class="button3">
-						<h4><b>Add a Post</b></h4>
+						<h4 style="font-size:20px;"> <b>Add a Post</b></h4>
 					</button>
 				</a>
 			</div>
@@ -99,13 +98,15 @@ ga('send', 'pageview');
 
 			{{#each posts}}
 				<form name={{name}} method="get" action="/findPost" align="center">
-					<button name="{{name}}" class="card" style="border-color: {{color}}";>
-						<h3 id="AllPosts" style="color: {{color}};">Main Focus: {{level}}</h3>
-						<img border="0" width="35px"
+					<button name="{{name}}" class="card" style="border-color: black";>
+						
+						<img class="rightArrow" border="0" width="35px"
 							align="Right" src="images/bubbleRight.png" >
-						<h3 id="AllPosts">&nbsp; &ensp; When: {{when}}</h3>
+							<h3 id="AllPosts" name="{{name}}"> {{name}} </h3>
+						<h3 id="AllPosts" style="color: {{color}};">Main Focus: {{level}}</h3>
+						<h3 id="AllPosts"> When: {{when}}</h3>
 						<h3 id="AllPosts">Gym: {{gym}}</h3>
-						<h3 id="AllPosts" name="{{name}}"> {{name}} </h3>
+						
 					</button>
 				</form>
 				<br>
@@ -125,21 +126,21 @@ ga('send', 'pageview');
 	<div class="toolbar">
 		<a href="recommended">
 			<button class="toolbar-home" onclick="window.location.href = 'recommended';">
-				<img border="0" width="58px" align="center"
+				<img class="bottomBorder" border="0" width="35px" align="center"
 					src="images/housePic.png">
 			</button>
 		</a>
 
 		<a href="fullAdder">
 			<button class="toolbar-filter" onclick="window.location.href = 'fullAdder';">
-				<img border="0" width="55px" align="center"
+				<img class="bottomBorder" border="0" width="35px" align="center"
 							src="images/plusSign.png">
 			</button>
 		</a>
 
 		<a href="update-profile">
 			<button class="toolbar-profile" onclick="window.location.href = 'create-profile';">
-				<img border="0" width="65px" align="center"
+				<img class="bottomBorder" border="0" width="40px" align="center"
 							src="images/profilePic.png">
 			</button>
 		</a>

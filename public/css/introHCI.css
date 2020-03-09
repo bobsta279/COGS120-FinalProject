@@ -42,7 +42,7 @@
 #AllPoststitle{
      color:white;
      font-family: 'Lato';
-     font-size: 40px;
+     font-size: 35px;
 }
 
 #AllPosts{
@@ -336,12 +336,29 @@
 }
 
 .button3 {
-     background-color:  #D72638;
-     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     background-color:  #A9CEF4;
+     box-shadow: 1px 1px 12px 0 rgb(189, 208, 216);
      border: 2px solid #222222;
      border-radius: 10px;
      color: black;
      width: 140px;
+     height: 40px;
+     border: 1.5px solid #222222;
+     border-radius: 8px;
+     padding-bottom: 45px;
+}
+
+.updateBtn {
+     float: right;
+     background-color:  #A9CEF4;
+     padding-bottom: 45px;
+     margin-right: 45px;
+     margin-top: 10px;
+     box-shadow: 1px 1px 12px 0 rgb(189, 208, 216);
+     border: 2px solid #222222;
+     border-radius: 10px;
+     color: black;
+     width: 100px;
      height: 40px;
      border: 1.5px solid #222222;
      border-radius: 8px;
@@ -366,20 +383,20 @@
 }
 
 #refreshBtn{
-     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     box-shadow: 1px 1px 12px 0 rgb(189, 208, 216);
      border-radius: 20px;
      float:right;
      border-radius: 8px;
      margin-right: 55px;
-     background-color:#D72638;
+     background-color:#A9CEF4;
      border: 2px solid #222222;
 }
 
 .card {
      /* Add shadows to create the "card" effect */
-     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     box-shadow: 1px 1px 12px 0 rgb(189, 208, 216);
      border-radius: 20px; /* 25px rounded corners */
-     background-color:    #D72638;
+     background-color:    #A9CEF4;
      border-width: 4px;
      min-width: 340px;
      border-right-style: solid;
@@ -415,7 +432,7 @@ textarea
      /* Add shadows to create the "card" effect */
      box-shadow: 3px 3px 10px 0 rgba(0,0,0,0.4);
      border-radius: 10px; /* 25px rounded corners */
-     background-color: #D72638;
+     background-color: #A9CEF4;
      color: black;
      max-width: 340px;
      margin-left: auto;
@@ -492,8 +509,8 @@ textarea
 }
 
 .dropdown2 {
-     background-color:  #D72638;
-     box-shadow: 1px 1px 12px 0 rgb(185, 133, 124);
+     background-color:  #A9CEF4;
+     box-shadow: 1px 1px 12px 0 rgb(189, 208, 216);
      border: 2px solid #222222;
      border-radius: 10px;
      margin-left: auto;

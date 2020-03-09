@@ -401,6 +401,8 @@
      min-width: 340px;
      border-right-style: solid;
      border-bottom-style: solid;
+     padding-bottom: 12px;
+     padding-left:15px;
 }
    
 /* On mouse-over, add a deeper shadow */
